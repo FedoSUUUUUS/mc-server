@@ -1,0 +1,69 @@
+#
+#   _____  ______  _   _  _____ __   __
+#  / ____||  ____|| \ | ||_   _|\ \ / /
+# | |     | |__   |  \| |  | |   \ V / 
+# | |     |  __|  | . ` |  | |    > <  
+# | |____ | |____ | |\  | _| |_  / . \ 
+#  \_____||______||_| \_||_____|/_/ \_\
+#                                      
+#                                      
+#
+#
+#
+#
+# THIS WILL DISABLE THE ANTICHEAT IF SET TO FALSE!
+# The anticheat will still load as a plugin, but it won't perform any checks.
+enabled: true
+
+# This is for automatic command execution when a player reaches a certain amount of offenses.
+# List of available replacements to use in the command:
+# [USERNAME], [UUID], [DISPLAYNAME], [OFFENSES], [REPORTID] (if reports:true)
+# Color codes are supported.
+punish: false
+# The amount of offenses (notifications to staff) till the punishment is executed
+punish-offense-count: 5
+punish-command: kick [USERNAME] [OFFENSES]
+
+# When a punishment command is executed, it saves stats about a player when the command was executed,
+# can be helpful, but sometimes isn't used.
+log-reports: true
+
+# If set to true, will use the action bar for anticheat notifications
+# If you have other plugins that utilize it, you can set it to false,
+# and it will use the chat
+# Output will still be logged to console if set to true
+action-bar-notifications: true
+
+# This should not be changed, unless your server tends to lag more, if the TPS is less than this number,
+# any call by the anticheat wont add an offense, it will just notify staff. You can check TPS with /cenix info 
+tps-lag-threshold: 17.5
+
+# This is the amount (in seconds) that an offense will expire on players, you shouldn't need to change this, but
+# if the plugin false calls often, increase it.
+offense-expire-time: 75
+
+# Prefix for all messages, don't include a space at the end
+prefix: '&8[&4Cenix&8]&7'
+
+variable-color: '&6'
+suspicion-alert: '[VARIABLE_COLOR][DISPLAYNAME] &7получил подозрение на [VARIABLE_COLOR][SUSPICION]&7.
+  (&4[COUNT]&7)'
+suspicion-alert-ignore-tps: '[VARIABLE_COLOR][DISPLAYNAME] &7получил подозрение на
+  [VARIABLE_COLOR][SUSPICION]&7. (&4[COUNT]&7) &c(High TPS: [TPS])'
+suspicion-alert-ignore-ping: '[VARIABLE_COLOR][DISPLAYNAME] &7получил подозрение на
+  [VARIABLE_COLOR][SUSPICION]&7. &c(High Ping: [PING])'
+report-saved-alert: Отчет за [VARIABLE_COLOR][DISPLAYNAME] &7сохранён. ([VARIABLE_COLOR]#[REPORT_ID]&7)
+
+# Server timezone for accurate time stamps of reports
+timezone: America/New_York
+
+
+version: '1.1'
+
+
+#
+# Reports save below
+# I know this isn't efficient, saving them to the bottom of the configuration file, but this isn't my main focus.
+# I'd rather work on making this anticheat detect things to the best of its abilities, not log things perfectly
+# and false call all the time.
+#

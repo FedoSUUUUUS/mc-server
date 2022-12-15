@@ -1,0 +1,52 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 146.0.193.194
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1671045008547
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1671048666446
+  login: 1671046776303
+  kits:
+    color: 1671040937235
+    dtools: 1670579153562
+    tools: 1671047714978
+    survival: 1671048652500
+money: '0'
+last-account-name: Fedos
+logoutlocation:
+  world: 4a3cd58c-44ef-41fd-9297-3ce88a41f351
+  x: -17.81798279683228
+  y: 75.0
+  z: -180.93986657399475
+  yaw: -74.94976806640625
+  pitch: 17.850004196166992
+  world-name: grifer
+homes:
+  home:
+    world: 4a3cd58c-44ef-41fd-9297-3ce88a41f351
+    x: -11.699999988079071
+    y: 64.0
+    z: -137.8302383390327
+    yaw: -0.86395263671875
+    pitch: 13.349945068359375
+    world-name: grifer
+lastlocation:
+  world: 4a3cd58c-44ef-41fd-9297-3ce88a41f351
+  x: -13.340103490292627
+  y: 66.0
+  z: -135.78173484627183
+  yaw: -114.11517333984375
+  pitch: 29.54966926574707
+  world-name: grifer
