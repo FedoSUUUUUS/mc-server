@@ -9,3 +9,6 @@ crash-reports
 console.log
 usercache.json
 sftp.json
+plugins/SkinsRestorer/Skins
+plugins/WorldGuard/cache
+plugins/Essentials/userdata
