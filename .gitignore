@@ -12,3 +12,7 @@ sftp.json
 plugins/SkinsRestorer/Skins
 plugins/WorldGuard/cache
 plugins/Essentials/userdata
+plugins/Essentials/uuids.bin
+plugins/Essentials/usermap.bin
+
+*.yml.broken.*

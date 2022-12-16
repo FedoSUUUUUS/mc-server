@@ -1,7 +1,7 @@
 Owner:
   tabprefix: "&0&l[&a&lOwner&0&l] &a"
   tagprefix: "&2&lOwner &a"
-Admin:
+Admеn:
   tabprefix: "&0&l[&4&lAdmin&0&l] &1"
   tagprefix: "&4&lAdmin &a"
 Player:
