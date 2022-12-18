@@ -4,7 +4,7 @@ header-footer:
   disable-in-worlds:
     - disabledworld
   header:
-    - "&3&lGRIFER"
+    - "&3&lStoneAge"
     - "&7&l>> %animation:Welcome%&3 &l%player%&7&l! &7&l<<"
     - "&7Online players: &f%online%"
     - "&6Online staff: &e%staffonline%"

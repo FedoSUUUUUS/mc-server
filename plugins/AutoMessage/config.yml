@@ -15,20 +15,17 @@ settings:
   min-players: 0
   log-to-console: false
 message-lists:
-  json:
+  rules:
     enabled: true
     interval: 300
     expiry: -1
-    random: false
+    random: true
     messages:
-    - '&4 читы, флуд, дюп БАН'
-  regular:
+    - '&4читы, флуд, дюп, оскорбления и мат = БАН'
+  link:
     enabled: true
-    interval: 300
+    interval: 600
     expiry: -1
-    random: false
+    random: true
     messages:
-    - '&1First&r message \nin the default list!'
-    - '&2Second&r message \nin the default list!'
-    - '&3Third&r message \nin the default list!'
-    - These messages will be displayed to users with \nautomessage.receive.regular!
+    - '&bМы в VK https://vk.com/minecraftstoneage'
