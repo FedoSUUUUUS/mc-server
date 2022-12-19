@@ -15,5 +15,8 @@ plugins/Essentials/userdata
 plugins/Essentials/uuids.bin
 plugins/Essentials/usermap.bin
 plugins/AuthMe/authme.log
+server.properties
+plugins/AuthMe/authme.db
+plugins/LuckPerms/luckperms-h2-v2.mv.db
 
 *.yml.broken.*

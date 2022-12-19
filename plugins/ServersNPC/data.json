@@ -1,0 +1,113 @@
+[
+  {
+    "id": 1,
+    "hologramHeight": 0.0,
+    "skin": "eyJ0aW1lc3RhbXAiOjE1NDMzMzcxNTgyNDIsInByb2ZpbGVJZCI6IjU2Njc1YjIyMzJmMDRlZTA4OTE3OWU5YzkyMDZjZmU4IiwicHJvZmlsZU5hbWUiOiJUaGVJbmRyYSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjlmZjg1OWJmZmUxN2YxODVjMTM4NDE2ZWI3NGZhZmViYzNjNGIwYWE0NGRiOGEwMWI0ZWVhMzFkNjE0NWRjMiJ9fX0=",
+    "signature": "D/PJkFhN2wjMUPI+7+2Sk5Kd3aAOjviCKroceTSfc0BlGglL0V/XjzHIkaZtz5FcAOCPIBadb8sFUDKW9FSv1I+plEtaUXUyjineByMlsNJ80XCLxXsvFRfbhZ2PTS0Auw3iLFMzEwPUG+k2+6sNSTxQpb77ztzpMrrSKwkfxwSwkrZgiIq0fZO9ldUedTxGViXW0viTnnjOoFbcvc6pxX9kN/UYTWyvRH84Ad0U3QooTiqn+8by63V1/HnkgrFe+ALIi9dkpwLeC7mONITkqXubJ1gq3edmQQu0gsikhos/4OTumKDs+1fi4mw91cnxCPDyo71wF/8dLpLCwHchxfFI5urtkx/trP8oognnpKYGjGxXSnNH5Eer3xTwrUKxAze6nSOTgZxdgGoV2fgaXvLZeRZTGfw6h8XDb5+1FhqKuYO7XBXLk/iotPsdcrhBazbeAyMTM6Z4p85G2gYOdoP77Aln8EoqObyQR+EpCVoSbgXm6qrzBLZeoa9M4m4AMfdi7c9pX2huTp4cJDV7Co2u43IfFjE8J9qazzhVnYOcv4OOUMaYvTWZCdh8/wxpEhwS1NOLpTzsd7un8YAH4RkfCi9M2uQS+1QBe1Tu4WWf/pnVIg5z8F5s11xcLUttIAjx5TV6zY7X24Gbb1Lq08osvabWoP9WNnkIz6jZLKQ=",
+    "pathName": "test2",
+    "location": {
+      "world": "grifer",
+      "x": -44.5,
+      "y": 75.0,
+      "z": -160.5,
+      "yaw": 3.4542236,
+      "pitch": 3.1497805
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "Стражник"
+    ],
+    "clickActions": [],
+    "npcEquip": {
+      "HAND": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAADDB0AAhDUk9TU0JPVw==",
+      "OFFHAND": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAABdnQABHR5cGV0AAZhbW91bnR1cQB+AAYAAAAEdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAADDB0AANBSVJzcQB+AA4AAAAA"
+    },
+    "npcFunctions": {
+      "holo": false,
+      "look": true
+    },
+    "customizationMap": {
+      "setProfession": [
+        "WEAPONSMITH"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYwNTM4NzE0NzExNywKICAicHJvZmlsZUlkIiA6ICJiMGQ0YjI4YmMxZDc0ODg5YWYwZTg2NjFjZWU5NmFhYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5lU2tpbl9vcmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODRiNzQzZTJiZmFiN2ExNWEzOTUzYjgxOGQ5OTkyMjIyNWE3OWRlNWUyMDEwYzA5Yzc5Y2QzMTRiNWZiYzFjMyIKICAgIH0KICB9Cn0=",
+    "signature": "EVNTwknPr17nCag7/PXSI5KxsBu0LO/q1O7e4ZiW8qJPrrOGA2NRJLZ9t0p1NunUg7ERU2ngER+aJDOQ7nxSHAZb+kqFhRM698uFMk6V+VjzZz9TtAA2aZnstd0Ywjs0DfCUisPQPvapxaKbxjhzEw7gGAI+mm6fhBJOW6tpvT6HRMiNUe1qGio60A/OYsJzaGoZiw20WDaCRFN6qlLEnXX3WTffPj41YFeBi0KB+XDb2MhugVgRlpNNQzb+vyreiBPDefyYC6SIP4Xn/RAYrG1r/OacTKzD8TYUp/j+/GNMvGzkcUAX05ZeoSpneck7MEzMTMRgC+Mw5i7Vmqlk1e4r1WxPqYgQ3IHLbuvWAE9Anug9IbHwdpxIuNFd1m2O8xmdSpgi4ENgxVgNUAA/idqP59UWaGEgnFA6H1mfLNjM0kZ3SNP6WsnYrpaKh0N6S+aF35XwPl0Ii2KWrvCeL33DPxOW/K1bq5HipVv90dzcU2/99el1Q+ZpVdid7n6Zwh3gZvaHd5Zi8TYU+3cIw+hi9O00oZ5QSmO+qF8SjulvzKMQV8sH4CYY8k8IysnAMSKpSDWywAALEfYLq5McBjxmMfa2quC3GPZ9tiy9jVYGzio2tTPJNj+Qi/D5tkotH8v9rLvXIKOwkhNBWS+oXqLm6m85pyQiX4HTrRIsKmY=",
+    "location": {
+      "world": "grifer",
+      "x": 19.5,
+      "y": 67.0,
+      "z": -172.5,
+      "yaw": -135.15015,
+      "pitch": 50.25002
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "Крестьянка"
+    ],
+    "clickActions": [],
+    "npcEquip": {},
+    "npcFunctions": {
+      "holo": true,
+      "look": true
+    },
+    "customizationMap": {}
+  },
+  {
+    "id": 3,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY3MTQ2NDEyOTYzMiwKICAicHJvZmlsZUlkIiA6ICJhOGJhMGY1YTFmNjQ0MTgzODZkZGI3OWExZmY5ZWRlYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJDcmVlcGVyOTA3NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xNjFiZDQyODljODc2ZmNiNzkwMjZkODA4NTUxZjcxNjQ3NTQ1NjczZTU3MzljOTk0NmVjZDU1NTAyM2FiNjRiIgogICAgfQogIH0KfQ==",
+    "signature": "I6UcyI5tOhRMFC8lYjZPfK6OoLfrbCFOsYr2tHLgiNComxElLHhW9l043ivaGlpaTYNmlbdO+Zx7dzju9h0RuEDC/rUg5/xntk9yeykPDm2LytINCGtG3Flohed1BZ9S7Q5K/5ZJrsqZY+Q/MlBNa2J2JJ3LOUTjFAJX2yLLA0J0YRxOi6As0urmoBvjhJLiLZj18XTrHVe1Rxvaqu91g6siflhh4NE7wKkmBzVbRxDlimgrXAsr0aBTtLyKX41dykXen6D2fqTYDApyQ+H4Trdw0Av6XkVNV6smhAmp2nV7gh2zkEzHU3/u+tut95PbDAWMFbFg1OuN/hz389XixY/9B+zmaATNszEZZma4ejibO5+7JP6Pe5sIjLT+2hRDPlx70SfirX99dqtBHJGI812phc7RoaFNVURJYMBLKWjzTbF2r9nyoHEgs4FGknXt4z+RDi0TyCqLQPhHhwhWnZGyuPYTyAWJaxwWff2qiAGZPDvrI3zUfE6sz4IWU52JLYJ8p7bEmyczZwhQkIG19qA6+q1Pbe1UK/N4/aC5OL80Nlw7xS5r+0etUdhLGq0dO09PuuvTs80igCl8XpdMb7bdD58jjBmNz+5j5oI1eR5+oCIbRdNOIl34/3nL9AywOu2cBakYffuc4HpqrfpKdos51SPiocCRnaAqqWCBN4U=",
+    "location": {
+      "world": "grifer",
+      "x": -8.5,
+      "y": 72.0,
+      "z": -161.5,
+      "yaw": -9.294373,
+      "pitch": 13.799797
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "King"
+    ],
+    "clickActions": [],
+    "npcEquip": {},
+    "npcFunctions": {
+      "holo": true,
+      "look": true
+    },
+    "customizationMap": {}
+  },
+  {
+    "id": 4,
+    "hologramHeight": 0.0,
+    "skin": "",
+    "signature": "",
+    "location": {
+      "world": "grifer",
+      "x": -32.5,
+      "y": 69.0,
+      "z": -144.5,
+      "yaw": 97.20398,
+      "pitch": -2.4000955
+    },
+    "npcType": "VILLAGER",
+    "hologramLines": [
+      "мальчик"
+    ],
+    "clickActions": [],
+    "npcEquip": {},
+    "npcFunctions": {
+      "holo": false
+    },
+    "customizationMap": {
+      "setAge": [
+        "-1"
+      ]
+    }
+  }
+]
