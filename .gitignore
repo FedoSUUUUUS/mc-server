@@ -14,5 +14,6 @@ plugins/WorldGuard/cache
 plugins/Essentials/userdata
 plugins/Essentials/uuids.bin
 plugins/Essentials/usermap.bin
+plugins/AuthMe/authme.log
 
 *.yml.broken.*

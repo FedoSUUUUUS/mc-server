@@ -15,13 +15,6 @@ settings:
   min-players: 0
   log-to-console: false
 message-lists:
-  rules:
-    enabled: true
-    interval: 300
-    expiry: -1
-    random: true
-    messages:
-    - '&4читы, флуд, дюп, оскорбления и мат = БАН'
   link:
     enabled: true
     interval: 600
@@ -29,3 +22,10 @@ message-lists:
     random: true
     messages:
     - '&bМы в VK https://vk.com/minecraftstoneage'
+  rules:
+    enabled: true
+    interval: 300
+    expiry: -1
+    random: true
+    messages:
+    - '&4читы, флуд, дюп, оскорбления и мат = БАН'
