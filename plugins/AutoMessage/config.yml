@@ -17,14 +17,14 @@ settings:
 message-lists:
   link:
     enabled: true
-    interval: 600
+    interval: 1000
     expiry: -1
     random: true
     messages:
     - '&bМы в VK https://vk.com/minecraftstoneage'
   rules:
     enabled: true
-    interval: 300
+    interval: 2000
     expiry: -1
     random: true
     messages:

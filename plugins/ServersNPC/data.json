@@ -5,6 +5,10 @@
     "skin": "eyJ0aW1lc3RhbXAiOjE1NDMzMzcxNTgyNDIsInByb2ZpbGVJZCI6IjU2Njc1YjIyMzJmMDRlZTA4OTE3OWU5YzkyMDZjZmU4IiwicHJvZmlsZU5hbWUiOiJUaGVJbmRyYSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjlmZjg1OWJmZmUxN2YxODVjMTM4NDE2ZWI3NGZhZmViYzNjNGIwYWE0NGRiOGEwMWI0ZWVhMzFkNjE0NWRjMiJ9fX0=",
     "signature": "D/PJkFhN2wjMUPI+7+2Sk5Kd3aAOjviCKroceTSfc0BlGglL0V/XjzHIkaZtz5FcAOCPIBadb8sFUDKW9FSv1I+plEtaUXUyjineByMlsNJ80XCLxXsvFRfbhZ2PTS0Auw3iLFMzEwPUG+k2+6sNSTxQpb77ztzpMrrSKwkfxwSwkrZgiIq0fZO9ldUedTxGViXW0viTnnjOoFbcvc6pxX9kN/UYTWyvRH84Ad0U3QooTiqn+8by63V1/HnkgrFe+ALIi9dkpwLeC7mONITkqXubJ1gq3edmQQu0gsikhos/4OTumKDs+1fi4mw91cnxCPDyo71wF/8dLpLCwHchxfFI5urtkx/trP8oognnpKYGjGxXSnNH5Eer3xTwrUKxAze6nSOTgZxdgGoV2fgaXvLZeRZTGfw6h8XDb5+1FhqKuYO7XBXLk/iotPsdcrhBazbeAyMTM6Z4p85G2gYOdoP77Aln8EoqObyQR+EpCVoSbgXm6qrzBLZeoa9M4m4AMfdi7c9pX2huTp4cJDV7Co2u43IfFjE8J9qazzhVnYOcv4OOUMaYvTWZCdh8/wxpEhwS1NOLpTzsd7un8YAH4RkfCi9M2uQS+1QBe1Tu4WWf/pnVIg5z8F5s11xcLUttIAjx5TV6zY7X24Gbb1Lq08osvabWoP9WNnkIz6jZLKQ=",
     "pathName": "test2",
+    "conversation": {
+      "conversationName": "assasin",
+      "conversationType": "RADIUS"
+    },
     "location": {
       "world": "grifer",
       "x": -44.5,
@@ -37,13 +41,17 @@
     "hologramHeight": 0.0,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYwNTM4NzE0NzExNywKICAicHJvZmlsZUlkIiA6ICJiMGQ0YjI4YmMxZDc0ODg5YWYwZTg2NjFjZWU5NmFhYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5lU2tpbl9vcmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODRiNzQzZTJiZmFiN2ExNWEzOTUzYjgxOGQ5OTkyMjIyNWE3OWRlNWUyMDEwYzA5Yzc5Y2QzMTRiNWZiYzFjMyIKICAgIH0KICB9Cn0=",
     "signature": "EVNTwknPr17nCag7/PXSI5KxsBu0LO/q1O7e4ZiW8qJPrrOGA2NRJLZ9t0p1NunUg7ERU2ngER+aJDOQ7nxSHAZb+kqFhRM698uFMk6V+VjzZz9TtAA2aZnstd0Ywjs0DfCUisPQPvapxaKbxjhzEw7gGAI+mm6fhBJOW6tpvT6HRMiNUe1qGio60A/OYsJzaGoZiw20WDaCRFN6qlLEnXX3WTffPj41YFeBi0KB+XDb2MhugVgRlpNNQzb+vyreiBPDefyYC6SIP4Xn/RAYrG1r/OacTKzD8TYUp/j+/GNMvGzkcUAX05ZeoSpneck7MEzMTMRgC+Mw5i7Vmqlk1e4r1WxPqYgQ3IHLbuvWAE9Anug9IbHwdpxIuNFd1m2O8xmdSpgi4ENgxVgNUAA/idqP59UWaGEgnFA6H1mfLNjM0kZ3SNP6WsnYrpaKh0N6S+aF35XwPl0Ii2KWrvCeL33DPxOW/K1bq5HipVv90dzcU2/99el1Q+ZpVdid7n6Zwh3gZvaHd5Zi8TYU+3cIw+hi9O00oZ5QSmO+qF8SjulvzKMQV8sH4CYY8k8IysnAMSKpSDWywAALEfYLq5McBjxmMfa2quC3GPZ9tiy9jVYGzio2tTPJNj+Qi/D5tkotH8v9rLvXIKOwkhNBWS+oXqLm6m85pyQiX4HTrRIsKmY=",
+    "conversation": {
+      "conversationName": "vill",
+      "conversationType": "CLICK"
+    },
     "location": {
       "world": "grifer",
-      "x": 19.5,
-      "y": 67.0,
-      "z": -172.5,
-      "yaw": -135.15015,
-      "pitch": 50.25002
+      "x": -3.5,
+      "y": 68.0,
+      "z": -173.5,
+      "yaw": -107.100365,
+      "pitch": 68.85012
     },
     "npcType": "PLAYER",
     "hologramLines": [
@@ -52,7 +60,7 @@
     "clickActions": [],
     "npcEquip": {},
     "npcFunctions": {
-      "holo": true,
+      "holo": false,
       "look": true
     },
     "customizationMap": {}
@@ -87,6 +95,10 @@
     "hologramHeight": 0.0,
     "skin": "",
     "signature": "",
+    "conversation": {
+      "conversationName": "song",
+      "conversationType": "CLICK"
+    },
     "location": {
       "world": "grifer",
       "x": -32.5,
@@ -109,5 +121,379 @@
         "-1"
       ]
     }
+  },
+  {
+    "id": 5,
+    "hologramHeight": 0.0,
+    "skin": "eyJ0aW1lc3RhbXAiOjE1NDMzMzcxNTgyNDIsInByb2ZpbGVJZCI6IjU2Njc1YjIyMzJmMDRlZTA4OTE3OWU5YzkyMDZjZmU4IiwicHJvZmlsZU5hbWUiOiJUaGVJbmRyYSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjlmZjg1OWJmZmUxN2YxODVjMTM4NDE2ZWI3NGZhZmViYzNjNGIwYWE0NGRiOGEwMWI0ZWVhMzFkNjE0NWRjMiJ9fX0=",
+    "signature": "D/PJkFhN2wjMUPI+7+2Sk5Kd3aAOjviCKroceTSfc0BlGglL0V/XjzHIkaZtz5FcAOCPIBadb8sFUDKW9FSv1I+plEtaUXUyjineByMlsNJ80XCLxXsvFRfbhZ2PTS0Auw3iLFMzEwPUG+k2+6sNSTxQpb77ztzpMrrSKwkfxwSwkrZgiIq0fZO9ldUedTxGViXW0viTnnjOoFbcvc6pxX9kN/UYTWyvRH84Ad0U3QooTiqn+8by63V1/HnkgrFe+ALIi9dkpwLeC7mONITkqXubJ1gq3edmQQu0gsikhos/4OTumKDs+1fi4mw91cnxCPDyo71wF/8dLpLCwHchxfFI5urtkx/trP8oognnpKYGjGxXSnNH5Eer3xTwrUKxAze6nSOTgZxdgGoV2fgaXvLZeRZTGfw6h8XDb5+1FhqKuYO7XBXLk/iotPsdcrhBazbeAyMTM6Z4p85G2gYOdoP77Aln8EoqObyQR+EpCVoSbgXm6qrzBLZeoa9M4m4AMfdi7c9pX2huTp4cJDV7Co2u43IfFjE8J9qazzhVnYOcv4OOUMaYvTWZCdh8/wxpEhwS1NOLpTzsd7un8YAH4RkfCi9M2uQS+1QBe1Tu4WWf/pnVIg5z8F5s11xcLUttIAjx5TV6zY7X24Gbb1Lq08osvabWoP9WNnkIz6jZLKQ=",
+    "pathName": "tow3",
+    "location": {
+      "world": "grifer",
+      "x": -43.5,
+      "y": 88.0,
+      "z": -131.5,
+      "yaw": -21.016598,
+      "pitch": 18.600054
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "npc"
+    ],
+    "clickActions": [],
+    "npcEquip": {
+      "HAND": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAADDB0AAhDUk9TU0JPVw=="
+    },
+    "npcFunctions": {
+      "holo": false
+    },
+    "customizationMap": {}
+  },
+  {
+    "id": 6,
+    "hologramHeight": 0.0,
+    "skin": "",
+    "signature": "",
+    "conversation": {
+      "conversationName": "bar",
+      "conversationType": "CLICK"
+    },
+    "location": {
+      "world": "grifer",
+      "x": -15.5,
+      "y": 68.0,
+      "z": -184.5,
+      "yaw": -7.8237915,
+      "pitch": 2.3999794
+    },
+    "npcType": "VILLAGER",
+    "hologramLines": [
+      "корчмарь"
+    ],
+    "clickActions": [],
+    "npcEquip": {},
+    "npcFunctions": {
+      "holo": false,
+      "look": true
+    },
+    "customizationMap": {
+      "setProfession": [
+        "LEATHERWORKER"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "hologramHeight": 0.0,
+    "skin": "",
+    "signature": "",
+    "conversation": {
+      "conversationName": "bar1",
+      "conversationType": "CLICK"
+    },
+    "location": {
+      "world": "grifer",
+      "x": -16.5,
+      "y": 68.0,
+      "z": -186.5,
+      "yaw": -88.37464,
+      "pitch": 32.849884
+    },
+    "npcType": "VILLAGER",
+    "hologramLines": [
+      "повар"
+    ],
+    "clickActions": [],
+    "npcEquip": {
+      "HAND": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAADDB0AAdDSElDS0VO"
+    },
+    "npcFunctions": {
+      "holo": false
+    },
+    "customizationMap": {
+      "setProfession": [
+        "BUTCHER"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "hologramHeight": 0.0,
+    "skin": "eyJ0aW1lc3RhbXAiOjE0OTU5MDU4NjA4OTksInByb2ZpbGVJZCI6ImUzYjQ0NWM4NDdmNTQ4ZmI4YzhmYTNmMWY3ZWZiYThlIiwicHJvZmlsZU5hbWUiOiJNaW5pRGlnZ2VyVGVzdCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDIyMjYyZjExZTk2NjY2MGEyMWFhNGVkYjE0OGIxOTg1ZWU5MDczZjY3NmRiZGRmZDJmMzliOTg2NTc5MjgifX19",
+    "signature": "Sk33gYb4nAHg7B+3oVar2iWb+xfsGxMCEU9gha3l/mjjS6cfa0ZGs++zf3SeP6yaOgOhuFGg3qQxhnAGlsVeFLt2BLA545iOM/ObQy1UyiUAbyJcp7RyPAcSBOkuio2N/j/MUbosYF0ol53SwoSlctbQ3r3+9x8B94R/luCYTBIX3leJgCpFS+YUqxh5fuX0x93rUQVyiv6kglXEjnSPaHBwN/mdpLCLckYD3Q7gWT4vC+yAALr8CKUCSrwC6/OrgFbQUYFfADpcDT0NGp0pSSON14SnIzSxrHctHN7MqXgwy+qVNm02rVHdvrGjFEgIBhLTG79Tpm3rmVez/xOIOIisY6Iv3EGbkIZOi66kQgBB8mHScGxEHW3rPrKqzP/Nm1enTzCKFSLQcLp37oUTa4cVwcKJuWnuCz5A8nXvR83gPNrQ6QRgw/ZbaUzdBTHGPLIextnXwaGgYkxN52AR04zLfaymq3DsasgaJAO5aj2Lzx/5IIRaOE8MUG7KosTwcWH1sH83x6g8lq+I2h4Q9yMsfroKLHWBkGmC6OmZC0pzb3hajA+tLkQJ5/RBZAlY9FheZwEiVVKfWyplN3Vk38ktjJC4yy32gNj6k1dH011LltKjMepG2Z7U1oASkpudqm+SGO7JnHZYBnUjgAJwFNlks7eHWKCPQ4FSutjsL+U=",
+    "conversation": {
+      "conversationName": "страж",
+      "conversationType": "CLICK"
+    },
+    "location": {
+      "world": "grifer",
+      "x": -42.5,
+      "y": 68.5,
+      "z": -164.5,
+      "yaw": 62.516445,
+      "pitch": 11.624751
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "стражворот"
+    ],
+    "clickActions": [],
+    "npcEquip": {
+      "HAND": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAABdnQABHR5cGV0AARtZXRhdXEAfgAGAAAABHQAHm9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAwwdAAISVJPTl9BWEVzcQB+AABzcQB+AAN1cQB+AAYAAAADcQB+AAh0AAltZXRhLXR5cGV0AAZEYW1hZ2V1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3EAfgAOAAAACg==",
+      "OFFHAND": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAADDB0AAZTSElFTEQ="
+    },
+    "npcFunctions": {
+      "holo": false
+    },
+    "customizationMap": {}
+  },
+  {
+    "id": 9,
+    "hologramHeight": 0.0,
+    "skin": "eyJ0aW1lc3RhbXAiOjE0OTU5MDU4NjA4OTksInByb2ZpbGVJZCI6ImUzYjQ0NWM4NDdmNTQ4ZmI4YzhmYTNmMWY3ZWZiYThlIiwicHJvZmlsZU5hbWUiOiJNaW5pRGlnZ2VyVGVzdCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDIyMjYyZjExZTk2NjY2MGEyMWFhNGVkYjE0OGIxOTg1ZWU5MDczZjY3NmRiZGRmZDJmMzliOTg2NTc5MjgifX19",
+    "signature": "Sk33gYb4nAHg7B+3oVar2iWb+xfsGxMCEU9gha3l/mjjS6cfa0ZGs++zf3SeP6yaOgOhuFGg3qQxhnAGlsVeFLt2BLA545iOM/ObQy1UyiUAbyJcp7RyPAcSBOkuio2N/j/MUbosYF0ol53SwoSlctbQ3r3+9x8B94R/luCYTBIX3leJgCpFS+YUqxh5fuX0x93rUQVyiv6kglXEjnSPaHBwN/mdpLCLckYD3Q7gWT4vC+yAALr8CKUCSrwC6/OrgFbQUYFfADpcDT0NGp0pSSON14SnIzSxrHctHN7MqXgwy+qVNm02rVHdvrGjFEgIBhLTG79Tpm3rmVez/xOIOIisY6Iv3EGbkIZOi66kQgBB8mHScGxEHW3rPrKqzP/Nm1enTzCKFSLQcLp37oUTa4cVwcKJuWnuCz5A8nXvR83gPNrQ6QRgw/ZbaUzdBTHGPLIextnXwaGgYkxN52AR04zLfaymq3DsasgaJAO5aj2Lzx/5IIRaOE8MUG7KosTwcWH1sH83x6g8lq+I2h4Q9yMsfroKLHWBkGmC6OmZC0pzb3hajA+tLkQJ5/RBZAlY9FheZwEiVVKfWyplN3Vk38ktjJC4yy32gNj6k1dH011LltKjMepG2Z7U1oASkpudqm+SGO7JnHZYBnUjgAJwFNlks7eHWKCPQ4FSutjsL+U=",
+    "conversation": {
+      "conversationName": "страж",
+      "conversationType": "CLICK"
+    },
+    "location": {
+      "world": "grifer",
+      "x": 13.5,
+      "y": 64.0,
+      "z": -192.5,
+      "yaw": 145.24457,
+      "pitch": 1.649958
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "СтражВорот2"
+    ],
+    "clickActions": [],
+    "npcEquip": {
+      "HAND": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAABdnQABHR5cGV0AARtZXRhdXEAfgAGAAAABHQAHm9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAwwdAAISVJPTl9BWEVzcQB+AABzcQB+AAN1cQB+AAYAAAADcQB+AAh0AAltZXRhLXR5cGV0AAZEYW1hZ2V1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3EAfgAOAAAACg==",
+      "OFFHAND": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAADDB0AAZTSElFTEQ="
+    },
+    "npcFunctions": {
+      "holo": false,
+      "look": true
+    },
+    "customizationMap": {}
+  },
+  {
+    "id": 10,
+    "hologramHeight": 0.0,
+    "skin": "eyJ0aW1lc3RhbXAiOjE0OTU5MDU4NjA4OTksInByb2ZpbGVJZCI6ImUzYjQ0NWM4NDdmNTQ4ZmI4YzhmYTNmMWY3ZWZiYThlIiwicHJvZmlsZU5hbWUiOiJNaW5pRGlnZ2VyVGVzdCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDIyMjYyZjExZTk2NjY2MGEyMWFhNGVkYjE0OGIxOTg1ZWU5MDczZjY3NmRiZGRmZDJmMzliOTg2NTc5MjgifX19",
+    "signature": "Sk33gYb4nAHg7B+3oVar2iWb+xfsGxMCEU9gha3l/mjjS6cfa0ZGs++zf3SeP6yaOgOhuFGg3qQxhnAGlsVeFLt2BLA545iOM/ObQy1UyiUAbyJcp7RyPAcSBOkuio2N/j/MUbosYF0ol53SwoSlctbQ3r3+9x8B94R/luCYTBIX3leJgCpFS+YUqxh5fuX0x93rUQVyiv6kglXEjnSPaHBwN/mdpLCLckYD3Q7gWT4vC+yAALr8CKUCSrwC6/OrgFbQUYFfADpcDT0NGp0pSSON14SnIzSxrHctHN7MqXgwy+qVNm02rVHdvrGjFEgIBhLTG79Tpm3rmVez/xOIOIisY6Iv3EGbkIZOi66kQgBB8mHScGxEHW3rPrKqzP/Nm1enTzCKFSLQcLp37oUTa4cVwcKJuWnuCz5A8nXvR83gPNrQ6QRgw/ZbaUzdBTHGPLIextnXwaGgYkxN52AR04zLfaymq3DsasgaJAO5aj2Lzx/5IIRaOE8MUG7KosTwcWH1sH83x6g8lq+I2h4Q9yMsfroKLHWBkGmC6OmZC0pzb3hajA+tLkQJ5/RBZAlY9FheZwEiVVKfWyplN3Vk38ktjJC4yy32gNj6k1dH011LltKjMepG2Z7U1oASkpudqm+SGO7JnHZYBnUjgAJwFNlks7eHWKCPQ4FSutjsL+U=",
+    "conversation": {
+      "conversationName": "страж",
+      "conversationType": "CLICK"
+    },
+    "location": {
+      "world": "grifer",
+      "x": 18.5,
+      "y": 68.0,
+      "z": -153.5,
+      "yaw": -25.462006,
+      "pitch": 1.3498572
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "СтражВорот3"
+    ],
+    "clickActions": [],
+    "npcEquip": {
+      "HAND": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAABdnQABHR5cGV0AARtZXRhdXEAfgAGAAAABHQAHm9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAwwdAAISVJPTl9BWEVzcQB+AABzcQB+AAN1cQB+AAYAAAADcQB+AAh0AAltZXRhLXR5cGV0AAZEYW1hZ2V1cQB+AAYAAAADdAAISXRlbU1ldGF0AApVTlNQRUNJRklDc3EAfgAOAAAACg==",
+      "OFFHAND": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAADDB0AAZTSElFTEQ="
+    },
+    "npcFunctions": {
+      "holo": false
+    },
+    "customizationMap": {}
+  },
+  {
+    "id": 11,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTU5NTQ0MDY3NDYzOCwKICAicHJvZmlsZUlkIiA6ICJlM2I0NDVjODQ3ZjU0OGZiOGM4ZmEzZjFmN2VmYmE4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5pRGlnZ2VyVGVzdCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xYmUwYmJiZGQ0NzU3ZGFmMDY4NzkzMWI4M2RmY2ExZTkzNTMyMDI1NjZkNzMxYjIyZDllYmQ4NDZkZGQyNmJkIgogICAgfQogIH0KfQ==",
+    "signature": "RYoRuLW8AW2KIIJFRi/u4TmchDrTTEiJITbE8220kUe2xkkVSMQNWP9mD9xAIN5lNOExDJMRC3zcju3G9iCeQ30NmJGcliztKUwfJgsHPvE1J28EXyK3d6Y70H7hI0movsiM+nuZmpEvsW1nQ55lkaL+BqU8zYFzrYOh8j8uEw/OTJ6voer2+zmmf4KHHF7BbTXEUJqzjiSgKf5oikNvy7NQSK+pzWB3ER0kI+3IARdpq+ul8mteu2rcmjrdqZiAe4llK3ZIqWmxLxiw8rOjHX+BlrnJMy2gWuxnp2LiZbciFqZnnG2rR/KzHF/wO/nToobETvcrGU6XPsjWyvk4FAtnS4MqGyYmk4HoB3Exo3aUznbuzV+LabP4rTyZ+RcH5o4USZ+fL5IbA7s0CaUfF6gYjviW0gNcXsYBWC4QAwzfHo2lxw+bgNA8B9U5jYtFA0iuVOYAwNvjYKd5xPtoDc0KnNc4mWTm9Sfvt3TbW7hEegh0f/ck1ThkOmC89IM6xPJ7O2sJ4EnO6Hy+t+l2Ppr3mhqOBwUKeDyNEcivJF0Wl8EP2kq74hjzFHs5JyxFuXVG6Rb7xAWP3z1VQyC4blDfsF6I0R/zL4Nb/XF8sX/WyLO5R2Q9AF/zjGVHONMxK4f5uMW+kj14RDjal/np6XEG5niK0DiUYNkjFEGDlZc=",
+    "conversation": {
+      "conversationName": "Лучник",
+      "conversationType": "CLICK"
+    },
+    "location": {
+      "world": "grifer",
+      "x": 6.5,
+      "y": 80.0,
+      "z": -139.5,
+      "yaw": -21.71344,
+      "pitch": 27.900108
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "Лучник"
+    ],
+    "clickActions": [],
+    "npcEquip": {
+      "HAND": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAADDB0AAhTUFlHTEFTUw==",
+      "OFFHAND": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAADDB0AANCT1c="
+    },
+    "npcFunctions": {
+      "holo": false
+    },
+    "customizationMap": {}
+  },
+  {
+    "id": 12,
+    "hologramHeight": 0.0,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTU5NTQ0MDY3NDYzOCwKICAicHJvZmlsZUlkIiA6ICJlM2I0NDVjODQ3ZjU0OGZiOGM4ZmEzZjFmN2VmYmE4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5pRGlnZ2VyVGVzdCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xYmUwYmJiZGQ0NzU3ZGFmMDY4NzkzMWI4M2RmY2ExZTkzNTMyMDI1NjZkNzMxYjIyZDllYmQ4NDZkZGQyNmJkIgogICAgfQogIH0KfQ==",
+    "signature": "RYoRuLW8AW2KIIJFRi/u4TmchDrTTEiJITbE8220kUe2xkkVSMQNWP9mD9xAIN5lNOExDJMRC3zcju3G9iCeQ30NmJGcliztKUwfJgsHPvE1J28EXyK3d6Y70H7hI0movsiM+nuZmpEvsW1nQ55lkaL+BqU8zYFzrYOh8j8uEw/OTJ6voer2+zmmf4KHHF7BbTXEUJqzjiSgKf5oikNvy7NQSK+pzWB3ER0kI+3IARdpq+ul8mteu2rcmjrdqZiAe4llK3ZIqWmxLxiw8rOjHX+BlrnJMy2gWuxnp2LiZbciFqZnnG2rR/KzHF/wO/nToobETvcrGU6XPsjWyvk4FAtnS4MqGyYmk4HoB3Exo3aUznbuzV+LabP4rTyZ+RcH5o4USZ+fL5IbA7s0CaUfF6gYjviW0gNcXsYBWC4QAwzfHo2lxw+bgNA8B9U5jYtFA0iuVOYAwNvjYKd5xPtoDc0KnNc4mWTm9Sfvt3TbW7hEegh0f/ck1ThkOmC89IM6xPJ7O2sJ4EnO6Hy+t+l2Ppr3mhqOBwUKeDyNEcivJF0Wl8EP2kq74hjzFHs5JyxFuXVG6Rb7xAWP3z1VQyC4blDfsF6I0R/zL4Nb/XF8sX/WyLO5R2Q9AF/zjGVHONMxK4f5uMW+kj14RDjal/np6XEG5niK0DiUYNkjFEGDlZc=",
+    "pathName": "walk",
+    "conversation": {
+      "conversationName": "гражд",
+      "conversationType": "RADIUS"
+    },
+    "location": {
+      "world": "grifer",
+      "x": 2.5,
+      "y": 67.0,
+      "z": -173.5,
+      "yaw": -46.36853,
+      "pitch": 8.549942
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "vill"
+    ],
+    "clickActions": [],
+    "npcEquip": {
+      "HAND": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAADDB0AAVBUFBMRQ=="
+    },
+    "npcFunctions": {
+      "holo": false
+    },
+    "customizationMap": {}
+  },
+  {
+    "id": 13,
+    "hologramHeight": 0.0,
+    "skin": "eyJ0aW1lc3RhbXAiOjE1NDMzMzcxNTgyNDIsInByb2ZpbGVJZCI6IjU2Njc1YjIyMzJmMDRlZTA4OTE3OWU5YzkyMDZjZmU4IiwicHJvZmlsZU5hbWUiOiJUaGVJbmRyYSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjlmZjg1OWJmZmUxN2YxODVjMTM4NDE2ZWI3NGZhZmViYzNjNGIwYWE0NGRiOGEwMWI0ZWVhMzFkNjE0NWRjMiJ9fX0=",
+    "signature": "D/PJkFhN2wjMUPI+7+2Sk5Kd3aAOjviCKroceTSfc0BlGglL0V/XjzHIkaZtz5FcAOCPIBadb8sFUDKW9FSv1I+plEtaUXUyjineByMlsNJ80XCLxXsvFRfbhZ2PTS0Auw3iLFMzEwPUG+k2+6sNSTxQpb77ztzpMrrSKwkfxwSwkrZgiIq0fZO9ldUedTxGViXW0viTnnjOoFbcvc6pxX9kN/UYTWyvRH84Ad0U3QooTiqn+8by63V1/HnkgrFe+ALIi9dkpwLeC7mONITkqXubJ1gq3edmQQu0gsikhos/4OTumKDs+1fi4mw91cnxCPDyo71wF/8dLpLCwHchxfFI5urtkx/trP8oognnpKYGjGxXSnNH5Eer3xTwrUKxAze6nSOTgZxdgGoV2fgaXvLZeRZTGfw6h8XDb5+1FhqKuYO7XBXLk/iotPsdcrhBazbeAyMTM6Z4p85G2gYOdoP77Aln8EoqObyQR+EpCVoSbgXm6qrzBLZeoa9M4m4AMfdi7c9pX2huTp4cJDV7Co2u43IfFjE8J9qazzhVnYOcv4OOUMaYvTWZCdh8/wxpEhwS1NOLpTzsd7un8YAH4RkfCi9M2uQS+1QBe1Tu4WWf/pnVIg5z8F5s11xcLUttIAjx5TV6zY7X24Gbb1Lq08osvabWoP9WNnkIz6jZLKQ=",
+    "pathName": "стена",
+    "location": {
+      "world": "grifer",
+      "x": -41.5,
+      "y": 73.0,
+      "z": -183.5,
+      "yaw": 42.01306,
+      "pitch": 17.850061
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "assasin"
+    ],
+    "clickActions": [],
+    "npcEquip": {
+      "HAND": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAABdnQABHR5cGV0AARtZXRhdXEAfgAGAAAABHQAHm9yZy5idWtraXQuaW52ZW50b3J5Lkl0ZW1TdGFja3NyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFsdWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAwwdAAIQ1JPU1NCT1dzcQB+AABzcQB+AAN1cQB+AAYAAAAEcQB+AAh0AAltZXRhLXR5cGV0AAdjaGFyZ2VkdAATY2hhcmdlZC1wcm9qZWN0aWxlc3VxAH4ABgAAAAR0AAhJdGVtTWV0YXEAfgARc3IAEWphdmEubGFuZy5Cb29sZWFuzSBygNWc+u4CAAFaAAV2YWx1ZXhwAXNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAABdwQAAAABc3EAfgAAc3EAfgADdXEAfgAGAAAAA3EAfgAIcQB+AAlxAH4ACnVxAH4ABgAAAANxAH4ADXNxAH4ADgAADDB0AAVBUlJPV3g="
+    },
+    "npcFunctions": {
+      "holo": false
+    },
+    "customizationMap": {}
+  },
+  {
+    "id": 14,
+    "hologramHeight": 0.0,
+    "skin": "eyJ0aW1lc3RhbXAiOjE0OTU5MDU4NjA4OTksInByb2ZpbGVJZCI6ImUzYjQ0NWM4NDdmNTQ4ZmI4YzhmYTNmMWY3ZWZiYThlIiwicHJvZmlsZU5hbWUiOiJNaW5pRGlnZ2VyVGVzdCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDIyMjYyZjExZTk2NjY2MGEyMWFhNGVkYjE0OGIxOTg1ZWU5MDczZjY3NmRiZGRmZDJmMzliOTg2NTc5MjgifX19",
+    "signature": "Sk33gYb4nAHg7B+3oVar2iWb+xfsGxMCEU9gha3l/mjjS6cfa0ZGs++zf3SeP6yaOgOhuFGg3qQxhnAGlsVeFLt2BLA545iOM/ObQy1UyiUAbyJcp7RyPAcSBOkuio2N/j/MUbosYF0ol53SwoSlctbQ3r3+9x8B94R/luCYTBIX3leJgCpFS+YUqxh5fuX0x93rUQVyiv6kglXEjnSPaHBwN/mdpLCLckYD3Q7gWT4vC+yAALr8CKUCSrwC6/OrgFbQUYFfADpcDT0NGp0pSSON14SnIzSxrHctHN7MqXgwy+qVNm02rVHdvrGjFEgIBhLTG79Tpm3rmVez/xOIOIisY6Iv3EGbkIZOi66kQgBB8mHScGxEHW3rPrKqzP/Nm1enTzCKFSLQcLp37oUTa4cVwcKJuWnuCz5A8nXvR83gPNrQ6QRgw/ZbaUzdBTHGPLIextnXwaGgYkxN52AR04zLfaymq3DsasgaJAO5aj2Lzx/5IIRaOE8MUG7KosTwcWH1sH83x6g8lq+I2h4Q9yMsfroKLHWBkGmC6OmZC0pzb3hajA+tLkQJ5/RBZAlY9FheZwEiVVKfWyplN3Vk38ktjJC4yy32gNj6k1dH011LltKjMepG2Z7U1oASkpudqm+SGO7JnHZYBnUjgAJwFNlks7eHWKCPQ4FSutjsL+U=",
+    "pathName": "ворота1",
+    "conversation": {
+      "conversationName": "Страж2",
+      "conversationType": "RADIUS"
+    },
+    "location": {
+      "world": "grifer",
+      "x": 11.5,
+      "y": 68.0,
+      "z": -153.5,
+      "yaw": -145.15479,
+      "pitch": 7.199994
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "стражВорот4"
+    ],
+    "clickActions": [],
+    "npcEquip": {
+      "HAND": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAADDB0AAZTSElFTEQ=",
+      "OFFHAND": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAADDB0AAdUUklERU5U"
+    },
+    "npcFunctions": {
+      "holo": false,
+      "look": true
+    },
+    "customizationMap": {}
+  },
+  {
+    "id": 15,
+    "hologramHeight": 0.0,
+    "skin": "eyJ0aW1lc3RhbXAiOjE0OTU5MDU4NjA4OTksInByb2ZpbGVJZCI6ImUzYjQ0NWM4NDdmNTQ4ZmI4YzhmYTNmMWY3ZWZiYThlIiwicHJvZmlsZU5hbWUiOiJNaW5pRGlnZ2VyVGVzdCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDIyMjYyZjExZTk2NjY2MGEyMWFhNGVkYjE0OGIxOTg1ZWU5MDczZjY3NmRiZGRmZDJmMzliOTg2NTc5MjgifX19",
+    "signature": "Sk33gYb4nAHg7B+3oVar2iWb+xfsGxMCEU9gha3l/mjjS6cfa0ZGs++zf3SeP6yaOgOhuFGg3qQxhnAGlsVeFLt2BLA545iOM/ObQy1UyiUAbyJcp7RyPAcSBOkuio2N/j/MUbosYF0ol53SwoSlctbQ3r3+9x8B94R/luCYTBIX3leJgCpFS+YUqxh5fuX0x93rUQVyiv6kglXEjnSPaHBwN/mdpLCLckYD3Q7gWT4vC+yAALr8CKUCSrwC6/OrgFbQUYFfADpcDT0NGp0pSSON14SnIzSxrHctHN7MqXgwy+qVNm02rVHdvrGjFEgIBhLTG79Tpm3rmVez/xOIOIisY6Iv3EGbkIZOi66kQgBB8mHScGxEHW3rPrKqzP/Nm1enTzCKFSLQcLp37oUTa4cVwcKJuWnuCz5A8nXvR83gPNrQ6QRgw/ZbaUzdBTHGPLIextnXwaGgYkxN52AR04zLfaymq3DsasgaJAO5aj2Lzx/5IIRaOE8MUG7KosTwcWH1sH83x6g8lq+I2h4Q9yMsfroKLHWBkGmC6OmZC0pzb3hajA+tLkQJ5/RBZAlY9FheZwEiVVKfWyplN3Vk38ktjJC4yy32gNj6k1dH011LltKjMepG2Z7U1oASkpudqm+SGO7JnHZYBnUjgAJwFNlks7eHWKCPQ4FSutjsL+U=",
+    "conversation": {
+      "conversationName": "страж2",
+      "conversationType": "RADIUS"
+    },
+    "location": {
+      "world": "grifer",
+      "x": 11.5,
+      "y": 68.0,
+      "z": -153.5,
+      "yaw": -110.19348,
+      "pitch": 31.200035
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "стражВорот5"
+    ],
+    "clickActions": [],
+    "npcEquip": {
+      "HAND": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAADDB0AApJUk9OX1NXT1JE",
+      "OFFHAND": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAADDB0AAZTSElFTEQ="
+    },
+    "npcFunctions": {
+      "holo": false,
+      "look": true
+    },
+    "customizationMap": {}
+  },
+  {
+    "id": 16,
+    "hologramHeight": 0.0,
+    "skin": "eyJ0aW1lc3RhbXAiOjE1NDMzMzcxNTgyNDIsInByb2ZpbGVJZCI6IjU2Njc1YjIyMzJmMDRlZTA4OTE3OWU5YzkyMDZjZmU4IiwicHJvZmlsZU5hbWUiOiJUaGVJbmRyYSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjlmZjg1OWJmZmUxN2YxODVjMTM4NDE2ZWI3NGZhZmViYzNjNGIwYWE0NGRiOGEwMWI0ZWVhMzFkNjE0NWRjMiJ9fX0=",
+    "signature": "D/PJkFhN2wjMUPI+7+2Sk5Kd3aAOjviCKroceTSfc0BlGglL0V/XjzHIkaZtz5FcAOCPIBadb8sFUDKW9FSv1I+plEtaUXUyjineByMlsNJ80XCLxXsvFRfbhZ2PTS0Auw3iLFMzEwPUG+k2+6sNSTxQpb77ztzpMrrSKwkfxwSwkrZgiIq0fZO9ldUedTxGViXW0viTnnjOoFbcvc6pxX9kN/UYTWyvRH84Ad0U3QooTiqn+8by63V1/HnkgrFe+ALIi9dkpwLeC7mONITkqXubJ1gq3edmQQu0gsikhos/4OTumKDs+1fi4mw91cnxCPDyo71wF/8dLpLCwHchxfFI5urtkx/trP8oognnpKYGjGxXSnNH5Eer3xTwrUKxAze6nSOTgZxdgGoV2fgaXvLZeRZTGfw6h8XDb5+1FhqKuYO7XBXLk/iotPsdcrhBazbeAyMTM6Z4p85G2gYOdoP77Aln8EoqObyQR+EpCVoSbgXm6qrzBLZeoa9M4m4AMfdi7c9pX2huTp4cJDV7Co2u43IfFjE8J9qazzhVnYOcv4OOUMaYvTWZCdh8/wxpEhwS1NOLpTzsd7un8YAH4RkfCi9M2uQS+1QBe1Tu4WWf/pnVIg5z8F5s11xcLUttIAjx5TV6zY7X24Gbb1Lq08osvabWoP9WNnkIz6jZLKQ=",
+    "pathName": "стена2",
+    "conversation": {
+      "conversationName": "assasin",
+      "conversationType": "RADIUS"
+    },
+    "location": {
+      "world": "grifer",
+      "x": -36.5,
+      "y": 74.0,
+      "z": -187.5,
+      "yaw": -102.44175,
+      "pitch": 25.95012
+    },
+    "npcType": "PLAYER",
+    "hologramLines": [
+      "страж2"
+    ],
+    "clickActions": [],
+    "npcEquip": {
+      "HAND": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAADDB0AAhDUk9TU0JPVw==",
+      "OFFHAND": "rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAAA3QAAj09dAABdnQABHR5cGV1cQB+AAYAAAADdAAeb3JnLmJ1a2tpdC5pbnZlbnRvcnkuSXRlbVN0YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAADDB0AA5TUEVDVFJBTF9BUlJPVw=="
+    },
+    "npcFunctions": {
+      "holo": false
+    },
+    "customizationMap": {}
   }
 ]
