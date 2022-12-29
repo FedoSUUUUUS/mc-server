@@ -84,7 +84,7 @@ force-safe-teleport-location: false
 teleport-passenger-dismount: true
 
 # The delay, in seconds, required between /home, /tp, etc.
-teleport-cooldown: 200
+teleport-cooldown: 90
 
 # The delay, in seconds, before a user actually teleports. If the user moves or gets attacked in this timeframe, the teleport is cancelled.
 teleport-delay: 3
