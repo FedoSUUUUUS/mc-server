@@ -1,6 +1,6 @@
 ##################################
 #    SkinsRestorer Config.yml    #
-#      Generated on 14.2.3       #
+#      Generated on 14.2.5       #
 ##################################
 #
 # We from SRTeam thank you for using our plugin!
@@ -15,8 +15,8 @@
 # (?) update config? -> https://raw.githubusercontent.com/SkinsRestorer/SkinsRestorerX/stable/shared/src/main/resources/config.yml
 # (?) Step by step config guide -> https://github.com/SkinsRestorer/SkinsRestorerX/wiki/Configuration
 
-# (!) IF YOU USE BUNGEE, Check & set on every Spigot server spigot.yml -> bungeecord: true.  (!)
-# (!) & Install Skinsrestorer.jar on ALL SERVERS!!! (BOTH Spigot & Bungeecord).              (!)
+# (!) IF YOU ARE USING A PROXY (Bungee, Waterfall or Velocity), Check & set on every BACKEND server spigot.yml -> bungeecord: true.  (!)
+# (!) & Install Skinsrestorer.jar on ALL SERVERS!!! (BOTH Backend & Proxy).                      (!)
 
 ##########
 # Basics #
@@ -34,30 +34,39 @@ SkinWithoutPerm: true
 SkinChangeCooldown: 30
 SkinErrorCooldown: 5
 
+##########
+# Locale #
+##########
+
+# Translation & message options here
+
+# A language code for the language you want to use by default for messages and commands.
+# Has to a string separated by an underscore.
+Language: en_US
+
+# True will make use of the 'CUSTOM_HELP_IF_ENABLED' & `SR_LINE` in messages.yml.
+# This is more customizable, but at the cost of permission specific help.
+EnableCustomHelp: false
+
+# Disable message prefix in SkinsRestorer messages.
+DisablePrefix: false
+
 #################
 # Customization #
 #################
 
 # Here you can design the plugin the way you want it.
 
-# True will make use of the 'CUSTOM_HELP_IF_ENABLED' & `SR_LINE` in messages.yml.
-# This is more customizable, but at the cost of permission specific help.
-EnableCustomHelp: false
-
-# Ignore messages.yml 'PREFIX ='
-DisablePrefix: false
-
 # Enable or disable default skins
 # ApplyForPremium: false will only put a skin on skinless/steve players.
 # If there is more than one, the plugin will choose a random one.
 # [?] Supports custom & url.png skins, read SkinFile Generator below. [?]
-# [!] url.png won't work on join for bungee, see https://github.com/SkinsRestorer/SkinsRestorerX/issues/315 [!]
 DefaultSkins:
   Enabled: false
   ApplyForPremium: false
   Names:
     - "xknat"
-    - "Pistonmaster"
+    - "pistonmaster"
 
 # Skins in this list will be disabled, so users can't set them.
 # Can be bypassed with 'skinsrestorer.bypassdisabled'.
@@ -85,7 +94,7 @@ CustomGUI:
   ShowOnlyCustomGUI: true
   Names:
     - "xknat"
-    - "Pistonmaster"
+    - "pistonmaster"
 
 ############
 # Advanced #
@@ -118,7 +127,7 @@ MySQL:
   MaxPoolSize: 10
   SkinTable: 'Skins'
   PlayerTable: 'Players'
-  ConnectionOptions: verifyServerCertificate=false&useSSL=false&serverTimezone=UTC
+  ConnectionOptions: sslMode=trust&serverTimezone=UTC
 
 # Stops the process of setting a skin if the LoginEvent was canceled by an AntiBot plugin.
 # [?] Unsure? leave this true for better performance.
@@ -185,9 +194,11 @@ DisableOnJoinSkins: false
 DisallowAutoUpdateSkin: false
 
 # <!! Warning Experimental !!>
-# This enables the experimental ProtocolLib integration that allows instant skins on join.
-# Use with caution! This may decrease your TPS.
-EnableProtocolListener: false
+# This enables the experimental PaperMC join event integration that allows instant skins on join.
+# It is not as tested as the default implementation, but it is smoother and should not lag the server.
+# It also fixes all resource pack skin apply issues.
+# If your players are experiencing extremely long loading screens, try disabling this.
+EnablePaperJoinListener: true
 
 # <!! Warning !!>
 # When enabled if a skin gets applied on the proxy, the new texture will be forwarded to the backend as well.
@@ -197,7 +208,6 @@ EnableProtocolListener: false
 ForwardTextures: true
 
 # Updater Settings
-Updater:
 # # <!! Warning !!>
 # Using outdated version void's support, compatibility & stability.
 #
