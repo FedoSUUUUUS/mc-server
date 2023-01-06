@@ -1,0 +1,130 @@
+#  |-------------------------------| 
+#  | Language file of ShareControl | 
+#  |-------------------------------| 
+#
+#  HELP:
+#  %block% - block that place\break\use 
+#  %item% - item that use 
+#  %gamemode% - the gamemode of player 
+#  %type% - type of block (natural or creative) 
+#  %coords% - coordinates of block 
+#  %name% - block name 
+#  %id% - block ID 
+#  %command% - ShareControl's command 
+#  %plugin% - ShareControl 
+#  %update% - new version 
+#  %version% - the current version 
+#  %link% - link to site of plugin 
+#  %development-team% - development team of the plugin 
+#  %nickname% - player 
+#  %uuid% - universally unique identifier of player
+
+Update:
+  UpdateNotFound: '&7目前已是最新版本!'
+  Available: '&7发现新版本: &9%update%&7, 下载链接: &9%link%&7!'
+NoPermission: '&c你没有权限进行该操作!'
+Events:
+  Drop: '&c你不能扔东西!'
+  MobsInteract: '&c你不能与怪物接触!'
+  PlayerInteract: '&c你不能与玩家接触!'
+  Inventory:
+    Message: '&c你不能使用此物品!'
+    Material: '&c你不能使用 &6%item%&c!'
+  OpenInventory: '&c你不能使用背包!'
+  BlockBreak:
+    Message: '&c你不能破坏此方块!'
+    Material: '&c你不能破坏 &6%block%&c!'
+  BlockPlace:
+    Message: '&c你不能放置此方块!'
+    Material: '&c你不能放置 &6%block%&c!'
+  ShootBow: '&c你不能射箭!'
+  InteractWithWorlds: '&c你不能与此世界接触!'
+  NotDropBlock: '&7此方块没有掉落物,因为它是在创造模式中放置的!'
+  NotBreakBlock: '&7此方块没有被破坏,因为它是在创造模式中放置的!'
+  EntityInteract:
+    Message: '&c你不能使用此物品!'
+    Material: '&c你不能使用 &6%item%&c!'
+  UseBlock: '&c你不能使用它!'
+  Fishing: '&c你不能钓鱼!'
+  ArmorStand: '&c你不能接触盔甲架!'
+  ProhibitedCommand: '&c你不能使用此命令!'
+  Saplings: '&7这是创造模式放置的树苗,不能催生!'
+  OnEssentialsSignUse: '&cYou not can use this signs!'
+GamemodesControl:
+  NotAllowedGamemode: '&c你不能切换游戏模式到 &6%gamemode%&c!'
+PlayersInGamemode:
+  List: '&7玩家在 &9%gamemode%&7 模式: &9%list%&7'
+  UnknownGamemode: '&c未知的游戏模式: &6%gamemode%&c.'
+  NotFound: '&7玩家的游戏模式 &9%gamemode%&7 未找到!'
+  More: '&7要显示此玩家的详细信息, 使用 &9/sc check <nickname>&7!'
+Menu:
+  This: '&9%command% &f- 此菜单,'
+  Reload: '&9%command% &f- 重载,'
+  Version: '&9%command% &f- 版本信息,'
+  Update: '&9%command% &f- 检查更新,'
+  GetList: '&9%command% &f- 获取使用此游戏模式的玩家列表,'
+  AddToList: '&9%command% &f- 添加方块或物品到列表,'
+  RemoveFromList: '&9%command% &f- 从列表中移除方块或物品,'
+  Tools: '&9%command% &f- 工具列表,'
+  ChangeTool: '&9%command% &f- 获取更改工具,'
+  InfoTool: '&9%command% &f- 获取信息工具,'
+  SelectionSet: '&9%command% &f- 更改此方块选择类型,'
+  Check: '&9%command% &f- 查看玩家信息.'
+Using: '&7使用: &c%command%'
+Reload:
+  Reloading: '&7重新载入中...'
+  Success: '&7重载完成!'
+ChangeConfig:
+  AddToBlockingPlacement: '&7此方块 &9%material%&7 已添加到禁止放置方块列表!'
+  AddToBlockingBreakage: '&7此方块 &9%material%&7 已添加到禁止破坏方块列表!'
+  AddToBlockingInventory: '&7此物品 &9%material%&7 已添加到禁止使用物品列表!'
+  RemoveFromBlockingPlacement: '&7此方块 &9%material%&7 已从禁止放置方块列表中移除!'
+  RemoveFromBlockingBreakage: '&7此方块 &9%material%&7 已从禁止放置破坏列表中移除!'
+  RemoveFromBlockingInventory: '&7此物品 &9%material%&7 已从禁止使用物品列表中移除!'
+  ThisNotMaterialAndId: '&7错误: &9%material%&7 错误的id/物品/方块.'
+Tools:
+  ChangeTool:
+    Get: '&7你获得 &9更改工具&7!'
+    Name: '&9&l更改工具'
+    Lore:
+      '1': '&7左键 &c设置 &7方块的游戏模式'
+      '2': '&7右键 &c清除 &7方块的游戏模式'
+      '3': '&7%plugin%的工具'
+  InfoTool:
+    Get: '&7你获得 &9信息工具&7!'
+    Name: '&9&l信息工具'
+    Lore:
+      '1': '&7左键或右键查询方块或玩家的游戏模式'
+      '2': '&7%plugin%的工具'
+  Type: '&7类型: &9%type%'
+  Types:
+    Creative: 创造放置
+    Natural: 自然生成
+  Name: '&7名称: &9%name%'
+  ID: '&7ID: &9%id%'
+  Data: '&7Data: &9%data%'
+  Coordinates: '&7坐标: &9%coords%'
+  Nickname: '&7昵称: &9%nickname%'
+  UUID: '&7UUID: &9%uuid%'
+  Gamemode: '&7游戏模式: &9%gamemode%'
+  Health: '&7血量: &9%health%'
+  Exp: '&7经验: &9%exp%'
+  World: '&7世界: &9%world%'
+  BlockHas: '&7此方块是 &6%type%&7的!'
+  BlockNow: '&7现在此方块是 &6%type%&7的!'
+Gamemodes:
+  Creative: 创造模式
+  Survival: 生存模式
+  Adventure: 冒险模式
+  Spectator: 旁观模式
+Selections:
+  WorldEditNotFound: '&6WorldEdit&c 未找到, 无法使用此命令.'
+  UnknownType: '&c未知类型: &6%type%&c! 正确的类型: &6%types%.'
+  MakeSelection: '&c请先选择一个区域!'
+  NotCuboid: '&c您选择的不是一个长方体!'
+  PleaseWait: '&7这可能需要一些时间.. 请稍等!'
+  BlocksChanged: '&7已成功更新 &9%number% 方块&7!'
+Version: '&7当前版本: &9%version%&7!'
+DevelopmentTeam: '&7开发团队: &9%development-team%'
+Site: '&7网址: &9%link%'
+Author: '&9%nickname% &7[&cAutor&7]'

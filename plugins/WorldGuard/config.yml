@@ -15,7 +15,7 @@ regions:
     high-frequency-flags: false
     protect-against-liquid-flow: false
     wand: minecraft:leather
-    max-claim-volume: 40000
+    max-claim-volume: 100000
     claim-only-inside-existing-regions: false
     set-parent-on-claim: ''
     location-flags-only-inside-regions: false

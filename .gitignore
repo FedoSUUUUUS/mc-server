@@ -20,3 +20,5 @@ plugins/AuthMe/authme.db
 plugins/LuckPerms/luckperms-h2-v2.mv.db
 
 *.yml.broken.*
+plugins/ShareControl/data/blocks.db
+plugins/SkinsRestorer/Players

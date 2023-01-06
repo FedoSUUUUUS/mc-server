@@ -1,0 +1,140 @@
+#  |-------------------------------| 
+#  | Language file of ShareControl | 
+#  |-------------------------------| 
+#
+#  HELP:
+#  %block% - block that place\break\use 
+#  %item% - item that use 
+#  %gamemode% - the gamemode of player 
+#  %type% - type of block (natural or creative) 
+#  %coords% - coordinates of block 
+#  %name% - block name 
+#  %id% - block ID 
+#  %command% - ShareControl's command 
+#  %plugin% - ShareControl 
+#  %update% - new version 
+#  %version% - the current version 
+#  %link% - link to site of plugin 
+#  %development-team% - development team of the plugin 
+#  %nickname% - player 
+#  %uuid% - universally unique identifier of player
+
+Update:
+  UpdateNotFound: '&7Keine Updates gefunden! Du verwendest die neuste Version!'
+  Available: '&7Update verfügbar: &9%update%&7 hier &9%link%&7!'
+NoPermission: '&cDu hast keine Berechtigung!'
+Events:
+  Drop: '&cDu kannst nichts werfen!'
+  MobsInteract: '&cDu kannst mit Monster nicht interagieren!'
+  PlayerInteract: '&cDu kannst mit Spieler nicht interagieren!'
+  Inventory:
+    Message: '&cDu kannst dieses Item nicht benutzen!'
+    Material: '&cDu kannst &6%item%&c nicht benutzen!'
+  OpenInventory: '&cDu kannst das nicht tun!'
+  BlockBreak:
+    Message: '&cDu kannst diesen Block nicht brechen!'
+    Material: '&cDu kannst &6%block%&c nicht brechen!'
+  BlockPlace:
+    Message: '&cDu kannst diesen Block nicht platzieren!'
+    Material: '&cDu kannst &6%block%&c nicht platzieren!'
+  ShootBow: '&cDu kannst keinen Bogen schießen!'
+  InteractWithWorlds: '&cDu kannst nicht mit der Umwelt agieren!'
+  NotDropBlock: '&7Block wurde nicht fallen gelassen, weil er aus dem Kreativ-Modus
+    ist!'
+  NotBreakBlock: '&7Block wurde nicht abgebaut, weil er aus dem Kreativ-Modus ist!'
+  EntityInteract:
+    Message: '&cDu kannst diesen Gegenstand nicht benutzen!'
+    Material: '&cDu kannst &6%item% &cnicht benutzen!'
+  UseBlock: '&cDu kannst dies nicht benutzen!'
+  Fishing: '&cDu kannst nicht fischen!'
+  ArmorStand: '&cDu kannst nicht mit Rüstungsständer agieren!'
+  ProhibitedCommand: '&cDu kannst diesen Befehl nicht benutzen!'
+  Saplings: '&7Dieser Setzling ist aus dem Kreativ-Modus, du kannst ihn nicht wachsen
+    lassen!'
+  OnEssentialsSignUse: '&cYou not can use this signs!'
+GamemodesControl:
+  NotAllowedGamemode: '&cDu kannst nicht in den Modus &6%gamemode% &cgehen!'
+PlayersInGamemode:
+  List: '&7Spieler im &9%gamemode%-Modus&7: &9%list%&7'
+  UnknownGamemode: '&cUnbekannter Modus: &6%gamemode%&c.'
+  NotFound: '&7Spieler im Modus &9%gamemode%&7 nicht gefunden!'
+  More: '&7Erweiterte Informationen über ein Spieler, benutze &9/sc check <nickname>&7!'
+Menu:
+  This: '&9%command% &f- dieses Menü,'
+  Reload: '&9%command% &f- reload,'
+  Version: '&9%command% &f- Informationen,'
+  Update: '&9%command% &f- nach Updates prüfen,'
+  GetList: '&9%command% &f- erhalte eine Liste mit Spielern in diesem Modus,'
+  AddToList: '&9%command% &f- füge einen Block zur Liste hinzu,'
+  RemoveFromList: '&9%command% &f- entferne einen Block von der Liste,'
+  Tools: '&9%command% &f- Liste der Werkzeuge,'
+  ChangeTool: '&9%command% &f- erhalte das Wechsel-Tool,'
+  InfoTool: '&9%command% &f- erhalte das Informationen-Tool.'
+  SelectionSet: '&9%command% &f- ändert den Typ des Block in der Markierung,'
+  Check: '&9%command% &f- erhalte Informationen über einen Spieler.'
+Using: '&7Benutze: &c%command%'
+Reload:
+  Reloading: '&7Reload...'
+  Success: '&7Reload erfolgreich!'
+ChangeConfig:
+  AddToBlockingPlacement: '&7Der Block &9%material%&7 wurde auf die Liste der verbotenen
+    Blöcke hinzugefügt!'
+  AddToBlockingBreakage: '&7Der Block &9%material%&7 wurde auf die Liste der verbotenen
+    Blöcke hinzugefügt!'
+  AddToBlockingInventory: '&7Der Gegenstand &9%material%&7 wurde auf die Liste der
+    verbotenen Gegenstände hinzugefügt!'
+  RemoveFromBlockingPlacement: '&7Der Block &9%material%&7 wurde von der Liste verbotenen
+    Blöcke entfernt!'
+  RemoveFromBlockingBreakage: '&7Der Block &9%material%&7 wurde von der Liste verbotenen
+    Blöcke entfernt!'
+  RemoveFromBlockingInventory: '&7Der Gegenstand &9%material%&7 wurde von der Liste
+    verbotenen Gegenstände entfernt!'
+  ThisNotMaterialAndId: '&7FEHLER: &9%material%&7 ist keine bekannte ID oder kein
+    bekannter Name!'
+Tools:
+  ChangeTool:
+    Get: '&7Du erhälst &9Wechsel-Tool&7!'
+    Name: '&9&lWechsel-Tool'
+    Lore:
+      '1': '&7Linksklick um den Modus des Blocks zu &cSETZEN&7!'
+      '2': '&7Rechtsklick um den Modus des Blocks zu &cENTFERNEN&7!'
+      '3': '&7Tool von %plugin%'
+  InfoTool:
+    Get: '&7You got the &9information tool&7!'
+    Name: '&9&lInformation Tool'
+    Lore:
+      '1': '&7Links- oder Rechtsklick auf den Block,'
+      '2': '&7um Informationen zu erhalten'
+  Type: '&7Typ: &9%type%'
+  Types:
+    Creative: kreativ
+    Natural: natürlich
+  Name: '&7Name: &9%name%'
+  ID: '&7ID: &9%id%'
+  Data: '&7Data: &9%data%'
+  Coordinates: '&7Koordinaten: &9%coords%'
+  Nickname: '&7Nickname: &9%nickname%'
+  UUID: '&7UUID: &9%uuid%'
+  Gamemode: '&7Modus: &9%gamemode%'
+  Health: '&7leben: &9%health%'
+  Exp: '&7EXP: &9%exp%'
+  World: '&7Welt: &9%world%'
+  BlockHas: '&7This block is has a &6%type%&7!'
+  BlockNow: '&7Now this block &6%type%&7!'
+Gamemodes:
+  Creative: Kreativ
+  Survival: Überleben
+  Adventure: Abenteuer
+  Spectator: Zuschauer
+Selections:
+  WorldEditNotFound: '&6WorldEdit&c nicht gefunden, Befehl konnte nicht ausgeführt
+    werden.'
+  UnknownType: '&cUnbekannter Typ: &6%type%&c! Bekannte Typen: &6%types%.'
+  MakeSelection: '&cMarkiere zuerst eine Region!'
+  NotCuboid: '&cMarkierung ist kein Rechteck!'
+  PleaseWait: '&7Dies kann etwas dauern... Bitte warte!'
+  BlocksChanged: '&7Erfolgreich &9%number% Blöcke &7geändert!'
+Version: '&7Derzeitige Version des Plugins: &9%version%&7!'
+DevelopmentTeam: '&7Development team: &9%development-team%'
+Site: '&7Seite: &9%link%'
+Author: '&9%nickname% &7[&cAutor&7]'

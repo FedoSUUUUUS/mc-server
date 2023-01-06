@@ -920,7 +920,7 @@ protect:
       mushroom_cow: false
       snowman: false
       ocelot: false
-      iron_golem: false
+      iron_golem: true
       villager: false
       wither: false
       bat: false
