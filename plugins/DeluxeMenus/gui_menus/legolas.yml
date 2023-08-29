@@ -1,0 +1,154 @@
+#  A DeluxeMenus basic configuration guide for beginners
+#=========================================================
+#
+# This note will help you understand the basic functions and configuring of DeluxeMenus: commands, requirements, items and others, and from then on you can start to work with more advanced stuff. You can delete this note or any note below at any time. But if you are still here anyway, then let's move down below
+#
+
+# Open Command
+#
+# This setting is the command that will be used to open this menu. Supports normal String or a String List
+# NOTE: Use "open_command: []" to create a menu with no commands needed
+#
+# open_command: <command>
+open_command:
+#   - <command2>
+
+
+size: 54
+
+
+menu_title: '&6Донат → &8Леголас'
+
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.admin
+      deny_commands:
+        - '[message] &cYou don''t have permission to do that!'
+
+
+items:
+  '0':
+    material: diamond_helmet
+    slot: 0
+  '1':
+    material: diamond_chestplate
+    slot: 1
+  '2':
+    material: diamond_leggings
+    slot: 2
+  '3':
+    material: diamond_boots
+    slot: 3
+  '4':
+    material: diamond_sword
+    slot: 4
+  '5':
+    material: bow
+    slot: 5
+  '6':
+    material: crossbow
+    slot: 6
+  '7':
+    material: cooked_beef
+    slot: 7
+    amount: 64
+  '8':
+    material: cooked_beef
+    amount: 64
+    slot: 8
+  '9':
+    material: enchanted_golden_apple
+    amount: 3
+    slot: 9
+  '10':
+    material: spyglass
+    slot: 10
+  '11':
+    material: spectral_arrow
+    amount: 64
+    slot: 11
+  '12':
+    material: tipped_arrow
+    hide_effects: true
+    potion_effects:
+    - "ABSORPTION;1;1"
+    amount: 64
+    nbt_int: CustomPotionColor:00000000
+    slot: 12
+    display_name: '&fСтрела вреда'
+    lore:
+    - "&cМоментальный урон II"
+  '13':
+    material: tipped_arrow
+    hide_effects: true
+    amount: 64
+    nbt_int: CustomPotionColor:16713477
+    potion_effects:
+    - POISON; 4; 1
+    display_name: '&fСтрела отравления'
+    lore:
+    - "&cОтравление II (0:02)"
+    slot: 13
+  '14':
+    material: enchanted_book
+    enchantments:
+    - 'PROTECTION_PROJECTILE;4'
+    slot: 14
+  '15':
+    material: enchanted_book
+    enchantments:
+    - 'PIERCING;4'
+    slot: 15
+  '16':
+    material: enchanted_book
+    enchantments:
+    - 'PROTECTION_FALL;4'
+    slot: 16
+  '17':
+    material: enchanted_book
+    enchantments:
+    - 'ARROW_INFINITE;1'
+    slot: 17
+  '18':
+    material: enchanted_book
+    enchantments:
+    - 'MULTISHOT;1'
+    slot: 18
+  '19':
+    material: potion
+    potion_effects:
+    - INVISIBILITY;9600;1
+    rgb: 0, 255, 0
+    slot: 19
+  '20':
+    material: potion
+    potion_effects:
+    - INVISIBILITY;9600;1
+    rgb: 0, 255, 0
+    slot: 20
+  '21':
+    material: potion
+    potion_effects:
+    - SLOW_FALLING;4800;0
+    rgb: 0, 255, 0
+    slot: 21
+  '22':
+    material: potion
+    potion_effects:
+    - LUCK;6000;0
+    rgb: 0, 255, 0
+    slot: 22
+
+  'back':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg2NjA2OTFkMWNhMDI5ZjEyMGEzZmYwZWFiYWI5M2EyMzA2YjM3YTdkNjExMTlmY2QxNDFmZjJmNmZjZDc5OCJ9fX0=
+    data: 1
+    slot: 53
+    display_name: "&fНазад"
+    lore:
+    left_click_commands:
+      - '[openguimenu] donate'
+
+
+sweet: true

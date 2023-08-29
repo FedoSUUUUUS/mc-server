@@ -15,17 +15,49 @@ settings:
   min-players: 0
   log-to-console: false
 message-lists:
-  link:
+  Donate:
     enabled: true
-    interval: 1000
+    interval: 1111
     expiry: -1
     random: true
     messages:
-    - '&bМы в VK https://vk.com/minecraftstoneage'
+    - '&eПоддержи сервер донатом /menu -> ДОНАТ'
+  link:
+    enabled: true
+    interval: 3910
+    expiry: -1
+    random: true
+    messages:
+    - '&bВступай в нашу группу VK и получи донат https://vk.com/minecraftstoneage'
   rules:
     enabled: true
-    interval: 2000
+    interval: 5000
     expiry: -1
     random: true
     messages:
     - '&4читы, флуд, дюп, оскорбления и мат = БАН'
+  Discord:
+    enabled: true
+    interval: 3600
+    expiry: -1
+    random: true
+    messages:
+    - '&bНе потеряй адрес сервера, заходи в Discord https://discord.gg/j7sHnUYFVG'
+  pvp:
+    enabled: false
+    interval: 35500
+    expiry: -1
+    random: true
+    messages:
+    - '&bТурнир на лучшую пвп-команду начинается в 18:00 по МСК в субботу, собирай
+      команду из 4 человек, освобождайте вещи и ждите указания админа. Приз-донатный
+      набор(за 300) на выбор или &6креатив на 1 день!!!&bA также ваши ники на спавне
+      в указании "Лучшая пвп-команда"'
+  versus:
+    enabled: false
+    interval: 1833
+    expiry: -1
+    random: true
+    messages:
+    - '&9Строй-батл начался, строим Средневековую таверну! &6/menu -> Строй-батл Победитель
+      получает 1000 Рублей и любой донат за 400р, 2 - место 200р и донат за 600р!'

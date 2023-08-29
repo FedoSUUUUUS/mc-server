@@ -1,0 +1,74 @@
+name: §fРыцарский_шлем
+lore: []
+material: PLAYER_HEAD
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+recognitions: []
+headValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGVjNjIxM2Y1ZGM4NmNkYjM2OWQ5NTEyN2Q3MmIwMGIwMzNlMGY5YWI1OTcwYTQ3NmRhZDdiZGRjOWZlOGYifX19
+config_5: true
+config_update: false
+durability: 100
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: true
+  hideDye: false
+enchantments:
+  enchantment0:
+    enchantment: vanishing_curse
+    level: 1
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant-anvil: true
+  cancel-enchant: true
+  cancel-hopper: true
+  cancel-deposit-in-furnace: true
+  cancel-brewing: true
+  cancel-rename-anvil: true
+  cancel-stone-cutter: true
+  cancel-dropper: true
+  cancel-dispenser: true
+  cancel-cartography: true
+  cancel-beacon: true
+  cancel-lectern: true
+  cancel-grind-stone: true
+  cancel-loom: true
+  cancel-smithing-table: true
+  cancel-item-craft-no-custom: true
+  cancel-anvil: true
+  cancel-consumption: true
+  cancel-item-craft: true
+  cancel-composter: true
+variables: {}
+activators: {}
+attributes:
+  attribute1:
+    attribute: GENERIC_MAX_HEALTH
+    operation: ADD_NUMBER
+    amount: 3.0
+    slot: HEAD
+    uuid: c92da9b9-296c-403d-a4bd-f808a916259c
+  attribute0:
+    attribute: GENERIC_ARMOR
+    operation: ADD_NUMBER
+    amount: 6.0
+    slot: HEAD
+    uuid: 87378870-b0b3-4df4-94bf-20054c66a82c

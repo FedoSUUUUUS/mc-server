@@ -1,0 +1,379 @@
+# ==============================================================
+#                        HARD QUESTS FILE
+# ==============================================================
+# Quests must be numbered and increment from 1 to 1.
+# Please be attentive to the indentation and respect the scheme.
+# This could cause several bugs.
+# ==============================================================
+# AVAILABLE QUESTS TYPES :
+# https://ordwenplugins.gitbook.io/odailyquests/quests/quests-types
+# ==============================================================
+# AVAILABLE REWARDS TYPES :
+# https://ordwenplugins.gitbook.io/odailyquests/quests/rewards-types
+# ==============================================================
+# AVAILABLE PLUGIN PLACEHOLDERS FOR QUESTS DESCRIPTIONS :
+# %progress% is replaced by the progression of the quest.
+# %required% is replaced by the required amount to complete the quest.
+# ==============================================================
+# More tips available on Wiki :
+# https://ordwenplugins.gitbook.io/odailyquests/
+# Need help ? https://discord.gg/Q8sw5KFvqg
+# For more affected objects or types, please make suggestion.
+# ==============================================================
+quests:
+  1:
+    name: "&4Комбайн"
+    menu_item: NETHERITE_HOE
+    description:
+      - "&6Собери урожай из 1000 пшеницы"
+      - "&bПолучишь +15 уровней опыта и 3 обломка незера"
+    quest_type: FARMING
+    required_item: WHEAT
+    required_amount: 1000
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &4[Комбайн] &f!"
+        - "exp give %player% 15l"
+        - "effect give %player% minecraft:mining_fatigue 1800"
+        - "effect give %player% raw_copper 3"
+  2:
+    name: "&8Phantom Assassin"
+    menu_item: IRON_SWORD
+    description:
+      - "&cУбей 50 Фантомов"
+      - "&aПолучишь +15 уровней и эффект ночного зрения на 30 минут"
+      - "&aПолучишь 15 золота и 50 меди"
+    quest_type: KILL
+    required_entity: PHANTOM
+    required_amount: 50
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &8[Phantom Assassin] &f!"
+        - "exp give %player% 8l"
+        - "effect give %player% minecraft:night_vision 1800"
+        - "effect give %player% raw_gold 15"
+        - "effect give %player% raw_copper 50"
+  3:
+    name: "&1МЕГАЛОДОН"
+    menu_item: PUFFERFISH
+    description:
+      - "&cУбей Морского стража"
+      - "&aПолучишь +10 уровней опыта"
+      - "&aПолучишь 10 золота и 30 меди"
+    quest_type: KILL
+    required_entity: ELDER_GUARDIAN
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &1[МЕГАЛОДОН] &f!"
+        - "exp give %player% 10l"
+        - "give %player% raw_gold 10"
+        - "give %player% raw_copper 30"
+  4:
+    name: "&4У грибов есть глаза"
+    menu_item: CRIMSON_FUNGUS
+    description:
+      - "&cУбей 15 муухоморов"
+      - "&aПолучишь +8 уровней и эффект ночного зрения на 30 минут"
+    quest_type: KILL
+    required_entity: MUSHROOM_COW
+    required_amount: 15
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &4[У грибов есть глаза] &f!"
+        - "exp give %player% 8l"
+        - "effect give %player% minecraft:night_vision 1800"
+  5:
+    name: "&4200 тысяч тонн тротила"
+    menu_item: TNT
+    description:
+      - "&6Создай 200 динамита"
+      - "&aПолучишь +20 уровней и эффект поглощения на 30 минут"
+      - "&aПолучишь зачарованное яблоко"
+    quest_type: CRAFT
+    required_item: TNT
+    required_amount: 200
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &4[200 тысяч тонн тротила] &f!"
+        - "exp give %player% 20l"
+        - "effect give %player% minecraft:absorption 1800"
+        - "give %player% enchanted_golden_apple 1"
+  6:
+    name: "&9Снасти Здрасьте"
+    menu_item: FISHING_ROD
+    description:
+      - "&6Порыбачь 50 раз"
+      - "&aПолучишь +20 уровней"
+      - "&aПолучишь эффект везения 2 и спешки на 30 мин"
+    quest_type: FISH
+    required_amount: 50
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &9[Снасти Здрасьте] &f!"
+        - "exp give %player% 20l"
+        - "effect give %player% minecraft:luck 1800 1"
+        - "effect give %player% minecraft:haste 1800"
+  7:
+    name: "&4Эта работа для Ведьмака"
+    menu_item: DIAMOND_SWORD
+    description:
+      - "&cУбей 50 утопцев"
+      - "&aПолучишь +10 уровней и эффект героя деревни на 15 минут"
+      - "&aПолучишь 3 алмаза и 8 изумрудов"
+    quest_type: KILL
+    required_entity: DROWNED
+    required_amount: 50
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &4[Эта работа для Ведьмака] &f!"
+        - "exp give %player% 8l"
+        - "effect give %player% minecraft:hero_of_the_village 900"
+        - "give %player% diamond 3"
+        - "give %player% emerald 8"
+  8:
+    name: "&5Испытание травами"
+    menu_item: POTION
+    description:
+      - "&6Выпей 10 зелий вреда 2 уровня"
+      - "&aПолучишь +15 уровней"
+      - "&aПолучишь эффект силы 3, скорости 3,сопротивления на 20 минут"
+    quest_type: CONSUME
+    required_item: POTION
+    potion: 
+      type: INSTANT_DAMAGE
+      upgraded: true
+      extended: false
+    required_amount: 10
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &5[Испытание травами] &f!"
+        - "exp give %player% 15l"
+        - "effect give %player% minecraft:speed 1200 2"
+        - "effect give %player% minecraft:resistance 1200"
+        - "effect give %player% minecraft:strength 1200 2"
+  9:
+    name: "&dЕдинорожек и Плотвичка"
+    menu_item: HAY_BLOCK
+    description:
+      - "&6Вырасти 2 лошади"
+      - "&aПолучишь +15 уровней"
+      - "&aПолучишь 2 алмаза и 10 изумрудов"
+    quest_type: BREED
+    required_entity: HORSE
+    required_amount: 2
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &d[Единорожек и Плотвичка] &f!"
+        - "exp give %player% 15l"
+        - "give %player% diamond 2"
+        - "give %player% emerald 10"
+  10:
+    name: "&9Anti-Mage"
+    menu_item: TOTEM_OF_UNDYING
+    description:
+      - "&cУбей 1 заклинателя"
+      - "&aПолучишь +15 уровней и эффект силы 4 на 5 мин"
+      - "&aПолучишь 3 алмаза и 8 изумрудов"
+    quest_type: KILL
+    required_entity: EVOKER
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &9[Anti-Mage] &f!"
+        - "exp give %player% 15l"
+        - "give %player% diamond 3"
+        - "give %player% emerald 8"
+        - "effect give %player% minecraft:strength 300 3"
+  11:
+    name: "&5Холера"
+    menu_item: LILY_PAD
+    description:
+      - "&cУбей 10 ведьм"
+      - "&aПолучишь +15 уровней и эффект поглощения 10 на 10 мин"
+      - "&aПолучишь 3 алмаза и 30 меди"
+    quest_type: KILL
+    required_entity: WITCH
+    required_amount: 10
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &5[Холера] &f!"
+        - "exp give %player% 15l"
+        - "give %player% diamond 3"
+        - "give %player% raw_copper 30"
+        - "effect give %player% minecraft:absorption 600 9"
+  12:
+    name: "&4Dismember"
+    menu_item: ROTTEN_FLESH
+    description:
+      - "&6Съешь 120 гнилой плоти"
+      - "&eПолучишь прилив здоровья 5 и регенерацию 2 на 20 минут"
+      - "&eПолучишь 20 кожи"
+    quest_type: CONSUME
+    required_item: ROTTEN_FLESH
+    required_amount: 120
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &4[Dismember] &f!"
+        - "effect give %player% minecraft:health_boost 1200 4"
+        - "effect give %player% minecraft:regeneration 1200 1"
+        - "give %player% leather 20"
+  13:
+    name: "&8Крысолов"
+    menu_item: CROSSBOW
+    description:
+      - "&cУбей 5 чешуйниц"
+      - "&aПолучишь +10 уровней"
+      - "&aПолучишь 3 алмаза и 12 золота и незеритовый слиток"
+    quest_type: KILL
+    required_entity: SILVERFISH
+    required_amount: 5
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &8[Крысолов] &f!"
+        - "exp give %player% 10l"
+        - "give %player% diamond 3"
+        - "give %player% raw_gold 12"
+        - "give %player% netherite_ingot 1"
+  14:
+    name: "&0Как дела в офисе?"
+    menu_item: COAL_ORE
+    description:
+      - "&6Сломай 200 угольной руды"
+      - "&aПолучишь +15 уровней опыта и 4 алмаза"
+      - "&aПолучишь +8 уровней и эффект ночного зрения на 30 минут"
+    quest_type: BREAK
+    required_item: COAL_ORE
+    required_amount: 200
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &0[Как дела в офисе?] &f!"
+        - "exp give %player% 15l"
+        - "give %player% diamond 4"
+        - "effect give %player% minecraft:night_vision 1800"
+  15:
+    name: "&6Золотая лихорадка"
+    menu_item: GOLD_ORE
+    description:
+      - "&6Сломай 32 золотой руды"
+      - "&bПолучишь +20 уровней опыта"
+    quest_type: BREAK
+    required_item: GOLD_ORE
+    required_amount: 32
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &6[Золотая лихорадка] &f!"
+        - "exp give %player% 20l"
+  16:
+    name: "&1Колдун е***ий"
+    menu_item: ENCHANTING_TABLE
+    description:
+      - "&6Зачарься на столе 15 раз"
+      - "&bПолучишь 4 алмаза и 40 меди"
+    quest_type: ENCHANT
+    required_amount: 15
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &1[Колдун е***ий] &f!"
+        - "give %player% diamond 4"
+        - "give %player% raw_copper 40"
+  17:
+    name: "&2Редкий минерал"
+    menu_item: EMERALD_ORE
+    description:
+      - "&6Сломай 3 изумрудной руды"
+      - "&aПолучишь +15 уровней опыта и 4 алмаза"
+      - "&aПолучишь эффект героя деревни на 15 минут"
+    quest_type: BREAK
+    required_item: EMERALD_ORE
+    required_amount: 200
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &2[Редкий минерал] &f!"
+        - "exp give %player% 15l"
+        - "give %player% diamond 4"
+        - "effect give %player% minecraft:hero_of_the_village 900"
+  18:
+    name: "&4Мясник из Блавикена"
+    menu_item: IRON_SWORD
+    description:
+      - "&cУбей 40 разбойников"
+      - "&aПолучишь +15 уровней"
+      - "&aПолучишь 20 золота и 60 меди"
+    quest_type: KILL
+    required_entity: PILLAGER
+    required_amount: 40
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &4[Мясник из Блавикена] &f!"
+        - "exp give %player% 15l"
+        - "give %player% raw_gold 20"
+        - "give %player% raw_copper 60"
+  19:
+    name: "&4И кто теперь тут дровосек?"
+    menu_item: IRON_AXE
+    description:
+      - "&cУбей 15 поборников"
+      - "&aПолучишь +15 уровней"
+      - "&aПолучишь 15 железа и 60 меди"
+    quest_type: KILL
+    required_entity: VINDICATOR
+    required_amount: 15
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &4[И кто теперь тут дровосек?] &f!"
+        - "exp give %player% 15l"
+        - "give %player% raw_iron 15"
+        - "give %player% raw_copper 60"
+  20:
+    name: "&0Хранитель тишины"
+    menu_item: 'customhead:3959ae02e35cbc4743e6e702fda6980bad2e98049403c16996286eb412f94689'
+    description:
+      - "&cУбей 1 Хранителя"
+      - "&aПолучишь +20 уровней"
+      - "&aПолучишь зачарованное яблоко"
+    quest_type: KILL
+    required_entity: WARDEN
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &0[Хранитель тишины] &f!"
+        - "exp give %player% 20l"
+        - "give %player% enchanted_golden_apple 1"
+  21:
+    name: "&eД&8е&eз&8и&eн&8ф&eе&8к&eт&8о&eр"
+    menu_item: BEE_NEST
+    description:
+      - "&cУбей 20 пчёл"
+      - "&aПолучишь +15 уровней"
+      - "&aПолучишь 3 алмаза и 55 меди"
+    quest_type: KILL
+    required_entity: BEE
+    required_amount: 20
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &8[Крысолов] &f!"
+        - "exp give %player% 15l"
+        - "give %player% diamond 3"
+        - "give %player% raw_copper 55"

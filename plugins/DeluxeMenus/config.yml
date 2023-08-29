@@ -1,0 +1,36 @@
+# DeluxeMenus 1.13.7-Release main configuration file
+#
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/clips-plugins/deluxemenus
+
+debug: HIGHEST
+check_updates: true
+gui_menus:
+  advanced_menu:
+    file: advanced_menu.yml
+  donate:
+    file: donate.yml
+  battle:
+    file: battle.yml
+  survival:
+    file: survival.yml
+  warrior:
+    file: warrior.yml
+  knight:
+    file: knight.yml
+  seeker:
+    file: seeker.yml
+  wizard:
+    file: wizard.yml
+  dealer:
+    file: dealer.yml
+  legolas:
+    file: legolas.yml
+  witcher:
+    file: witcher.yml
+  zeus:
+    file: zeus.yml
+  noobs:
+    file: noobs.yml
+  danji:
+    file: danji.yml

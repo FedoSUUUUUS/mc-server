@@ -1,0 +1,691 @@
+# ==============================================================
+#                        MEDIUM QUESTS FILE
+# ==============================================================
+# Quests must be numbered and increment from 1 to 1.
+# Please be attentive to the indentation and respect the scheme.
+# This could cause several bugs.
+# ==============================================================
+# AVAILABLE QUESTS TYPES :
+# https://ordwenplugins.gitbook.io/odailyquests/quests/quests-types
+# ==============================================================
+# AVAILABLE REWARDS TYPES :
+# https://ordwenplugins.gitbook.io/odailyquests/quests/rewards-types
+# ==============================================================
+# AVAILABLE PLUGIN PLACEHOLDERS FOR QUESTS DESCRIPTIONS :
+# %progress% is replaced by the progression of the quest.
+# %required% is replaced by the required amount to complete the quest.
+# ==============================================================
+# More tips available on Wiki :
+# https://ordwenplugins.gitbook.io/odailyquests/
+# Need help ? https://discord.gg/Q8sw5KFvqg
+# For more affected objects or types, please make suggestion.
+# ==============================================================
+quests:
+  1:
+    name: "&7Сыграем в кости?"
+    menu_item: SKELETON_SKULL
+    description:
+      - "&cУбей &650 &cскелетов"
+      - "&aПолучишь 1000 единиц опыта!"
+    quest_type: KILL
+    required_entity: ZOMBIE
+    required_amount: 50
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &7[Сыграем в кости?] &f!"
+        - "exp give %player% 1000"
+  2:
+    name: "&cХодячие мертвецы"
+    menu_item: ZOMBIE_HEAD
+    description:
+      - "&cУбей &650 &cзомби"
+      - "&aПолучишь 1000 единиц опыта!"
+    quest_type: KILL
+    required_entity: ZOMBIE
+    required_amount: 50
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &c[Ходячие мертвецы] &f!"
+        - "exp give %player% 1000"
+  3:
+    name: "&2Изумрудикиии хехе..."
+    menu_item: EMERALD
+    description:
+      - "&6Получи от жителя 10 изумрудов"
+      - "&aПолучишь дополнительно 5 изумрудов"
+    quest_type: VILLAGER_TRADE
+    required_item: EMERALD
+    required_amount: 10
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &2[Изумрудикиии хехе...] &f!"
+        - "give %player% emerald 5"
+  4:
+    name: "&eТУФта какая-то"
+    menu_item: TUFF
+    description:
+      - "&bСломай 200 туфа"
+      - "&bПолучишь +5 уровней опыта и 1 алмаз"
+    quest_type: BREAK
+    required_item: TUFF
+    required_amount: 200
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &e[ТУФта какая-то] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  5:
+    name: "&dСтолярная работа"
+    menu_item: CRAFTING_TABLE
+    description:
+      - "&6Сделай 8 сундуков"
+      - "&bПолучишь +5 уровней и 1 алмаз"
+    quest_type: CRAFT
+    required_item: CHEST
+    required_amount: 8
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &d[Столярная работа] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  6:
+    name: "&dСтолярная работа"
+    menu_item: CRAFTING_TABLE
+    description:
+      - "&6Сделай 8 бочек"
+      - "&bПолучишь +5 уровней и 1 алмаз"
+    quest_type: CRAFT
+    required_item: BARREL
+    required_amount: 8
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &d[Столярная работа] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  7:
+    name: "&dСтолярная работа"
+    menu_item: CRAFTING_TABLE
+    description:
+      - "&6Сделай 8 компостниц"
+      - "&bПолучишь +5 уровней и 1 алмаз"
+    quest_type: CRAFT
+    required_item: COMPOSTER
+    required_amount: 8
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &d[Столярная работа] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  8:
+    name: "&dСтолярная работа"
+    menu_item: CRAFTING_TABLE
+    description:
+      - "&6Сделай 4 книжных полки"
+      - "&bПолучишь +5 уровней и 1 алмаз"
+    quest_type: CRAFT
+    required_item: BOOKSHELF
+    required_amount: 4
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &d[Столярная работа] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  9:
+    name: "&dСтолярная работа"
+    menu_item: CRAFTING_TABLE
+    description:
+      - "&6Сделай 4 ткацких станка"
+      - "&bПолучишь +5 уровней и 1 алмаз"
+    quest_type: CRAFT
+    required_item: LOOM
+    required_amount: 4
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &d[Столярная работа] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  10:
+    name: "&dСтолярная работа"
+    menu_item: CRAFTING_TABLE
+    description:
+      - "&6Сделай 4 cтола для стрел"
+      - "&bПолучишь +5 уровней и 1 алмаз"
+    quest_type: CRAFT
+    required_item: FLETCHING_TABLE
+    required_amount: 4
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &d[Столярная работа] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  11:
+    name: "&dСтолярная работа"
+    menu_item: CRAFTING_TABLE
+    description:
+      - "&6Сделай 4 cтола картографа"
+      - "&bПолучишь +5 уровней и 1 алмаз"
+    quest_type: CRAFT
+    required_item: CARTOGRAPHY_TABLE
+    required_amount: 4
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &d[Столярная работа] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  12:
+    name: "&dСтолярная работа"
+    menu_item: CRAFTING_TABLE
+    description:
+      - "&6Сделай 4 cтойки для брони"
+      - "&bПолучишь +5 уровней и 1 алмаз"
+    quest_type: CRAFT
+    required_item: ARMOR_STAND
+    required_amount: 4
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &d[Столярная работа] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  13:
+    name: "&dСтолярная работа"
+    menu_item: CRAFTING_TABLE
+    description:
+      - "&6Сделай 3 кафедры"
+      - "&bПолучишь +5 уровней и 1 алмаз"
+    quest_type: CRAFT
+    required_item: LECTERN
+    required_amount: 3
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &d[Столярная работа] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  14:
+    name: "&7Металлопрокат"
+    menu_item: IRON_INGOT
+    description:
+      - "&6Сделай 16 рельс"
+      - "&bПолучишь +5 уровней и 1 алмаз"
+    quest_type: CRAFT
+    required_item: RAIL
+    required_amount: 16
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &7[Металлопрокат] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  15:
+    name: "&7Металлопрокат"
+    menu_item: IRON_INGOT
+    description:
+      - "&6Сделай 16 железных прутьев"
+      - "&bПолучишь +5 уровней и 1 алмаз"
+    quest_type: CRAFT
+    required_item: IRON_BARS
+    required_amount: 16
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &7[Металлопрокат] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  16:
+    name: "&7Металлопрокат"
+    menu_item: IRON_INGOT
+    description:
+      - "&6Сделай 5 цепей"
+      - "&bПолучишь +5 уровней и 1 алмаз"
+    quest_type: CRAFT
+    required_item: CHAIN
+    required_amount: 5
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &7[Металлопрокат] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  17:
+    name: "&9Класс-инженер"
+    menu_item: REDSTONE
+    description:
+      - "&6Сделай 8 выбрасывателей"
+      - "&bПолучишь +5 уровней и 1 алмаз"
+    quest_type: CRAFT
+    required_item: DROPPER
+    required_amount: 8
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &9[Класс-инженер] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  18:
+    name: "&9Класс-инженер"
+    menu_item: REDSTONE
+    description:
+      - "&6Сделай 4 раздатчика"
+      - "&bПолучишь +5 уровней и 1 алмаз"
+    quest_type: CRAFT
+    required_item: DISPENSER
+    required_amount: 4
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &9[Класс-инженер] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  19:
+    name: "&9Класс-инженер"
+    menu_item: REDSTONE
+    description:
+      - "&6Сделай 4 редстоун фонаря"
+      - "&bПолучишь +5 уровней и 1 алмаз"
+    quest_type: CRAFT
+    required_item: REDSTONE_LAMP
+    required_amount: 4
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &9[Класс-инженер] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  20:
+    name: "&9Класс-инженер"
+    menu_item: REDSTONE
+    description:
+      - "&6Сделай 4 датчика света"
+      - "&bПолучишь +5 уровней и 1 алмаз"
+    quest_type: CRAFT
+    required_item: DAYLIGHT_DETECTOR
+    required_amount: 4
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &9[Класс-инженер] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  21:
+    name: "&9Класс-инженер"
+    menu_item: REDSTONE
+    description:
+      - "&6Сделай 4 редстоун повторителя"
+      - "&bПолучишь +5 уровней и 1 алмаз"
+    quest_type: CRAFT
+    required_item: REPEATER
+    required_amount: 4
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &9[Класс-инженер] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  22:
+    name: "&9Класс-инженер"
+    menu_item: REDSTONE
+    description:
+      - "&6Сделай 3 редстоун компаратора"
+      - "&bПолучишь +5 уровней и 1 алмаз"
+    quest_type: CRAFT
+    required_item: COMPARATOR
+    required_amount: 3
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &9[Класс-инженер] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  23:
+    name: "&9Класс-инженер"
+    menu_item: REDSTONE
+    description:
+      - "&6Сделай 2 наблюдателя"
+      - "&bПолучишь +5 уровней и 1 алмаз"
+    quest_type: CRAFT
+    required_item: OBSERVER
+    required_amount: 3
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &9[Класс-инженер] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  24:
+    name: "&9Класс-инженер"
+    menu_item: REDSTONE
+    description:
+      - "&6Сделай 2 поршня"
+      - "&bПолучишь +5 уровней и 1 алмаз"
+    quest_type: CRAFT
+    required_item: PISTON
+    required_amount: 2
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &9[Класс-инженер] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  25:
+    name: "&9Класс-инженер"
+    menu_item: REDSTONE
+    description:
+      - "&6Сделай 2 липких поршня"
+      - "&bПолучишь +5 уровней и 1 алмаз"
+    quest_type: CRAFT
+    required_item: STICKY_PISTON
+    required_amount: 2
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &9[Класс-инженер] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  26:
+    name: "&cKFC so good"
+    menu_item: COOKED_CHICKEN
+    description:
+      - "&6Съешь 32 жаренных курицы"
+      - "&eПолучишь эффект огнестойкости на 30 минут"
+      - "&eПолучишь 32 кости"
+    quest_type: CONSUME
+    required_item: COOKED_CHICKEN
+    required_amount: 32
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &с[KFC so good] &f!"
+        - "effect give %player% minecraft:fire_resistance 1800"
+  27:
+    name: "&e-У вас есть рыбов? -Есть. -Красивое"
+    menu_item: LEAD
+    description:
+      - "&6Приручите котика"
+      - "&aПолучишь эффект ускорения на 15 минут"
+      - "&aПолучишь эффект регенерации на 10 минут"
+    quest_type: TAME
+    required_entity: CAT
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &y[-У вас есть рыбов? -Есть. -Красивое] &f!"
+        - "effect give %player% minecraft:speed 900"
+        - "effect give %player% minecraft:regeneration 600"
+  28:
+    name: "&3Скорняк"
+    menu_item: LEATHER
+    description:
+      - "&6Сделай 5 кожи"
+      - "&bПолучишь +5 уровней и 1 алмаз"
+    quest_type: CRAFT
+    required_item: LEATHER
+    required_amount: 5
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &3[Скорняк] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  29:
+    name: "&5Туда-сюда"
+    menu_item: ENDER_PEARL
+    description:
+      - "&6Кинь эндерпёрл 64 раз"
+      - "&bПолучишь 1000 опыта"
+      - "&bПолучишь эффект прыгучести 14 на 15 минут"
+    quest_type: LAUNCH
+    required_item: ENDER_PEARL
+    required_amount: 64
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &5[Туда-сюда] &f!"
+        - "exp give %player% 1000"
+        - "effect give %player% minecraft:jump_boost 900 13"
+  30:
+    name: "&71811 Кельвин"
+    menu_item: RAW_IRON
+    description:
+      - "&6Переплавь 15 железа"
+      - "&bПолучишь +5 уровней опыта и 1 алмаз"
+    quest_type: COOK
+    required_item: IRON_INGOT
+    required_amount: 15
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &7[1811 Кельвин] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  31:
+    name: "&61064 градусов Цельсия"
+    menu_item: RAW_GOLD
+    description:
+      - "&6Переплавь 15 золота"
+      - "&bПолучишь +5 уровней опыта и 1 алмаз"
+    quest_type: COOK
+    required_item: GOLD_INGOT
+    required_amount: 15
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &6[1064 градусов Цельсия] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  32:
+    name: "&c1985 градусов Фаренгейта"
+    menu_item: RAW_COPPER
+    description:
+      - "&6Переплавь 30 меди"
+      - "&bПолучишь +5 уровней опыта и 1 алмаз"
+    quest_type: COOK
+    required_item: COPPER_INGOT
+    required_amount: 30
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &c[1985 градусов Фаренгейта] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  33:
+    name: "&fПрыг-скок"
+    menu_item: RABBIT_FOOT
+    description:
+      - "&cУбей &610 &cкроликов"
+      - "&aПолучишь 1000 единиц опыта!"
+    quest_type: KILL
+    required_entity: RABBIT
+    required_amount: 10
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &f[Прыг-скок] &f!"
+        - "exp give %player% 1000"
+  34:
+    name: "&cОхота на лису"
+    menu_item: CROSSBOW
+    description:
+      - "&cУбей &63 &cлисицы"
+      - "&aПолучишь 1000 единиц опыта!"
+    quest_type: KILL
+    required_entity: FOX
+    required_amount: 3
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &f[Охота на лису] &f!"
+        - "exp give %player% 1000"
+  35:
+    name: "&7Каменщик"
+    menu_item: STONECUTTER
+    description:
+      - "&6Получи из булыжника 172 камня"
+      - "&bПолучишь +5 уровней опыта и 1 алмаз"
+    quest_type: COOK
+    required_item: STONE
+    required_amount: 172
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &7[Каменщик] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  36:
+    name: "&7Каменщик"
+    menu_item: STONECUTTER
+    description:
+      - "&6Получи из камня 172 гл.камня"
+      - "&bПолучишь +5 уровней опыта и 1 алмаз"
+    quest_type: COOK
+    required_item: SMOOTH_STONE
+    required_amount: 172
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &7[Каменщик] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  37:
+    name: "&7Каменщик"
+    menu_item: STONECUTTER
+    description:
+      - "&6Получи из кам.кирпичей 172 потр.кирпичей"
+      - "&bПолучишь +5 уровней опыта и 1 алмаз"
+    quest_type: COOK
+    required_item: CRACKED_STONE_BRICKS
+    required_amount: 172
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &7[Каменщик] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  38:
+    name: "&7Каменщик"
+    menu_item: STONECUTTER
+    description:
+      - "&6Получи из глины 172 кирпича"
+      - "&bПолучишь +5 уровней опыта и 1 алмаз"
+    quest_type: COOK
+    required_item: BRICK
+    required_amount: 172
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &7[Каменщик] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  39:
+    name: "&8Каменщик"
+    menu_item: STONECUTTER
+    description:
+      - "&6Получи из незерака 172 кирпича"
+      - "&bПолучишь +5 уровней опыта и 1 алмаз"
+    quest_type: COOK
+    required_item: NETHER_BRICK
+    required_amount: 172
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &8[Каменщик] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  40:
+    name: "&9Это алмаз?"
+    menu_item: AMETHYST_CLUSTER
+    description:
+      - "&6Сломай 10 аметистовых дуз"
+      - "&bПолучишь +8 уровней опыта"
+      - "&bПолучишь 8 светопыли"
+    quest_type: BREAK
+    required_item: AMETHYST_CLUSTER
+    required_amount: 10
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &9[Это алмаз?] &f!"
+        - "exp give %player% 8l"
+        - "give %player% glowstone_dust 8"
+  41:
+    name: "&9Камень знаний"
+    menu_item: LAPIS_ORE
+    description:
+      - "&6Сломай 20 лазуритовой руды"
+      - "&bПолучишь 1000 опыта"
+    quest_type: BREAK
+    required_item: LAPIS_ORE
+    required_amount: 20
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &9[Камень знаний] &f!"
+        - "exp give %player% 1000"
+  42:
+    name: "&bМерзляки"
+    menu_item: SKELETON_SKULL
+    description:
+      - "&cУбей &640 &cзимогоров"
+      - "&aПолучишь 1000 единиц опыта!"
+    quest_type: KILL
+    required_entity: STRAY
+    required_amount: 40
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &b[Мерзляки] &f!"
+        - "exp give %player% 1000"
+  43:
+    name: "&2Сапёр"
+    menu_item: CREEPER_HEAD
+    description:
+      - "&cУбей &620 &cкриперов"
+      - "&aПолучишь 1000 единиц опыта!"
+    quest_type: KILL
+    required_entity: CREEPER
+    required_amount: 20
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &2[Сапёр] &f!"
+        - "exp give %player% 1000"
+  44:
+    name: "&0Не смотри на него"
+    menu_item: ENDER_EYE
+    description:
+      - "&cУбей &65 &cэндерменов"
+      - "&aПолучишь 1000 единиц опыта!"
+    quest_type: KILL
+    required_entity: ENDERMAN
+    required_amount: 5
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &0[Не смотри на него] &f!"
+        - "exp give %player% 1000"
+  45:
+    name: "&bМуха-Повторюха:>"
+    menu_item: ELYTRA
+    description:
+      - "&6Приручи попугая"
+      - "&aПолучишь флай"
+    quest_type: TAME
+    required_entity: PARROT
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &b[Муха-Повторюха:>] !"
+        - "fly %player%"

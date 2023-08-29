@@ -15,10 +15,24 @@
 # Any file in the `kits` subdirectory must be formatted in the same way as this file. This allows you to define multiple kits in each file.
 # For more information, visit http://wiki.ess3.net/wiki/Kits
 kits:
+  Sword:
+    delay: 560000
+    items:
+      - minecraft:stone_sword
+  Сloth:
+    delay: 3000000
+    items:
+      - minecraft:leather_helmet
+      - minecraft:leather_chestplate
+      - minecraft:leather_leggings
+      - minecraft:leather_boots
+  Food:
+    delay: 560000
+    items:
+      - baked_potato 20
   Survival:
     delay: 100
     items:
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":luck_of_the_sea,"lvl":3}]}
       - minecraft:chainmail_helmet
       - minecraft:chainmail_chestplate
       - minecraft:chainmail_leggings
@@ -30,9 +44,9 @@ kits:
       - minecraft:iron_pickaxe
       - minecraft:bread 64
       - minecraft:fishing_rod
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":looting,"lvl":3}]}
-  warrior:
-    delay: 6000
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":looting,"lvl":3}]}
+  Warrior:
+    delay: 80000
     items:
       - minecraft:diamond_sword
       - minecraft:diamond_axe
@@ -44,9 +58,9 @@ kits:
       - minecraft:cooked_beef 64
       - minecraft:golden_apple
       - minecraft:spyglass
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":thorns,"lvl":3}]}
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":blast_protection,"lvl":4}]}
-      - /minecraft:give @p potion{Potion:"minecraft:luck"}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":thorns,"lvl":3}]}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":blast_protection,"lvl":4}]}
+      - /minecraft:give {player} potion{Potion:"minecraft:luck"}
   knight:
     delay: 6000
     items:
@@ -62,13 +76,13 @@ kits:
       - minecraft:golden_apple 3
       - minecraft:spyglass
       - minecraft:ender_pearl 16
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":protection,"lvl":4}]}
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":projectile_protection,"lvl":4}]}
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":thorns,"lvl":3}]}
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":sharpness,"lvl":5}]}
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":power,"lvl":5}]}
-      - /minecraft:give @p potion{Potion:"minecraft:strong_strength"}
-      - /minecraft:give @p potion{Potion:"minecraft:strong_regeneration"}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":protection,"lvl":4}]}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":projectile_protection,"lvl":4}]}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":thorns,"lvl":3}]}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":sharpness,"lvl":5}]}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":power,"lvl":5}]}
+      - /minecraft:give {player} potion{Potion:"minecraft:strong_strength"}
+      - /minecraft:give {player} potion{Potion:"minecraft:strong_regeneration"}
   Legolas:
     delay: 6000
     items:
@@ -84,17 +98,17 @@ kits:
       - minecraft:enchanted_golden_apple 3
       - minecraft:spyglass
       - minecraft:spectral_arrow 64
-      - /minecraft:give @p tipped_arrow{Potion:"minecraft:strong_harming"} 64
-      - /minecraft:give @p tipped_arrow{Potion:"minecraft:strong_poison"} 64
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":projectile_protection,"lvl":4}]}
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":piercing,"lvl":4}]}
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":feather_falling,"lvl":4}]}
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":infinity,"lvl":1}]}
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":multishot,"lvl":1}]}
-      - /minecraft:give @p potion{Potion:"minecraft:long_invisibility"}
-      - /minecraft:give @p potion{Potion:"minecraft:long_slow_falling"}
-      - /minecraft:give @p potion{Potion:"minecraft:long_invisibility"}
-      - /minecraft:give @p potion{Potion:"minecraft:luck"}
+      - /minecraft:give {player} tipped_arrow{Potion:"minecraft:strong_harming"} 64
+      - /minecraft:give {player} tipped_arrow{Potion:"minecraft:strong_poison"} 64
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":projectile_protection,"lvl":4}]}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":piercing,"lvl":4}]}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":feather_falling,"lvl":4}]}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":infinity,"lvl":1}]}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":multishot,"lvl":1}]}
+      - /minecraft:give {player} potion{Potion:"minecraft:long_invisibility"}
+      - /minecraft:give {player} potion{Potion:"minecraft:long_slow_falling"}
+      - /minecraft:give {player} potion{Potion:"minecraft:long_invisibility"}
+      - /minecraft:give {player} potion{Potion:"minecraft:luck"}
   Witcher:
     delay: 6000
     items:
@@ -109,18 +123,18 @@ kits:
       - minecraft:enchanted_golden_apple 1
       - minecraft:totem_of_undying
       - minecraft:diamond_horse_armor
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":fire_aspect,"lvl":2}]}
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":swift_sneak,"lvl":3}]}
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":protection,"lvl":4}]}
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":projectile_protection,"lvl":4}]}
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":bane_of_arthropods,"lvl":5}]}
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":smite,"lvl":5}]}
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":sweeping,"lvl":3}]}
-      - /minecraft:give @p potion{Potion:"minecraft:long_night_vision"}
-      - /minecraft:give @p potion{Potion:"minecraft:strong_regeneration"}
-      - /minecraft:give @p potion{Potion:"minecraft:strong_healing"}
-      - /minecraft:give @p potion{Potion:"minecraft:strong_swiftness"}
-      - /minecraft:give @p potion{Potion:"minecraft:strong_strength"}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":fire_aspect,"lvl":2}]}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":swift_sneak,"lvl":3}]}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":protection,"lvl":4}]}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":projectile_protection,"lvl":4}]}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":bane_of_arthropods,"lvl":5}]}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":smite,"lvl":5}]}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":sweeping,"lvl":3}]}
+      - /minecraft:give {player} potion{Potion:"minecraft:long_night_vision"}
+      - /minecraft:give {player} potion{Potion:"minecraft:strong_regeneration"}
+      - /minecraft:give {player} potion{Potion:"minecraft:strong_healing"}
+      - /minecraft:give {player} potion{Potion:"minecraft:strong_swiftness"}
+      - /minecraft:give {player} potion{Potion:"minecraft:strong_strength"}
   Zeus:
     delay: 6000
     items:
@@ -141,14 +155,14 @@ kits:
       - minecraft:totem_of_undying
       - minecraft:elytra
       - minecraft:firework_rocket 64
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":channeling,"lvl":1}]}
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":riptide,"lvl":3}]}
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":impaling,"lvl":5}]}
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":loyalty,"lvl":3}]}
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":unbreaking,"lvl":3}]}
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":mending,"lvl":1}]}
-      - /minecraft:give @psplash_potion{Potion:"minecraft:long_slow_falling"}
-      - /minecraft:give @p splash_potion{Potion:"minecraft:strong_regeneration"}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":channeling,"lvl":1}]}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":riptide,"lvl":3}]}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":impaling,"lvl":5}]}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":loyalty,"lvl":3}]}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":unbreaking,"lvl":3}]}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":mending,"lvl":1}]}
+      - /minecraft:give {player} splash_potion{Potion:"minecraft:long_slow_falling"}
+      - /minecraft:give {player} splash_potion{Potion:"minecraft:strong_regeneration"}
   Seeker:
     delay: 6000
     items:
@@ -160,19 +174,54 @@ kits:
       - minecraft:netherite_pickaxe
       - minecraft:cooked_beef 64
       - minecraft:cooked_beef 64
-      - minecraft:golden_apple
+      - minecraft:golden_apple 2
       - minecraft:ender_pearl 16
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":fortune,"lvl":3}]}
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":silk_touch,"lvl":1}]}
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":unbreaking,"lvl":3}]}
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":blast_protection,"lvl":4}]}
-      - /minecraft:give @p potion{Potion:"minecraft:strong_regeneration"}
-      - /minecraft:give @p potion{Potion:"minecraft:night_vision"}
-      - /minecraft:give @p potion{Potion:"minecraft:long_fire_resistance"}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":fortune,"lvl":3}]}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":silk_touch,"lvl":1}]}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":unbreaking,"lvl":3}]}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":blast_protection,"lvl":4}]}
+      - /minecraft:give {player} potion{Potion:"minecraft:strong_regeneration"}
+      - /minecraft:give {player} potion{Potion:"minecraft:night_vision"}
+      - /minecraft:give {player} potion{Potion:"minecraft:long_fire_resistance"}
+      - /minecraft:give {player} splash_potion{Potion:weakness}
+  Wizard:
+    delay: 6000
+    items:
+      - minecraft:iron_helmet
+      - minecraft:iron_chestplate
+      - minecraft:iron_leggings
+      - minecraft:iron_boots
+      - minecraft:cooked_beef 64
+      - minecraft:cooked_beef 64
+      - minecraft:golden_apple 3
+      - minecraft:enchanted_golden_apple 3
+      - minecraft:ender_pearl 16
+      - minecraft:ender_pearl 16
+      - minecraft:ender_pearl 16
+      - minecraft:blaze_rod 32
+      - minecraft:gold_block 3
+      - /minecraft:give {player} enchanted_book{StoredEnchantments:[{"id":aqua_affinity,"lvl":1}]}
+      - /minecraft:give {player} enchanted_book{StoredEnchantments:[{"id":respiration,"lvl":3}]}
+      - /minecraft:give {player} enchanted_book{StoredEnchantments:[{"id":fire_protection,"lvl":4}]}
+      - /minecraft:give {player} enchanted_book{StoredEnchantments:[{"id":protection,"lvl":4}]}
+      - /minecraft:give {player} enchanted_book{StoredEnchantments:[{"id":thorns,"lvl":3}]}
+      - /minecraft:give {player} enchanted_book{StoredEnchantments:[{"id":frost_walker,"lvl":2}]}
+      - /minecraft:give {player} enchanted_book{StoredEnchantments:[{"id":soul_speed,"lvl":3}]}
+      - /minecraft:give {player} enchanted_book{StoredEnchantments:[{"id":fire_aspect,"lvl":2}]}
+      - /minecraft:give {player} enchanted_book{StoredEnchantments:[{"id":unbreaking,"lvl":3}]}
+      - /minecraft:give {player} splash_potion{Potion:long_weakness}
+      - /minecraft:give {player} splash_potion{Potion:long_weakness}
+      - /minecraft:give {player} potion{Potion:long_turtle_master}
+      - /minecraft:give {player} potion{Potion:long_turtle_master}
+      - /minecraft:give {player} splash_potion{Potion:strong_poison}
+      - /minecraft:give {player} splash_potion{Potion:strong_harming}
+      - /minecraft:give {player} potion{Potion:strong_regeneration}
   Dealer:
     delay: 6000
     items:
-      - minecraft:netherite_hoe
+      - minecraft:netherite_pickaxe
+      - minecraft:cooked_beef 64
+      - minecraft:cooked_beef 64
       - minecraft:cooked_beef 64
       - minecraft:cooked_beef 64
       - minecraft:beacon
@@ -182,6 +231,7 @@ kits:
       - minecraft:villager_spawn_egg 3
       - minecraft:wandering_trader_spawn_egg 1
       - minecraft:creeper_head
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":fortune,"lvl":3}]}
-      - /minecraft:give @p minecraft:enchanted_book{StoredEnchantments:[{"id":silk_touch,"lvl":1}]}
-      - /minecraft:give @p potion{Potion:"minecraft:strong_regeneration"}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":fortune,"lvl":3}]}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":silk_touch,"lvl":1}]}
+      - /minecraft:give {player} minecraft:enchanted_book{StoredEnchantments:[{"id":mending,"lvl":1}]}
+      - /minecraft:give {player} potion{Potion:"minecraft:strong_regeneration"}

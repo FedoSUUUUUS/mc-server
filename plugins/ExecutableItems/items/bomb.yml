@@ -1,0 +1,104 @@
+name: Wither bomb
+lore:
+- §b§oDefault lore
+- Запускает бомбу и накладывет иссушение
+material: WITHER_SKELETON_SKULL
+glow: true
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: false
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: true
+  hideDye: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-item-craft: true
+  cancel-consumption: true
+  cancel-deposit-in-furnace: true
+  cancel-grind-stone: true
+  cancel-hopper: true
+  cancel-beacon: true
+  cancel-anvil: true
+  cancel-dispenser: true
+  cancel-item-place: true
+  cancel-stone-cutter: true
+  cancel-tool-interactions: true
+  cancel-smithing-table: true
+  cancel-enchant: true
+  cancel-lectern: true
+  cancel-brewing: true
+  cancel-item-craft-no-custom: true
+  cancel-cartography: true
+  cancel-enchant-anvil: true
+  cancel-rename-anvil: true
+  cancel-loom: true
+  cancel-composter: true
+  cancel-dropper: true
+variables: {}
+activators:
+  activator0:
+    name: '&eActivator'
+    option: PLAYER_RIGHT_CLICK
+    typeTarget: NO_TYPE_TARGET
+    usageModification: -1
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    cooldownOptions:
+      cooldown: 10
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    detailedSlots:
+    - -1
+    commands:
+    - playsound minecraft:entity.creeper.hurt ambient %player% %player_x% %player_y%
+      %player_z% 2 1
+    - LAUNCH witherskull1
+    - playsound minecraft:entity.creeper.primed
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    variablesModification: {}
+attributes: {}

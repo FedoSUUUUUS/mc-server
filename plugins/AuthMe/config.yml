@@ -88,7 +88,7 @@ ExternalBoardOptions:
     # IP Board table prefix defined during the IP Board installation process
     IPBTablePrefix: ipb_
     # IP Board default group ID; 3 is the default registered group defined by IP Board
-    IPBActivatedGroupId: 3
+    IPBActivatedGroupId: 4
     # Xenforo table prefix defined during the Xenforo installation process
     XFTablePrefix: xf_
     # XenForo default group ID; 2 is the default registered group defined by Xenforo
@@ -103,7 +103,7 @@ settings:
         # The next time the player joins the server, if his IP
         # is the same as last time and the timeout hasn't
         # expired, he will not need to authenticate.
-        enabled: false
+        enabled: true
         # After how many minutes should a session expire?
         # A player's session ends after the timeout or if his IP has changed
         timeout: 10
@@ -181,7 +181,7 @@ settings:
         # Should unregistered players be kicked immediately?
         kickNonRegistered: false
         # Should players be kicked on wrong password?
-        kickOnWrongPassword: true
+        kickOnWrongPassword: false
         # Should not logged in players be teleported to the spawn?
         # After the authentication they will be teleported back to
         # their normal position.

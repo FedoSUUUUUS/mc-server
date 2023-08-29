@@ -1,0 +1,55 @@
+# NEVER DELETE A %variable%
+# Messages support HEX colours codes.
+
+player_help: |-
+  &a&nPlayer commands:
+  &e/quests me &a: Посмотреть свои квесты
+  &e/quests show Категории квестов
+admin_help: |-
+  &c&nAdmin commands:
+  &e/qadmin complete <player> <index> &a: complete a player quest
+  &e/qadmin reset <quests/total> <player> &a: draw new quests for a player, or reset his total number of achieved quests.
+  &e/qadmin show <player> &a: see quests of a player
+no_permission: '&cYou don''t have permission.'
+no_permission_category: '&cYou don''t have permission to see this category.'
+player_only: '&cOnly player can execute this command.'
+invalid_category: '&cInvalid quest category.'
+invalid_player: '&cThis player doesn''t exist, or is offline.'
+invalid_quest_id: '&cYou must specify a valid quest ID.'
+invalid_quest_index: '&cThe specified index is invalid.'
+categorized_enabled: '&cCategorized quests are enabled, the global menu is not available.'
+categorized_disabled: '&cCategorized quests are disabled, only the global menu is
+  available.'
+global_disabled: '&cGlobal quests are disabled, only the categorized menus are available.'
+already_achieved: '&cЭто задание уже выполнено.'
+hologram_categorized_enabled: '&cCategorized quests are enabled, impossible to create
+  the global hologram.'
+hologram_categorized_disabled: '&cCategorized quests are disabled, impossible to create
+  the categorized holograms.'
+hologram_deleted: '&aHologram successfully deleted.'
+hologram_invalid_index: '&cInvalid index for the hologram.'
+quests_in_progress: '&eУ вас ещё есть ежедневные задания! Загляни в /menu'
+all_quests_achieved_connect: '&aВсе ваши квесты завершены!'
+quests_renewed: '&aВы получили новые ежедневные задания! Загляни в /menu'
+quests_renewed_admin: '&eВы сбросили квесты %target%.'
+quest_achieved: '&aВы завершили квест &e%questName%&a, поздравляем!'
+all_quests_achieved: '&aВы завершили все ежедневные квесты, хорошая работа!'
+easy_reward: '&aВы завершили все лёгкие квесты, поздравляем!'
+medium_reward: '&aВы завершили все квесты средней сложности, отлично!'
+hard_reward: '&aВы завершили все сложные квесты, вот это уровень мастера!'
+not_enough_items: '&cYou don''t have the required amount to complete this quest.'
+total_amount_reset: '&eВаши квесты были сброшены администратором.'
+total_amount_reset_admin: '&e%target% Обновил ежедневные квесты.'
+reward_command: '&aВы получили награду!!!'
+reward_exp_levels: '&aYou receive &e%rewardAmount% &bEXP &alevels.'
+reward_exp_points: '&aYou receive &e%rewardAmount% &bEXP &apoints.'
+reward_money: '&aYou receive &e%rewardAmount% &b$&a.'
+reward_points: '&aYou receive &e%rewardAmount% &bpoints&a.'
+reward_coins_engine: '&aYou receive &e%rewardAmount% &b%currencyName%&a.'
+new_day: '&6Новый день - новые квесты!'
+too_far: '&cВы не дошли до нужной локации'
+bad_world: '&cYou are in the wrong world.'
+placeholder_api_not_enabled: '&cThe PlaceholderAPI plugin is not enabled. Please inform
+  an administrator.'
+placeholder_not_number: '&cThe placeholder %placeholder% is not a number. Please inform
+  an administrator.'

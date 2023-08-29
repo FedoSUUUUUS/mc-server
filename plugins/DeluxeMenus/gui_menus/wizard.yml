@@ -1,0 +1,172 @@
+#  A DeluxeMenus basic configuration guide for beginners
+#=========================================================
+#
+# This note will help you understand the basic functions and configuring of DeluxeMenus: commands, requirements, items and others, and from then on you can start to work with more advanced stuff. You can delete this note or any note below at any time. But if you are still here anyway, then let's move down below
+#
+
+# Open Command
+#
+# This setting is the command that will be used to open this menu. Supports normal String or a String List
+# NOTE: Use "open_command: []" to create a menu with no commands needed
+#
+# open_command: <command>
+open_command:
+#   - <command2>
+
+
+size: 54
+
+
+menu_title: '&6Донат → &8Колдун'
+
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.admin
+      deny_commands:
+        - '[message] &cYou don''t have permission to do that!'
+
+
+items:
+  '0':
+    material: iron_helmet
+    slot: 0
+  '1':
+    material: iron_chestplate
+    slot: 1
+  '2':
+    material: iron_leggings
+    slot: 2
+  '3':
+    material: iron_boots
+    slot: 3
+  '4':
+    material: cooked_beef
+    amount: 64
+    slot: 4
+  '5':
+    material: cooked_beef
+    amount: 64
+    slot: 5
+  '6':
+    material: golden_apple
+    amount: 3
+    slot: 6
+  '7':
+    material: enchanted_golden_apple
+    amount: 3
+    slot: 7
+  '8':
+    material: ender_pearl
+    slot: 8
+    amount: 48
+  '9':
+    material: blaze_rod
+    amount: 32
+    slot: 9
+  '10':
+    material: gold_block
+    amount: 3
+    slot: 10
+  '11':
+    material: enchanted_book
+    enchantments:
+    - 'WATER_WORKER;1'
+    slot: 11
+  '12':
+    material: enchanted_book
+    enchantments:
+    - 'OXYGEN;3'
+    slot: 12
+  '13':
+    material: enchanted_book
+    enchantments:
+    - 'PROTECTION_FIRE;4'
+    slot: 13
+  '14':
+    material: enchanted_book
+    enchantments:
+    - 'PROTECTION_ENVIRONMENTAL;4'
+    slot: 14
+  '15':
+    material: enchanted_book
+    enchantments:
+    - 'THORNS;3'
+    slot: 15
+  '16':
+    material: enchanted_book
+    enchantments:
+    - 'FROST_WALKER;2'
+    slot: 16
+  '17':
+    material: enchanted_book
+    enchantments:
+    - 'SOUL_SPEED;3'
+    slot: 17
+  '18':
+    material: enchanted_book
+    enchantments:
+    - 'FIRE_ASPECT;2'
+    slot: 18
+  '19':
+    material: enchanted_book
+    enchantments:
+    - 'DURABILITY;3'
+    slot: 19
+  '20':
+    material: splash_potion
+    potion_effects:
+    - WEAKNESS;1800;0
+    rgb: 0, 255, 0
+    slot: 20
+  '21':
+    material: splash_potion
+    potion_effects:
+    - WEAKNESS;1800;0
+    rgb: 0, 255, 0
+    slot: 21
+  '22':
+    material: potion
+    potion_effects:
+    - SLOW;800;3
+    - DAMAGE_RESISTANCE;800;2
+    rgb: 0, 255, 0
+    slot: 22
+  '23':
+    material: potion
+    potion_effects:
+    - SLOW;800;3
+    - DAMAGE_RESISTANCE;800;2
+    rgb: 0, 255, 0
+    slot: 23
+  '24':
+    material: splash_potion
+    potion_effects:
+    - POISON;420;1
+    rgb: 0, 255, 0
+    slot: 24
+  '25':
+    material: splash_potion
+    potion_effects:
+    - HARM;0;1
+    rgb: 0, 255, 0
+    slot: 25
+  '26':
+    material: potion
+    potion_effects:
+    - REGENERATION;440;1
+    rgb: 0, 255, 0
+    slot: 26
+
+  'back':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg2NjA2OTFkMWNhMDI5ZjEyMGEzZmYwZWFiYWI5M2EyMzA2YjM3YTdkNjExMTlmY2QxNDFmZjJmNmZjZDc5OCJ9fX0=
+    data: 1
+    slot: 53
+    display_name: "&fНазад"
+    lore:
+    left_click_commands:
+      - '[openguimenu] donate'
+
+
+sweet: true

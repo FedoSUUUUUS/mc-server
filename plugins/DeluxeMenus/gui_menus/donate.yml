@@ -1,0 +1,371 @@
+#  A DeluxeMenus basic configuration guide for beginners
+#=========================================================
+#
+# This note will help you understand the basic functions and configuring of DeluxeMenus: commands, requirements, items and others, and from then on you can start to work with more advanced stuff. You can delete this note or any note below at any time. But if you are still here anyway, then let's move down below
+#
+
+# Open Command
+#
+# This setting is the command that will be used to open this menu. Supports normal String or a String List
+# NOTE: Use "open_command: []" to create a menu with no commands needed
+#
+# open_command: <command>
+open_command:
+   - donate
+#   - <command2>
+
+size: 54
+
+
+menu_title: '&5Меню сервера → &6Донат'
+
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.admin
+      deny_commands:
+        - '[message] &cYou don''t have permission to do that!'
+
+
+items:
+  'survival':
+    material: chainmail_chestplate
+    hide_enchantments: true
+    hide_effects: true
+    hide_attributes: true
+    slot: 0
+    display_name: " "
+    lore:
+     - '     &f&lНАБОР ВЫЖИВШЕГО'
+     - '&6&l100₽ '
+    left_click_commands:
+      - '[openguimenu] survival'
+  'warrior':
+    material: iron_chestplate
+    hide_enchantments: true
+    hide_effects: true
+    hide_attributes: true
+    slot: 1
+    display_name: " "
+    lore:
+     - '       &f&lНАБОР ВОИНА'
+     - '&6&l200₽ '
+    left_click_commands:
+      - '[openguimenu] warrior'
+  'knight':
+    material: diamond_chestplate
+    hide_enchantments: true
+    hide_effects: true
+    hide_attributes: true
+    slot: 2
+    display_name: " "
+    lore:
+     - '       &f&lНАБОР РЫЦАРЯ'
+     - '&6&l300₽ '
+    left_click_commands:
+      - '[openguimenu] knight'
+  'seeker':
+    material: diamond_pickaxe
+    hide_enchantments: true
+    hide_effects: true
+    hide_attributes: true
+    slot: 3
+    display_name: " "
+    lore:
+     - '    &f&lНАБОР ИСКАТЕЛЯ'
+     - '&6&l300₽ '
+    left_click_commands:
+      - '[openguimenu] seeker'
+  'wizard':
+    material: splash_potion
+    hide_enchantments: true
+    hide_effects: true
+    hide_attributes: true
+    slot: 4
+    display_name: " "
+    lore:
+     - '    &f&lНАБОР КОЛДУНА'
+     - '&6&l300₽ '
+    left_click_commands:
+      - '[openguimenu] wizard'
+  'dealer':
+    material: beacon
+    hide_enchantments: true
+    hide_effects: true
+    hide_attributes: true
+    slot: 5
+    display_name: " "
+    lore:
+     - ' &f&lНАБОР ТОРГОВЦА'
+     - '&6&l400₽ '
+    left_click_commands:
+      - '[openguimenu] dealer'
+  'legolas':
+    material: bow
+    hide_enchantments: true
+    hide_effects: true
+    hide_attributes: true
+    slot: 6
+    display_name: " "
+    lore:
+     - ' &f&lНАБОР ЛЕГОЛАСА'
+     - '&6&l400₽ '
+    left_click_commands:
+      - '[openguimenu] legolas'
+  'witcher':
+    material: netherite_sword
+    hide_enchantments: true
+    hide_effects: true
+    hide_attributes: true
+    slot: 7
+    display_name: " "
+    lore:
+     - '    &f&lНАБОР ВЕДЬМАКА'
+     - '&6&l400₽ '
+    left_click_commands:
+      - '[openguimenu] witcher'
+  'zeus':
+    material: netherite_chestplate
+    hide_enchantments: true
+    hide_effects: true
+    hide_attributes: true
+    slot: 8
+    display_name: " "
+    lore:
+     - '          &f&lНАБОР ЗЕВСА'
+     - '&6&l600₽ '
+    left_click_commands:
+      - '[openguimenu] zeus'
+  'radiance':
+    material: golden_sword
+    enchantments: 
+    - 'DAMAGE_ALL;5'
+    hide_enchantments: true
+    hide_effects: true
+    hide_attributes: true
+    slot: 18
+    display_name: "&eRadiance"
+    lore:
+     - 'Не ломающийся меч, поджигающий противников и съедобных мобов вокруг игрока'
+     - 'Активная, 400 использований, кд 1 сек'
+     - '8 ед.урона'
+     - '&6&l300₽ '
+  'wb':
+    material: iron_sword
+    enchantments: 
+    - 'SWEEPING_EDGE;3'
+    hide_enchantments: true
+    hide_effects: true
+    hide_attributes: true
+    slot: 19
+    display_name: "&3Witch Blade"
+    lore:
+     - 'Не ломающийся меч, отравляет ударом игрока, вызывая ему головокружение и замедляет его на 4 сек.'
+     - 'Активная, 200 использований, кд 8 сек'
+     - '5 ед.урона'
+     - '&6&l300₽ '
+  'fire_staff':
+    material: blaze_rod
+    enchantments: 
+    - 'DAMAGE_ALL;5'
+    hide_enchantments: true
+    hide_effects: true
+    hide_attributes: true
+    slot: 21
+    display_name: "&eFire staff"
+    lore:
+     - 'Посох, стреляющий огненными зарядами'
+     - 'Активная, 100 использований, кд 2 сек'
+     - '20 ед.урона'
+     - '&6&l400₽ '
+  'ob':
+    material: wooden_sword
+    enchantments: 
+    - 'SWEEPING_EDGE;3'
+    hide_enchantments: true
+    hide_effects: true
+    hide_attributes: true
+    slot: 20
+    display_name: "&4Overwhelming Blink"
+    lore:
+     - 'Не ломающийся меч, телепортирует в выбранное место (дальность 16 блоков), нанося урон в 5 ед. в радиусе 5 блоков и замедляет игроков на 6 сек.'
+     - 'Мобов замедляет на 15 секунд в радиусе 12 блоков'
+     - 'Активная, 400 использований, кд 8 сек'
+     - '8 ед.урона'
+     - '&6&l400₽ '
+  'fly':
+    material: elytra
+    enchantments: 
+    - 'SWEEPING_EDGE;3'
+    hide_enchantments: true
+    hide_effects: true
+    hide_attributes: true
+    slot: 49
+    display_name: " "
+    lore:
+     - '&f&lПОЛЁТ+ПРЕФИКС'
+     - '&6&l800₽ '
+  'Eul':
+    material: string
+    enchantments: 
+    - 'SWEEPING_EDGE;3'
+    hide_enchantments: true
+    hide_effects: true
+    hide_attributes: true
+    slot: 22
+    display_name: "&bEul's Scepter"
+    lore:
+     - 'Поднимает игрока в воздух, делая неуязвимым и сбрасывая все эффекты'
+     - 'Активная, 100 использований, кд 20 сек'
+     - '&6&l100₽ '
+  'HeartofTarrasque':
+    material: red_dye
+    enchantments: 
+    - 'SWEEPING_EDGE;3'
+    hide_enchantments: true
+    hide_effects: true
+    hide_attributes: true
+    slot: 23
+    display_name: "&4Heart of Tarrasque"
+    lore:
+     - 'Даёт игроку дополнительное здоровье в 10 ед. и лечит его при активации'
+     - 'Активная, 200 использований, кд 60 сек'
+     - '&6&l200₽ '
+  'ShivasGuard':
+    material: leather_chestplate
+    enchantments: 
+    - 'SWEEPING_EDGE;3'
+    hide_enchantments: true
+    hide_effects: true
+    hide_dye: true
+    hide_attributes: true
+    rgb: 203, 206, 202
+    slot: 24
+    display_name: "&fShiva's Guard"
+    lore:
+     - 'Выпускает морозную волну с уроном в 2 ед. на 12 блоков, замедлив, подсветив и ослабляя врагов на 10 сек(мобов на 20)'
+     - 'Активная, 300 использований, кд 25 сек'
+     - '7 ед. брони + защита 4, неразрушимая'
+     - '&6&l400₽ '
+  'freefly':
+    material: feather
+    enchantments: 
+    - 'SWEEPING_EDGE;3'
+    hide_enchantments: true
+    hide_effects: true
+    hide_dye: true
+    hide_attributes: true
+    rgb: 203, 206, 202
+    slot: 25
+    display_name: "&bFree fly"
+    lore:
+     - 'Выдаёт Флай 6 раз по 10 минут'
+     - '&6&l200₽ '
+  'Dominator':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFhY2JiMmRlMmU2OWFhZmZiNDE3MzdlMDM5NjhiM2ViY2NlMGI3MWNmYTQ2MWVjNGIzMTJhYTAyNTJiN2Y1ZSJ9fX0=
+    enchantments: 
+    - 'SWEEPING_EDGE;3'
+    hide_enchantments: true
+    hide_effects: true
+    hide_attributes: true
+    slot: 26
+    display_name: "&2Helm of the Dominator"
+    lore:
+     - 'Призывает различных монстров в указанное место'
+     - 'Активная, 200 использований, кд 10 сек'
+     - 'Дополнительное здоровье 2 ед. Броня 3 ед.' 
+     - '&6&l300₽ '
+  'ironhelmet':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGVjNjIxM2Y1ZGM4NmNkYjM2OWQ5NTEyN2Q3MmIwMGIwMzNlMGY5YWI1OTcwYTQ3NmRhZDdiZGRjOWZlOGYifX19
+    enchantments: 
+    - 'VANISHING_CURSE;1'
+    hide_enchantments: false
+    hide_effects: true
+    hide_attributes: true
+    slot: 27
+    display_name: "&2Рыцарский шлем"
+    lore:
+     - 'Неразрушаемый'
+     - 'Дополнительное здоровье 3 ед. Броня 6 ед.' 
+     - '&6&l100₽ '
+  'meteorhammer':
+    material: stone_axe
+    enchantments: 
+    - 'SWEEPING_EDGE;3'
+    hide_enchantments: true
+    hide_effects: true
+    hide_dye: true
+    hide_attributes: true
+    rgb: 203, 206, 202
+    slot: 28
+    display_name: "&7Meteor Hammer"
+    lore:
+     - 'Вызывает 2 метеорита'
+     - 'Дальность 20 блоков'
+     - '30 использований, кд 16 сек'
+     - '&6&l200₽ '
+  'bomb':
+    material: wither_skeleton_skull
+    enchantments: 
+    - 'SWEEPING_EDGE;3'
+    hide_enchantments: true
+    hide_effects: true
+    hide_dye: true
+    hide_attributes: true
+    rgb: 203, 206, 202
+    slot: 29
+    amount: 15
+    display_name: "&8Bomb"
+    lore:
+     - 'Запускает бомбу в направлении взгляда'
+     - 'накладывает эффект иссушения'
+     - 'кд 5 сек'
+     - '&6&l100₽ '
+  'npc':
+    material: player_head
+    hide_enchantments: true
+    hide_effects: true
+    hide_dye: true
+    hide_attributes: true
+    rgb: 203, 206, 202
+    slot: 45
+    display_name: " "
+    lore:
+     - '&f&lСОЗДАНИЕ ЛИЧНОГО NPC'
+     - '&6&l100₽ '
+  'gm':
+    material: reinforced_deepslate
+    hide_enchantments: true
+    hide_effects: true
+    hide_attributes: true
+    slot: 50
+    display_name: " "
+    lore:
+     - '&f&lКРЕАТИВ+ПРЕФИКС'
+     - '&6&l2000₽ '
+  'num':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTk4ZGY0MmY0NzdmMjEzZmY1ZTlkN2ZhNWE0Y2M0YTY5ZjIwZDljZWYyYjkwYzRhZTRmMjliZDE3Mjg3YjUifX19
+    hide_enchantments: true
+    hide_effects: true
+    hide_attributes: true
+    slot: 52
+    display_name: " "
+    lore:
+     - '&4&lОПЛАТА'
+     - '&fПеревод на карту через номер телефона'
+     - '&b&l89000422304 (Фёдор Михайлович Р)(сбер)(Qiwi)'
+     - '&fУкажи ник и привилегию'
+    
+
+  'back':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg2NjA2OTFkMWNhMDI5ZjEyMGEzZmYwZWFiYWI5M2EyMzA2YjM3YTdkNjExMTlmY2QxNDFmZjJmNmZjZDc5OCJ9fX0=
+    data: 1
+    slot: 53
+    display_name: "&fНазад"
+    lore:
+    left_click_commands:
+      - '[openguimenu] advanced_menu'
+
+
+sweet: true

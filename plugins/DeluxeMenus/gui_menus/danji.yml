@@ -1,0 +1,107 @@
+#  A DeluxeMenus basic configuration guide for beginners
+#=========================================================
+#
+# This note will help you understand the basic functions and configuring of DeluxeMenus: commands, requirements, items and others, and from then on you can start to work with more advanced stuff. You can delete this note or any note below at any time. But if you are still here anyway, then let's move down below
+#
+
+# Open Command
+#
+# This setting is the command that will be used to open this menu. Supports normal String or a String List
+# NOTE: Use "open_command: []" to create a menu with no commands needed
+#
+# open_command: <command>
+open_command:
+     - danji
+#   - <command2>
+
+
+size: 53
+
+
+menu_title: '&5Меню сервера → &3Данжи'
+
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.admin
+      deny_commands:
+        - '[message] &cYou don''t have permission to do that!'
+
+
+items:
+  'avanpost':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzJmYjgwYTZiNjgzM2UzMWQ5Y2U4MzEzYTU0Nzc3NjQ1ZjljMWU1NWI4MTA5MThhNzA2ZTdiY2M4ZDM1YTVhMiJ9fX0=
+    data: 1
+    slot: 0
+    display_name: ' '
+    lore:
+      - '&7&lВРАЖЕСКИЕ АВАНПОСТЫ'
+      - '&fПолны разбойников'
+      - '&fИмеют лут'
+  'mecdonjon':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzcxZDFkNGUxNGM1ZTM3OTI4NzE3ZTNmNzEzMTBhM2I5OTMzMGY1NzNlYjkyYjA2M2E0YjM2MWRmNTlhZDc4NyJ9fX0=
+    data: 1
+    slot: 4
+    display_name: ' '
+    lore:
+      - '&7&lКРЕПОСТЬ МЕЦ ДОНЖОН'
+      - '&fИмеет торговцев'
+      - '&fИмеет жителей'
+      - '&fИмеет квест'     
+  'kregivar':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzliZGI1MjJkOGNkYjU2YTg3OTIxNjFkOTQ3Mjk0NzU2ZWE4NzkwM2VkYTk3MDcwZGFkZWFjZGRhZmRkNzU3MSJ9fX0=
+    data: 1
+    slot: 8
+    display_name: ' '
+    lore:
+      - '&7&lЗАМОК КРЭГИВАР'
+      - '&fИмеет торговцев'
+      - '&fИмеет скупщиков'
+      - '&fИмеет жителей'
+  'kolizei':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjUxNWRkYjE4YjIxYzg0ZDhjZmY5NDdlOTJiNmRkMjRhYTM4YTM5YjU5MGU2YmI2ZWI2NjgzNGIwNDNlOGQyIn19fQ==
+    data: 1
+    slot: 18
+    display_name: ' '
+    lore:
+      - '&7&lКОЛИЗЕЙ'
+      - '&fЛабиринт с супер-лутом'
+      - '&fИгра Сплиф'
+      - '&fДрифт на лодках'   
+      - '&fМесто проведения пвп-турниров'
+  'zamokcrupe':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGIxNzQyN2Q0ZTlkODlmYTFlMmNiMjk3Y2QxNDZlZDJmZGI0OTcyMWEwZWFiZjA0OGU3ZTdkMjRjNzNmY2RhNSJ9fX0=
+    data: 1
+    slot: 22
+    display_name: ' '
+    lore:
+      - '&7&lЗАМОК КРУПЕ'
+      - '&fИмеет жителей'
+  'hotinskaya':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzA5NzQxZmNhMTA5YzRjYjBiNWVmYWEwNjM0NjE2NTAzMDUxYTE5OWUxZDQ0ZTRlMTE0OWVkZTBiZGM0OWM4YSJ9fX0=
+    data: 1
+    slot: 26
+    display_name: ' '
+    lore:
+      - '&7&lХОТИНСКАЯ КРЕПОСТЬ'
+      - '&fМесто проведения пвп-турниров'
+  'desert':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDY0YjZiNjA2MmFjMzU4ZDMzM2YzNDIyNmYwYzlkZjhmMjg2ZjcxMjdlN2NiZGEzODZiOGFjOWU2NjJjMTcyMiJ9fX0=
+    data: 1
+    slot: 40
+    display_name: ' '
+    lore:
+      - '&7&lХРАМ В ПУСТЫНЕ(в разработке)'
+      - '&fИмеет торговцев'
+  'back':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg2NjA2OTFkMWNhMDI5ZjEyMGEzZmYwZWFiYWI5M2EyMzA2YjM3YTdkNjExMTlmY2QxNDFmZjJmNmZjZDc5OCJ9fX0=
+    data: 1
+    slot: 53
+    display_name: "&fНазад"
+    lore:
+    left_click_commands:
+      - '[openguimenu] advanced_menu'
+
+
+sweet: true

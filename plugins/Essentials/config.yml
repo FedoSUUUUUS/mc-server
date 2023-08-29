@@ -84,14 +84,14 @@ force-safe-teleport-location: false
 teleport-passenger-dismount: true
 
 # The delay, in seconds, required between /home, /tp, etc.
-teleport-cooldown: 90
+teleport-cooldown: 500
 
 # The delay, in seconds, before a user actually teleports. If the user moves or gets attacked in this timeframe, the teleport is cancelled.
 teleport-delay: 3
 
 # The delay, in seconds, a player can't be attacked by other players after they have been teleported by a command.
 # This will also prevent the player attacking other players.
-teleport-invulnerability: 8
+teleport-invulnerability: 0
 
 # Whether to make all teleportations go to the center of the block; where the x and z coordinates decimal become .5
 teleport-to-center: true
@@ -296,7 +296,7 @@ use-bukkit-permissions: true
 
 # When this option is enabled, one-time use kits (ie. delay < 0) will be
 # removed from the /kit list when a player can no longer use it
-skip-used-one-time-kits-from-kit-list: false
+skip-used-one-time-kits-from-kit-list: true
 
 # When enabled, armor from kits will automatically be equipped as long as the player's armor slots are empty.
 kit-auto-equip: false
@@ -403,7 +403,7 @@ remove-god-on-disconnect: false
 # After this timeout in seconds, the user will be set as AFK.
 # This feature requires the player to have essentials.afk.auto node.
 # Set to -1 for no timeout.
-auto-afk: 300
+auto-afk: 180
 
 # Auto-AFK Kick
 # After this timeout in seconds, the user will be kicked from the server.
@@ -451,7 +451,7 @@ afk-list-name: none
 # When a player enters or exits AFK mode, should the AFK notification be broadcast
 # to the entire server, or just to the player?
 # When this setting is false, only the player will be notified upon changing their AFK state.
-broadcast-afk-message: true
+broadcast-afk-message: false
 
 # You can disable the death messages of Minecraft here.
 death-messages: true
@@ -513,14 +513,14 @@ use-custom-server-full-message: true
 # You can disable join and quit messages when the player count reaches a certain limit.
 # When the player count is below this number, join/quit messages will always be shown.
 # Set this to -1 to always show join and quit messages regardless of player count.
-hide-join-quit-messages-above: -1
+hide-join-quit-messages-above: 20
 #  - world_nether
 
 # Set to true to enable per-world permissions for teleporting between worlds with essentials commands.
 # This applies to /world, /back, /tp[a|o][here|all], but not warps.
 # Give someone permission to teleport to a world with essentials.worlds.<worldname>
 # This does not affect the /home command, there is a separate toggle below for this.
-world-teleport-permissions: false
+world-teleport-permissions: true
 
 # The number of items given if the quantity parameter is left out in /item or /give.
 # If this number is below 1, the maximum stack size size is given. If over-sized stacks.
@@ -655,7 +655,7 @@ max-projectile-speed: 8
 # Should EssentialsX check for updates?
 # If set to true, EssentialsX will show notifications when a new version is available.
 # This uses the public GitHub API and no identifying information is sent or stored.
-update-check: true
+update-check: false
 
 # ###########################################################
 # +------------------------------------------------------+ #
@@ -682,7 +682,9 @@ world-home-permissions: false
 sethome-multiple:
   default: 1
   Helper: 3
+  Sponsor: 5
   staff: 100
+  fenix: 10
 
 # In this example someone with 'essentials.sethome.multiple' and 'essentials.sethome.multiple.vip' will have 5 homes.
 # Remember, they MUST have both permission nodes in order to be able to set multiple homes.

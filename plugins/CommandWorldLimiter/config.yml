@@ -1,0 +1,39 @@
+forbidden_commands:
+  world_nether: []
+  world: []
+  grifer_nether:
+  - /spawn
+  - /call
+  - /tphere
+  - /tpahere
+  - /tpaccept
+  - /tpask
+  - /gm 1
+  - /gamemode creative
+  - /gma creative
+  - /gmc creative
+  - /gms creative
+  - /gmsp creative
+  - /gmt creative
+  - /c_home
+  world_the_end: []
+  grifer_end:
+  - /home
+  - /fly
+  - /rg
+  - /gm 1
+  - /gamemode creative
+  - /gma creative
+  - /gmc creative
+  - /gms creative
+  - /gmsp creative
+  - /gmt creative
+  grifer_world: []
+
+info_to_player: true
+
+command_forbidden_message: '&cYou don''t have permission to use that command here.'
+
+info_forbidden_commands: '&eThere are some commands which you can''t use in that world:'
+
+info_commands_max: -1

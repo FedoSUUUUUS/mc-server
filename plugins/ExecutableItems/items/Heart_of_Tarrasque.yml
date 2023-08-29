@@ -1,0 +1,108 @@
+name: §4Heart of Tarrasque
+lore:
+- '&8&oСохранившееся сердце вымершего монстра, которое укрепляет стойкость владельца.'
+material: RED_DYE
+glow: true
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: false
+usage: 200
+usageLimit: -1
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: false
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDye: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-item-craft: true
+  cancel-consumption: true
+  cancel-horse: true
+  cancel-deposit-in-furnace: true
+  cancel-grind-stone: true
+  cancel-hopper: true
+  cancel-beacon: true
+  cancel-anvil: true
+  cancel-merchant: true
+  cancel-dispenser: true
+  cancel-stone-cutter: true
+  cancel-smithing-table: true
+  cancel-enchant: true
+  cancel-lectern: true
+  cancel-brewing: true
+  cancel-item-craft-no-custom: true
+  cancel-cartography: true
+  cancel-enchant-anvil: true
+  cancel-rename-anvil: true
+  cancel-loom: true
+  cancel-composter: true
+  cancel-dropper: true
+variables: {}
+attributes:
+  attribute0:
+    attribute: GENERIC_MAX_HEALTH
+    operation: ADD_NUMBER
+    amount: 10.0
+    slot: OFF_HAND
+    uuid: 7a16a1b7-160b-45b7-9338-b8146579624d
+activators:
+  activator0:
+    name: '&eActivator'
+    option: PLAYER_ALL_CLICK
+    typeTarget: NO_TYPE_TARGET
+    usageModification: -1
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    cooldownOptions:
+      cooldown: 60
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    detailedSlots:
+    - 40
+    - -1
+    commands:
+    - SUDOOP effect give @p regeneration 60 0
+    - SETMATERIALCOOLDOWN red_dye 60
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    variablesModification: {}

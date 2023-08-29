@@ -1,0 +1,118 @@
+name: §3Witch Blade
+lore:
+- Клинок смазаный ядом паука
+material: IRON_SWORD
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: true
+usage: 200
+usageLimit: -1
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: false
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDye: false
+enchantments:
+  enchantment0:
+    enchantment: sweeping
+    level: 3
+  enchantment1:
+    enchantment: sharpness
+    level: 5
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-loom: true
+  cancel-dropper: true
+  cancel-deposit-in-furnace: true
+  cancel-item-craft: true
+  cancel-grind-stone: true
+  cancel-brewing: true
+  cancel-lectern: true
+  cancel-enchant: true
+  cancel-smithing-table: true
+  cancel-hopper: true
+  cancel-merchant: true
+  cancel-horse: true
+  cancel-cartography: true
+  cancel-dispenser: true
+  cancel-rename-anvil: true
+  cancel-consumption: true
+  cancel-composter: true
+  cancel-stone-cutter: true
+  cancel-enchant-anvil: true
+  cancel-beacon: true
+  cancel-item-craft-no-custom: true
+  cancel-anvil: true
+variables: {}
+activators:
+  activator0:
+    name: '&eActivator'
+    option: PLAYER_HIT_PLAYER
+    usageModification: -1
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    cooldownOptions:
+      cooldown: 8
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    detailedSlots:
+    - -1
+    commands:
+    - AROUND 2 false minecraft:effect give %around_target% poison 8 1
+    - SETMATERIALCOOLDOWN iron_sword 8
+    - AROUND 2 false SENDMESSAGE &5☠ &fВы получили отравление от &5Witch &5Blade &f
+      игрока &5%player%
+    - AROUND 2 false minecraft:effect give %around_target% nausea 12 0
+    - AROUND 2 false minecraft:effect give %around_targer% slowness 4 0
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    targetCommands: []
+    targetConditions: {}
+    variablesModification: {}
+attributes:
+  attribute0:
+    attribute: GENERIC_ATTACK_DAMAGE
+    operation: ADD_NUMBER
+    amount: 1.0
+    slot: HAND
+    uuid: bfac901a-6b5e-477e-ac8d-5304340a9314

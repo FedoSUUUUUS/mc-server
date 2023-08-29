@@ -18,6 +18,15 @@ plugins/AuthMe/authme.log
 server.properties
 plugins/AuthMe/authme.db
 plugins/LuckPerms/luckperms-h2-v2.mv.db
+plugins/CombatLogX/playerdata
+plugins/CreativeManager/data
+plugins/ExecutableItems/backups
+plugins/LootChest/backups
+plugins/CoreProtect/database.db
+plugins/ODailyQuests/database.mv.db
+plugins/SCore/data.db
+plugins/GSit/data/data.db
+plugins/CreativeManager/data.db
 
 *.yml.broken.*
 plugins/ShareControl/data/blocks.db

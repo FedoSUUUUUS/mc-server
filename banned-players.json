@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "uuid": "b6979ead-9fa6-334e-8e77-3ab83f44edd6",
+    "name": "Nikkyqq",
+    "created": "2023-01-21 19:20:23 +0300",
+    "source": "Fedos",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  }
+]

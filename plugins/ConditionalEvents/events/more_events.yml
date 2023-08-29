@@ -1,0 +1,51 @@
+Events:
+  blocked_command_sethome:
+    enabled: true
+    type: player_command
+    conditions:
+    - '%command% startsWith /sethome or %command% startsWith /createhome or %command% startsWith /ecreatehome or %command% startsWith /esethome or %command% startsWith /es'
+    - '%player_world% == grifer_nether or %player_world% == grifer_the_end'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'message: &7в данном мире запрещено устанавливать точку дома'
+  blocked_command_tp:
+    enabled: true
+    type: player_command
+    conditions:
+      - '%command% startsWith /tpa or %command% startsWith /tpahere or %command% startsWith /call or %command% startsWith /tpaccept or %command% startsWith /back or %command% startsWith /spawn or %command% startsWith /warp or %command% startsWith /home or %command% startsWith /ehome or %command% startsWith /espawn or %command% startsWith /etpa or %command% startsWith /ecall or %command% startsWith /e or %command% startsWith /tpr or %command% startsWith /etpr'
+      - '%player_world% == grifer_nether or %player_world% == grifer_the_end'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'message: &7в данном мире запрещена телепортация'
+  blocked_command_gm:
+    enabled: true
+    type: player_command
+    conditions:
+    - '%command% startsWith /gm or %command% startsWith /gamemode or %command% startsWith /egamemode or %command% startsWith /esse or %command% startsWith /gmt or %command% startsWith /gmc or %command% startsWith /gmsp or %command% startsWith /gma or %command% startsWith /gms or %command% startsWith /egm or %command% startsWith /essen'
+    - '%player_world% == grifer_nether or %player_world% == grifer_the_end'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'message: &7в данном мире только выживание'
+  blocked_command_rg:
+    enabled: true
+    type: player_command
+    conditions:
+    - '%command% startsWith /rg'
+    - '%player_world% == grifer_nether or %player_world% == grifer_the_end'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'message: &7в данном мире запрещено создавать регион'
+  blocked_command_fly:
+    enabled: true
+    type: player_command
+    conditions:
+    - '%command% startsWith /fly or %command% startsWith /es'
+    - '%player_world% == grifer_nether or %player_world% == grifer_the_end'
+    actions:
+      default:
+      - 'cancel_event: true'
+      - 'message: &7в данном мире запрещен полёт'

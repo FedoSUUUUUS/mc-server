@@ -1,0 +1,281 @@
+#  A DeluxeMenus advanced configuration guide
+#=========================================================
+menu_title: '&5Меню сервера'
+open_command:
+  - menu
+  - infoserver
+  - server
+register_command: true
+open_commands:
+  - '[sound] BLOCK_BEACON_ACTIVATE'
+  - '[message] &7Вы перешли в главное меню!'
+size: 53
+# as always, only cool people can open this menu :)
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.admin
+      deny_commands:
+        - "[message] &8[&bDeluxe&eMenus&8] &cYou don't have perms for this!"
+items:
+  'noobs':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGE1NWQwZmYwNDA0MDJlNmE5MjQ2ZDA5YmE5MGUyZTE1YzY4YTE5ZjdkOWE3ZGMwNWVjNGE1NzE3MDc4NGNjZSJ9fX0=
+    slot: 13
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: ' '
+    lore:
+      - '&f&lЯ НОВИЧОК, ЧТО ДЕЛАТЬ?'
+    left_click_commands:
+      - '[sound] entity_chicken_hurt'
+      - '[openguimenu] noobs'
+  'minigames':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmY2ZDMwOWM1Yjc4ZTBiZDQ3MTZkNWY1OTcyNGZkM2U3MDU3NGI2MjE1YWQwOTBlNWVkMjY3MzlkZGJhMDcxNCJ9fX0=
+    slot: 19
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: ' '
+    lore:
+      - '&e&lМИНИ-ИГРA ЛАБИРИНТ'
+    left_click_commands:
+      - '[sound] entity_turtle_egg_crack'
+      - '[console] warp al1 %player_name%'
+  'donate':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzVjOWNjY2Y2MWE2ZTYyODRmZTliYmU2NDkxNTViZTRkOWNhOTZmNzhmZmNiMjc5Yjg0ZTE2MTc4ZGFjYjUyMiJ9fX0=
+    slot: 23
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: ' '
+    lore:
+      - '         &6&lДОНАТ'
+    left_click_commands:
+      - '[openguimenu] donate'
+      - '[sound] entity_villager_yes'
+  'versus':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWNkYTU5NmJiZWY4ZjZhZjdiZmM3YmQ3OWYyMDg4MzFkNWFlMzYzYTlhYjQxMmYyYWJlODFlZmY1YTQyZDAwNSJ9fX0=
+    slot: 21
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: ' '
+    lore:
+      - '     &a&lСТРОЙ-БАТЛ'
+    left_click_commands:
+      - '[sound] entity_armor_stand_break'
+      - '[openguimenu] battle'
+  'close':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWQwYTE0MjA4NDRjZTIzN2E0NWQyZTdlNTQ0ZDEzNTg0MWU5ZjgyZDA5ZTIwMzI2N2NmODg5NmM4NTE1ZTM2MCJ9fX0=
+    slot: 53
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&fЗакрыть'
+    left_click_commands:
+      - '[close]'
+  'clan':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjhmNWVkNGE5MmU4NDc2MWZjNzgwM2I4MjFhMWYwZmE3NDQzZTEzYzQ1NzBjODk0N2Q0MWU0MTNmZmQzN2UxZSJ9fX0=
+    slot: 37
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: ' '
+    lore:
+    - '         &4&lКЛАНЫ'
+    left_click_commands:
+      - '[player] clan'
+      - '[sound] item_trident_return'
+      - '[close]'
+  'wg':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI2ZWMxY2ExODViNDdhYWQzOWY5MzFkYjhiMGE4NTAwZGVkODZhMTI3YTIwNDg4NmVkNGIzNzgzYWQxNzc1YyJ9fX0=
+    slot: 39
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: ' '
+    lore:
+    - '&2&lСКУПЩИКИ-ТОРГОВЦЫ'
+    left_click_commands:
+      - '[player] minecraft:tellraw @p {"text":"Торговцы","color":"green","clickEvent":{"action":"open_url","value":""}}'
+      - '[player] minecraft:tellraw @p {"text":"Находи различных торговцев на карте и проводи сдЭлки. Основная валюта: медь, руды, алмазы, блоки","color":"white"}'
+      - '[sound] entity_villager_ambient'
+      - '[close]'
+  'discord':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg3M2MxMmJmZmI1MjUxYTBiODhkNWFlNzVjNzI0N2NiMzlhNzVmZjFhODFjYmU0YzhhMzliMzExZGRlZGEifX19
+    slot: 43
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: ' '
+    lore:
+    - '              &b&lDISCORD'
+    - '   '
+    - '&bЗнакомства, общение, вопросы'
+    left_click_commands:
+      - '[sound] entity_arrow_hit_player'
+      - '[player] minecraft:tellraw @p {"text":"DISCORD! ← жми и переходи","color":"aqua","clickEvent":{"action":"open_url","value":"https://discord.gg/j7sHnUYFVG"}}'
+      - '[close]'
+  'rule':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGUwNTIzMDQ4YjUyMjI4YmQwODM0MTE1MTRlYTYzZmZmMjg1NjVmYmZiYTkwN2JhNTM0MjZhMjlmNjgwMjMyYSJ9fX0=
+    slot: 33
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: ' '
+    lore:
+      - ' &f&lПРАВИЛА СЕРВЕРА'
+    left_click_commands:
+      - '[player] minecraft:tellraw @p {"text":"Правила сервера!","color":"red"}'
+      - '[player] minecraft:tellraw @p {"text":"1. Общая часть 1.1 Администратор вправе наказать по причине, не указанной в настоящих правилах. 1.2 За нарушение правил, администратор самостоятельно определяет вид и срок наказания","color":"white"}'
+      - '[player] minecraft:tellraw @p {"text":"2. Аккаунты 2.1 Ник не должен содержать мата, оскорблений и непристойностей. 2.2 Ответственность за любые действия несет владелец аккаунта.","color":"white"}'
+      - '[player] minecraft:tellraw @p {"text":"3. Игровой процесс 3.1 Вызывание неполадок в работе сервера или попытки обрушить сервер. 3.2 Запрещены моды, скрипты или читы, дающие преимущество перед другими игроками, и не предусмотренные игрой. 3.3 Запрещено выдавать себя за администрацию. Команда проекта ВСЕГДА имеет префикс:[Creator], [Admin], [Helper]","color":"white"}'
+      - '[player] minecraft:tellraw @p {"text":"4. Приват и игровой мир 4.1 Всё, что находится за зоной Вашего привата - общее. 4.2 Запрещено ставить /sethome в чужом привате или рядом. 4.3 Запрещено приватить территорию над постройками других игроков. 4.4 Запрещена блокировка доступа к чужим сооружениям. 4.5 Запрещено изображать нацистские символики и непристойности. 4.6 Запрещено блокировать вход/выход из порталов в ад/край.","color":"white"}'
+      - '[player] minecraft:tellraw @p {"text":"5. Чат 5.1 Запрещен мат в глобал чате и на спавне. 5.2 Запрещён флуд, спам, спам CAPS LOCK’ом, попрошайничество. 5.3 Запрещено оскорблять, унижать, разжигать межнациональную и политическую рознь. 5.4 Запрещено мошенничество, вводить в заблуждение администрацию и игроков. 5.5 Запрещено подстрекать игроков на нарушение правил. 5.6 Запрещена реклама сторонних проектов.","color":"white"}'
+      - '[player] minecraft:tellraw @p {"text":"6. Донат 6.1 Деньги, потраченные на услуги сервера считаются добровольным пожертвованием и не возвращаются. 6.2 Сохраняйте доказательства оплаты. Это защитит покупки от ошибок системы, краж и других неприятностей. 6.3 Запрещена раздача ресурсов из креатива (gm 1).","color":"white"}'
+      - '[player] minecraft:tellraw @p {"text":"7. Яйца призыва 7.1 Использование яиц призыва в спавнера - запрещено. Такой спавнер будет удалён","color":"white"}'
+      - '[sound] entity_elder_guardian_curse'
+      - '[close]'
+  'vk':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmJkNzNkNjE2ZDIxYzE5MzAxZjJmMDc2Y2JjNTQ3YzdjMWI1MWJkNWUxYTQ1ZDdjNTlkNWFkYjgyODA4ZSJ9fX0=
+    slot: 25
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: ' '
+    lore:
+      - '            &b&lVK'
+      - '        &b&l '
+      - '   &bНовости, вопросы'
+      - ' &bскриншоты, мемасы:)'
+    left_click_commands:
+      - '[sound] entity_arrow_hit_player'
+      - '[player] minecraft:tellraw @p {"text":"VK! ← жми и переходи","color":"aqua","clickEvent":{"action":"open_url","value":"https://vk.com/minecraftstoneage"}}'
+      - '[close]'
+  'pvp':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGIxYjc3YTY4NGJlNGZmYTIxMjE5YzNmYmZmMTYzZWFkYWFkY2M2MzA5Mzk5NjQ2YzE1ZDYxMWZmN2IyY2U0In19fQ==
+    slot: 29
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: ' '
+    lore:
+      - '    &4&lPVP-ТУРНИРЫ'
+    left_click_commands:
+      - '[sound] entity_player_attack_knockback'
+      - '[player] minecraft:tellraw @p {"text":"ПВП-Турниры проводятся администрацией сервера в формате 3Х3 или 4Х4, а то и более(зависит от онлайна)","color":"gold"}'
+      - '[player] minecraft:tellraw @p {"text":"Есть битвы обычные и ролевые(от 4Х4), а также королевская битва(в разработке)","color":"gold"}'
+      - '[player] minecraft:tellraw @p {"text":"Чтобы принять участие, нужно:","color":"red"}'
+      - '[player] minecraft:tellraw @p {"text":"1.Освободить инвентарь","color":"yellow"}'
+      - '[player] minecraft:tellraw @p {"text":"2.Собрать команду из 4 человек","color":"yellow"}'
+      - '[player] minecraft:tellraw @p {"text":"3.Ждать указания админа","color":"yellow"}'
+      - '[close]'
+  'quest':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc5Mjk2ZWE2YTMzOWVkNTFmMWQ3NTFiYzcwN2RlZTRjMzVhZjkzZTFiYWUzMGRlNDdkNTZkOWVhYTk2YmE5NSJ9fX0=
+    slot: 31
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: ' '
+    lore:
+      - '&d&lЕЖЕДНЕВНЫЕ КВЕСТЫ'
+    left_click_commands:
+      - '[sound] entity_vex_charge'
+      - '[player] quests me'
+  'chest':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODA2ZGJhNjMzZjc2ODI5MDA0OGI5NGFmOWQyNjI5YWIzMjZjZjZkYzExM2JmOTM1ZTQ3NDcxMjU2MGI1YjUzNCJ9fX0=
+    slot: 41
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: ' '
+    lore:
+      - '        &5&lМИСТИКИ'
+    left_click_commands:
+      - '[player] minecraft:tellraw @p {"text":"Сундуки с лутом!","color":"dark_purple"}'
+      - '[player] minecraft:tellraw @p {"text":"Чтобы найти тайные сундуки, тебе придётся научиться разбираться в системе координат(кнопка f3). Чтобы узнать местонахождение мистика, тебе нужно обратиться к разведчику, которого ты найдешь на спавне. В сундуках можно найти много разного лута, в том числе и кастомные вещи!","color":"white"}'
+      - '[sound] block_ender_chest_open'
+      - '[close]'
+  'danji':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY0ZTI5NGVhYWI0ODZlYWIzZDQ5YWM5NWFjNmM3ZGYxYmEyM2RiN2Y1N2UwODJmOGMyMDNiNThiM2JhZThiYSJ9fX0=
+    slot: 49
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: ' '
+    lore:
+      - '         &3&lДАНЖИ'
+    left_click_commands:
+      - '[openguimenu] danji'
+      - '[sound] entity_creeper_hurt'
+  'info':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDAxYWZlOTczYzU0ODJmZGM3MWU2YWExMDY5ODgzM2M3OWM0MzdmMjEzMDhlYTlhMWEwOTU3NDZlYzI3NGEwZiJ9fX0=
+    slot: 9
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: ' '
+    lore:
+      - '&9&lО СЕРВЕРЕ &7&oSTONE AGE'
+    left_click_commands:
+      - '[player] minecraft:tellraw @p {"text":"Цель проекта - развитие творческого потенциала игроков. Благодаря соревновательным конкурсам, которые проводятся каждый месяц у игроков появляется больше интереса к игре, так как победитель соревнований получает реальный денежный приз! Фишка в том, что нужно и успевать красиво строить и при этом выживать, а также   защищаться от других игроков) На сервере установлено честное ПВП и возможность привата региона и различные мелочи не сильно нарушающие классическое выживание на сервере. ","color":"white"}'
+      - '[sound] block_stone_break'
+      - '[close]'
+  'S':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWRhMGMxYzM2MTUyZjgyOGQ0MjM3YWIyNzg5MWQxZTFjZmRkNzExZmVjOTZiNDU1MmZjNTUwM2E5NjNlZmU2ZCJ9fX0=
+    slot: 0
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f S'
+  't':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk5NTc1Yjg0OTI4YTA3M2EwODdmMGY1OTFjYjAyMGZmN2UxNTM2YTQ0M2ZjZmFjNGRiZmYwMWJlNWM0M2JiNiJ9fX0=
+    slot: 1
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f T'
+  'o':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmMyYzRmZjBlYzg5MzI5N2YyMzQzNGZhZmVhZDYwNDkzYmVhMWY3NTgyMjA3NmM0NDM5NDQxZmJhMjI5YWI2OSJ9fX0=
+    slot: 2
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f O'
+  'n':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWRkOTMwY2E3MDA0NzdmYmM1ZTNhZjdjYzgwZDMyMDg0ZTQwYjI4MWI3ZmJjY2FhMDRkOGI1NTdhN2ZjMmYyOCJ9fX0=
+    slot: 3
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f N'
+  'e':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg5YmFhMDQyNTk5ZDA3OTI0MTcyZDg5N2FjNDE1MTg2ZDllNWYyNTQ2ODE1MjEwMjAxZGY3YmI2MzJkYTFjNCJ9fX0=
+    slot: 4
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f E'
+  'a':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjBlNDIwZjJhZWU0ZTBmOGZiNDA4ZDVlNjM0MjY0ZTQ0OWE5NjlhZjllMjQyOGUyZTRhYTE3ODNkZmNmNjg2YSJ9fX0=
+    slot: 6
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f A'
+  'g':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWUxYzI0YjEzMmE0Zjk4NmFiOWI5MjViMDk0ZjJkY2UwMGM1YjE2ZGU0ZDdkNDlkMTliMTk3NjRmZmZhNWMxMyJ9fX0=
+    slot: 7
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f G'
+  'e1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg5YmFhMDQyNTk5ZDA3OTI0MTcyZDg5N2FjNDE1MTg2ZDllNWYyNTQ2ODE1MjEwMjAxZGY3YmI2MzJkYTFjNCJ9fX0=
+    slot: 8
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: '&f E'

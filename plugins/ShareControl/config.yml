@@ -1,7 +1,7 @@
 General:
   CheckUpdates: true
   Version: 2.6.4
-  Language: en
+  Language: ru
   Database: sqlite
   SaveInterval: 5
   MySQL:
@@ -29,8 +29,6 @@ Settings:
     BlockingPlacement:
     - BEDROCK
     - MONSTER_EGGS
-    - TNT
-    - ENDER_PORTAL_FRAME
     BlockingBreakage:
     - BEDROCK
     BlockingInteract:
@@ -39,28 +37,19 @@ Settings:
     BlockingInventory:
     - MONSTER_EGG
     - MINECART
-    - BOAT
     - STORAGE_MINECART
     - POWERED_MINECART
     - EXPLOSIVE_MINECART
     - HOPPER_MINECART
-    - LAVA_BUCKET
     - ENDER_PEARL
     - EYE_OF_ENDER
     - EXP_BOTTLE
-    - FIREBALL
-    - FLINT_AND_STEEL
     - POTION
     - SPLASH_POTION
     - LINGERING_POTION
-    - CHORUS_PLANT
-    - CHORUS_FLOWER
     - END_CRYSTAL
-    - BOAT_ACACIA
-    - BOAT_BIRCH
-    - BOAT_DARK_OAK
-    - BOAT_JUNGLE
-    - BOAT_SPRUCE
+    - ENCHANTED_GOLDEN_APPLE
+    - GOLDEN_APPLE
   BlockingCmds:
     List:
     - kit start
@@ -68,8 +57,8 @@ Settings:
 WorldsConfig:
   Enabled: false
   BlockingCreativeInWorlds:
-  - world_nether
-  - world_the_end
+  - grifer_nether
+  - grifer_the_end
 GamemodesControl:
   Enabled: false
   Full: true

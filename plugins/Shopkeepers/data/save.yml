@@ -1,0 +1,3248 @@
+# This file is not intended to be manually modified! If you want to manually edit this file anyways, ensure that the server is not running currently and that you have prepared a backup of this file.
+
+data-version: 3|2|3120
+'2':
+  uniqueId: 7204f30e-07ac-4bf4-89d4-2ffbb974aa06
+  world: grifer
+  x: 359
+  y: 81
+  z: -576
+  yaw: 98.181984
+  type: admin
+  name: Торговец
+  object:
+    type: villager
+    baby: false
+    profession: FARMER
+    villagerType: TAIGA
+    villagerLevel: 4
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: EMERALD
+        amount: 2
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BIRCH_LOG
+        amount: 16
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: EMERALD
+        amount: 3
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: HAY_BLOCK
+        amount: 32
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PUMPKIN_PIE
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: EMERALD
+        amount: 5
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: '{"text":"Эль"}'
+          potion-type: minecraft:slowness
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COOKIE
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: EMERALD
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RABBIT
+        amount: 6
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_IRON
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"extra":[{"text":"Сувенир с крепости Мец Донжон"}],"text":""}'
+          skull-owner:
+            ==: PlayerProfile
+            uniqueId: 055ddf4c-c96e-4771-b7b9-e9afd0057379
+            properties:
+            - name: textures
+              value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWQ0ODc1MGJiNWFkYTI5ZGZmNjgyMGRiNjkzM2RjNjJhMGJmNmJkZTcyNzM0MWViN2RkMTg0NTNhMTBkNjQ5MyJ9fX0=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 3
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_GOLD
+        amount: 3
+  snapshots: []
+'5':
+  uniqueId: cf2b3ad7-1b46-461c-9353-59e43a44557a
+  world: grifer
+  x: 343
+  y: 111
+  z: -599
+  yaw: 336.48358
+  type: admin
+  name: Лучник
+  object:
+    type: villager
+    baby: false
+    profession: FLETCHER
+    villagerType: SAVANNA
+    villagerLevel: 2
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BOW
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_COPPER
+        amount: 6
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CROSSBOW
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_COPPER
+        amount: 8
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: TIPPED_ARROW
+        amount: 10
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:long_slow_falling
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: EMERALD
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: TIPPED_ARROW
+        amount: 16
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:harming
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 5
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            PIERCING: 2
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 16
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            ARROW_DAMAGE: 1
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 16
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: SPLASH_POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:slow_falling
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PHANTOM_MEMBRANE
+        amount: 4
+  snapshots: []
+'7':
+  uniqueId: bffc3349-6b92-4970-b5b5-478ebe457348
+  world: grifer
+  x: -19
+  y: 68
+  z: -151
+  yaw: 0.0
+  type: admin
+  name: Работяга
+  object:
+    type: villager
+    baby: false
+    profession: FARMER
+    villagerType: SNOW
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BREAD
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: ROTTEN_FLESH
+        amount: 40
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: APPLE
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 30
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: TIPPED_ARROW
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:slowness
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BONE
+        amount: 32
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND_SHOVEL
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 30
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: STICK
+        amount: 2
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:long_night_vision
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 2
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_IRON
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PLAYER_HEAD
+        amount: 16
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"extra":[{"text":"Ящик светлый"}],"text":""}'
+          skull-owner:
+            ==: PlayerProfile
+            uniqueId: cb7a327e-ae2f-49ac-8f40-9591524d682e
+            properties:
+            - name: textures
+              value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2I0ZTQ3OGMxMWNjZGZhNDUzMjk4NzQ3MjQ1ZTA0MjVlYzQyNTFlMTdmYjNlNjdkYmVjMTQxNzZjNjQ3MTcifX19
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 8
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_GOLD
+        amount: 2
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PLAYER_HEAD
+        amount: 16
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"extra":[{"text":"Ящик тёмный"}],"text":""}'
+          skull-owner:
+            ==: PlayerProfile
+            uniqueId: e681c598-0e4a-9846-d2da-f19055382f4e
+            properties:
+            - name: textures
+              value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ1ZmViZWY1NWFlMGU1OWQzZDM4ZmNiMTkzYTRiMjMzYjZmZWE5YjI5ZjJmOWQ1MjRlZmQ2N2YwYjhjMiJ9fX0=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 8
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_GOLD
+        amount: 2
+  snapshots: []
+'8':
+  uniqueId: c93f7aeb-8e25-4fc8-8555-55ac729c80ae
+  world: grifer
+  x: 341
+  y: 81
+  z: -585
+  yaw: 274.98672
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: TAIGA
+    villagerLevel: 1
+  recipes: {}
+  snapshots: []
+'12':
+  uniqueId: f78cc9cb-6961-48b8-b8da-82a2fbb68d86
+  world: grifer
+  x: 362
+  y: 83
+  z: -594
+  yaw: 357.6697
+  type: admin
+  name: Главный плавильщик
+  object:
+    type: villager
+    baby: false
+    profession: ARMORER
+    villagerType: SNOW
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: IRON_AXE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_COPPER
+        amount: 16
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: IRON_PICKAXE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_COPPER
+        amount: 16
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CHAINMAIL_CHESTPLATE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_COPPER
+        amount: 16
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_IRON
+        amount: 2
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND_PICKAXE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_COPPER
+        amount: 16
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: EMERALD
+        amount: 16
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND_LEGGINGS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_IRON
+        amount: 32
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_GOLD
+        amount: 32
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND_BOOTS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_IRON
+        amount: 32
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_GOLD
+        amount: 16
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Рыцарский_шлем"}],"text":""}'
+          enchants:
+            VANISHING_CURSE: 1
+          attribute-modifiers:
+            GENERIC_MAX_HEALTH:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 3.0
+              name: '&eDefault name'
+              slot: HEAD
+              uuid: c92da9b9-296c-403d-a4bd-f808a916259c
+              operation: 0
+            GENERIC_ARMOR:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 6.0
+              name: '&eDefault name'
+              slot: HEAD
+              uuid: 87378870-b0b3-4df4-94bf-20054c66a82c
+              operation: 0
+          PublicBukkitValues:
+            score:usage: 1i
+            executableitems:ei-id: helmet
+          skull-owner:
+            ==: PlayerProfile
+            uniqueId: b33183ad-e9c0-4d48-8eea-f8c9358d3568
+            properties:
+            - name: textures
+              value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGVjNjIxM2Y1ZGM4NmNkYjM2OWQ5NTEyN2Q3MmIwMGIwMzNlMGY5YWI1OTcwYTQ3NmRhZDdiZGRjOWZlOGYifX19
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHERITE_SCRAP
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND
+  snapshots: []
+'13':
+  uniqueId: d1099d83-42ed-4c7d-baaa-271a32fde0da
+  world: grifer
+  x: 3447
+  y: 66
+  z: -2683
+  yaw: 7.4833555
+  type: admin
+  name: ''
+  object:
+    type: creeper
+    powered: false
+  recipes: {}
+  snapshots: []
+'14':
+  uniqueId: 543a4d4a-d1cc-4876-8d91-ecccf774d88d
+  world: grifer
+  x: 3439
+  y: 66
+  z: -2683
+  yaw: 347.13757
+  type: admin
+  name: ''
+  object:
+    type: creeper
+    powered: false
+  recipes: {}
+  snapshots: []
+'19':
+  uniqueId: 10bb1a1b-141d-407b-9408-6192c8f5cb35
+  world: grifer
+  x: 3439
+  y: 65
+  z: -2685
+  yaw: 267.5329
+  type: admin
+  name: Торговец сувенирной лавки
+  object:
+    type: villager
+    baby: false
+    profession: CLERIC
+    villagerType: DESERT
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GOLDEN_SWORD
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 6
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: LAPIS_LAZULI
+        amount: 3
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 6
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DRAGON_BREATH
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 6
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: SPLASH_POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:long_fire_resistance
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 6
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: SPLASH_POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:strong_slowness
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 6
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: ENDER_EYE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 8
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GOLD_INGOT
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"extra":[{"text":"Сувенир из пустынного Храма"}],"text":""}'
+          skull-owner:
+            ==: PlayerProfile
+            uniqueId: eec6c4a9-9e9d-4948-80e3-6d3d107585c7
+            properties:
+            - name: textures
+              value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZhNGRiY2VhNGY0ZjgzMjViMTBjNjU3ZDZjZTE0ODVjMmIxMjFkOTQxZjkyYWI2YTZmNzExODcyZWU0MDI3YSJ9fX0=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 32
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: EMERALD
+        amount: 5
+  snapshots: []
+'20':
+  uniqueId: cf003ee3-7756-4e58-86d0-28d7cad6753c
+  world: grifer
+  x: 3427
+  y: 65
+  z: -2714
+  yaw: 88.45889
+  type: admin
+  name: Торговец
+  object:
+    type: villager
+    baby: false
+    profession: MASON
+    villagerType: DESERT
+    villagerLevel: 4
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: WHITE_CARPET
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 4
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: LILY_PAD
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 8
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: SMALL_DRIPLEAF
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 8
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BIG_DRIPLEAF
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 8
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: FLOWER_POT
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 16
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: LEATHER
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 10
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: EMERALD
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NAME_TAG
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 32
+  snapshots: []
+'21':
+  uniqueId: b8635e1b-ac8d-46d3-9890-0cc5b341142a
+  world: grifer
+  x: 365
+  y: 76
+  z: -594
+  yaw: 0.3078328
+  type: admin
+  name: Колдунья из Тёмного леса
+  object:
+    type: witch
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: WITHER_ROSE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 3
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: FERMENTED_SPIDER_EYE
+        amount: 10
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 6
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: SPLASH_POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:strong_poison
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 8
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            THORNS: 1
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 10
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: AMETHYST_CLUSTER
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            ARROW_KNOCKBACK: 2
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 16
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: EMERALD
+        amount: 2
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GOLDEN_APPLE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 32
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: WITHER_SKELETON_SKULL
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"extra":[{"text":"Wither bomb"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Default
+            lore"}],"text":""}'
+          - '{"extra":[{"text":"Запускает бомбу и накладывет иссушение"}],"text":""}'
+          enchants:
+            PROTECTION_FALL: 6
+          ItemFlags:
+          - HIDE_ENCHANTS
+          PublicBukkitValues:
+            score:usage: 1i
+            executableitems:ei-id: bomb
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GUNPOWDER
+        amount: 32
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: WITHER_SKELETON_SKULL
+  snapshots: []
+'22':
+  uniqueId: 4d51b52a-b434-4e8c-a22b-110a6ae2ca88
+  world: grifer
+  x: 360
+  y: 79
+  z: -593
+  yaw: 340.12845
+  type: admin
+  name: ''
+  object:
+    type: spider
+  recipes: {}
+  snapshots: []
+'24':
+  uniqueId: 4e3bf9ae-f5b3-4008-829f-0c9e06c82714
+  world: grifer
+  x: 229
+  y: 96
+  z: -1293
+  yaw: 358.76193
+  type: admin
+  name: Дежурный
+  object:
+    type: villager
+    baby: false
+    profession: MASON
+    villagerType: TAIGA
+    villagerLevel: 3
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"extra":[{"text":"Сувенир с замка Крэгивар"}],"text":""}'
+          skull-owner:
+            ==: PlayerProfile
+            uniqueId: dcbaab4e-c536-4073-be53-3f85cce172ea
+            properties:
+            - name: textures
+              value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTM4MjYxODFjZTkwMTJiNjY1ODY1ZjNhYzAwNjYzMDdiNGQwMmRhMjgxNTQwMTA0ZTA0NjFmZmVmYTc0NTlmZCJ9fX0=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 3
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_GOLD
+        amount: 3
+  snapshots: []
+'25':
+  uniqueId: 3c35df68-2e3d-443d-ace1-cfae28f675ae
+  world: grifer
+  x: 236
+  y: 96
+  z: -1278
+  yaw: 173.6565
+  type: admin
+  name: Шеф-повар
+  object:
+    type: villager
+    baby: false
+    profession: BUTCHER
+    villagerType: TAIGA
+    villagerLevel: 2
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 5
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CHICKEN
+        amount: 10
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 5
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PORKCHOP
+        amount: 8
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 5
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: POTATO
+        amount: 32
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: IRON_INGOT
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: SWEET_BERRIES
+        amount: 64
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GOLD_INGOT
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COD
+        amount: 16
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: EMERALD
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: MUTTON
+        amount: 16
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: APPLE
+        amount: 48
+  snapshots: []
+'26':
+  uniqueId: a475460c-f273-468d-8c53-296fb6efa71f
+  world: grifer
+  x: 223
+  y: 110
+  z: -1298
+  yaw: 36.181725
+  type: admin
+  name: Учёный
+  object:
+    type: villager
+    baby: false
+    profession: LIBRARIAN
+    villagerType: TAIGA
+    villagerLevel: 5
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 2
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: INK_SAC
+        amount: 8
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 2
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: FEATHER
+        amount: 16
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_GOLD
+        amount: 2
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            BINDING_CURSE: 1
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_GOLD
+        amount: 2
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            VANISHING_CURSE: 1
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: EMERALD
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAINTING
+        amount: 8
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: IRON_INGOT
+        amount: 2
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: MAP
+        amount: 6
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BOOK
+        amount: 16
+  snapshots: []
+'29':
+  uniqueId: ca00ae80-1f9d-4774-8f5a-ad05562fcd5e
+  world: grifer
+  x: -758
+  y: 39
+  z: -7177
+  yaw: 4.163797
+  type: admin
+  name: arab
+  object:
+    type: villager
+    baby: false
+    profession: LIBRARIAN
+    villagerType: SAVANNA
+    villagerLevel: 5
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: ENCHANTED_GOLDEN_APPLE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GOLDEN_APPLE
+        amount: 32
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHER_STAR
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: REINFORCED_DEEPSLATE
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DEEPSLATE
+        amount: 64
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PISTON
+        amount: 16
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: SADDLE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: LEATHER
+        amount: 32
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: TRIPWIRE_HOOK
+        amount: 8
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DRAGON_BREATH
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BLAZE_ROD
+        amount: 32
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: SOUL_TORCH
+        amount: 32
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND_HORSE_ARMOR
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: LEATHER
+        amount: 32
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND
+        amount: 16
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CRYING_OBSIDIAN
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GHAST_TEAR
+        amount: 24
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: OBSIDIAN
+        amount: 16
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: TOTEM_OF_UNDYING
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: EMERALD
+        amount: 48
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_GOLD_BLOCK
+        amount: 3
+    '8':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NAUTILUS_SHELL
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: TURTLE_EGG
+        amount: 8
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: TURTLE_HELMET
+    '9':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: POWDER_SNOW_BUCKET
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: SNOW_BLOCK
+        amount: 4
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CAULDRON
+  snapshots: []
+'31':
+  uniqueId: 3e8b52a2-96e1-442f-a0a4-cd7b154946e0
+  world: grifer
+  x: -651
+  y: 67
+  z: -7160
+  yaw: 262.76843
+  type: admin
+  name: the sage
+  object:
+    type: villager
+    baby: false
+    profession: CLERIC
+    villagerType: SAVANNA
+    villagerLevel: 2
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:luck
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            LOOT_BONUS_BLOCKS: 3
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:awkward
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: EXPERIENCE_BOTTLE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_COPPER
+        amount: 16
+  snapshots: []
+'33':
+  uniqueId: 4923ac77-4c28-4831-8947-ea1e2669941a
+  world: grifer
+  x: -685
+  y: 63
+  z: -7157
+  yaw: 96.80192
+  type: admin
+  name: blacksmith
+  object:
+    type: villager
+    baby: false
+    profession: WEAPONSMITH
+    villagerType: SAVANNA
+    villagerLevel: 2
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: TRIDENT
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PRISMARINE_BRICKS
+        amount: 32
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: LIGHTNING_ROD
+        amount: 16
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            ARROW_DAMAGE: 2
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_COPPER
+        amount: 16
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_GOLD
+  snapshots: []
+'35':
+  uniqueId: 038cca44-87a3-438f-99bb-6d9d8661bae4
+  world: grifer
+  x: -715
+  y: 64
+  z: -7062
+  yaw: 176.32106
+  type: admin
+  name: pigllord
+  object:
+    type: piglin-brute
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHER_STAR
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DEEPSLATE_GOLD_ORE
+        amount: 16
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: ANCIENT_DEBRIS
+        amount: 3
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: MUSIC_DISC_PIGSTEP
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DEEPSLATE_DIAMOND_ORE
+        amount: 2
+  snapshots: []
+'36':
+  uniqueId: 0cefc4f0-33ea-4304-a6ca-cf5d66850fc9
+  world: grifer
+  x: 224
+  y: 108
+  z: -1290
+  yaw: 265.3005
+  type: admin
+  name: Продавец
+  object:
+    type: villager
+    baby: false
+    profession: CLERIC
+    villagerType: PLAINS
+    villagerLevel: 3
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: REDSTONE
+        amount: 3
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: LARGE_AMETHYST_BUD
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 2
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: SOUL_LANTERN
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 2
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GUNPOWDER
+        amount: 8
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 3
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: WHITE_CANDLE
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 5
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GLOWSTONE_DUST
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 16
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: LEATHER_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Tranquil
+            Boots"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Хоть
+            эти сапоги и увеличивают живучесть владельца, они не слишком надёжны."}],"text":""}'
+          attribute-modifiers:
+            GENERIC_MOVEMENT_SPEED:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.02
+              name: '&eDefault name'
+              slot: FEET
+              uuid: bed18f9e-38aa-4058-98e3-1e163d47e8b4
+              operation: 0
+            GENERIC_MAX_HEALTH:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 2.0
+              name: '&eDefault name'
+              slot: FEET
+              uuid: d2ffc31a-6922-4176-a84d-72037bb35420
+              operation: 0
+          ItemFlags:
+          - HIDE_DYE
+          PublicBukkitValues:
+            score:usage: 10i
+            executableitems:ei-id: Tranquil_Boots
+          color:
+            ==: Color
+            RED: 128
+            BLUE: 31
+            GREEN: 199
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 32
+  snapshots: []
+'37':
+  uniqueId: fac14dae-2731-44f0-a782-8e1eca9f4851
+  world: grifer
+  x: 3439
+  y: 80
+  z: -2678
+  yaw: 357.93134
+  type: admin
+  name: Картограф
+  object:
+    type: villager
+    baby: false
+    profession: CARTOGRAPHER
+    villagerType: TAIGA
+    villagerLevel: 4
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: SPYGLASS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 2
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: MAP
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 3
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COMPASS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 4
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GOLD_INGOT
+        amount: 2
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PAINTING
+        amount: 8
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RECOVERY_COMPASS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_IRON
+        amount: 2
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: EMERALD
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: SOUL_LANTERN
+        amount: 5
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 5
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_GOLD
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: FILLED_MAP
+        meta:
+          ==: ItemMeta
+          meta-type: MAP
+          display-name: '{"text":"Карта схрона"}'
+          map-id: 773
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND
+        amount: 18
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_BLOCK
+        amount: 30
+  snapshots: []
+'40':
+  uniqueId: ddffd66a-9fd2-4a4e-9713-7c184e44d63f
+  world: grifer
+  x: 237
+  y: 106
+  z: -1293
+  yaw: 266.71948
+  type: admin
+  name: Грибник
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: JUNGLE
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BROWN_MUSHROOM
+        amount: 5
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RED_MUSHROOM
+        amount: 5
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_GOLD
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: WARPED_FUNGUS
+        amount: 10
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_GOLD
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CRIMSON_FUNGUS
+        amount: 10
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: EMERALD
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: MUSHROOM_STEM
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: EMERALD
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BROWN_MUSHROOM_BLOCK
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: EMERALD
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RED_MUSHROOM_BLOCK
+  snapshots: []
+'41':
+  uniqueId: f8cf8e68-25f2-4fd7-94fa-6eacf646b4f7
+  world: grifer
+  x: -643
+  y: 125
+  z: -7424
+  yaw: 95.42285
+  type: admin
+  name: pawnshop
+  object:
+    type: wandering-trader
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: EMERALD
+        amount: 5
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DRIED_KELP_BLOCK
+        amount: 5
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND
+        amount: 2
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CONDUIT
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: IRON_INGOT
+        amount: 4
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BLUE_ICE
+        amount: 8
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHERITE_INGOT
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DRAGON_EGG
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DRAGON_HEAD
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND
+        amount: 8
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BLAST_FURNACE
+        amount: 16
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: LODESTONE
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: IRON_INGOT
+        amount: 4
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BAMBOO
+        amount: 64
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GOLD_INGOT
+        amount: 4
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: AMETHYST_SHARD
+        amount: 16
+    '8':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DRAGON_EGG
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHERITE_BLOCK
+        amount: 32
+  snapshots: []
+'44':
+  uniqueId: f846786a-8dd2-4317-8efd-21ea4f68e034
+  world: grifer
+  x: 986
+  y: 65
+  z: -7595
+  yaw: 183.27818
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: CARTOGRAPHER
+    villagerType: SAVANNA
+    villagerLevel: 5
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: IRON_BLOCK
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_COPPER_BLOCK
+        amount: 32
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GOLD_BLOCK
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_COPPER_BLOCK
+        amount: 48
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: EMERALD_BLOCK
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_COPPER_BLOCK
+        amount: 64
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND_BLOCK
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_COPPER_BLOCK
+        amount: 64
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_COPPER_BLOCK
+        amount: 48
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND_BLOCK
+        amount: 10
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHERITE_BLOCK
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHERITE_INGOT
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND
+        amount: 64
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND
+        amount: 64
+  snapshots: []
+'45':
+  uniqueId: 1b374822-172e-49c6-aa80-078163dcc695
+  world: grifer
+  x: 980
+  y: 65
+  z: -7595
+  yaw: 0.84021425
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: CARTOGRAPHER
+    villagerType: JUNGLE
+    villagerLevel: 5
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: IRON_INGOT
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_COPPER
+        amount: 48
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GOLD_INGOT
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_COPPER
+        amount: 64
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: EMERALD
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_COPPER
+        amount: 64
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_COPPER
+        amount: 32
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_COPPER
+        amount: 64
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_IRON
+        amount: 64
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND
+        amount: 7
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHERITE_INGOT
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHERITE_SCRAP
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND
+        amount: 48
+  snapshots: []
+'46':
+  uniqueId: b2edcb83-d0b2-42dd-98d6-faf042fa3904
+  world: grifer
+  x: 980
+  y: 65
+  z: -7600
+  yaw: 356.18875
+  type: admin
+  name: ''
+  object:
+    type: villager
+    baby: false
+    profession: CARTOGRAPHER
+    villagerType: SNOW
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_COPPER
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 8
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_ORE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 8
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DEEPSLATE_COPPER_ORE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 8
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_IRON
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: IRON_INGOT
+        amount: 64
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: IRON_ORE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: IRON_INGOT
+        amount: 64
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DEEPSLATE_IRON_ORE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: IRON_INGOT
+        amount: 64
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_GOLD
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GOLD_INGOT
+        amount: 64
+    '8':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GOLD_ORE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GOLD_INGOT
+        amount: 64
+    '9':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DEEPSLATE_GOLD_ORE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GOLD_INGOT
+        amount: 64
+    '10':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHER_GOLD_ORE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GOLD_INGOT
+        amount: 64
+    '11':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: EMERALD_ORE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: EMERALD
+        amount: 64
+    '12':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DEEPSLATE_EMERALD_ORE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: EMERALD
+        amount: 64
+    '13':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND_ORE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND
+        amount: 32
+    '14':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DEEPSLATE_DIAMOND_ORE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND
+        amount: 32
+  snapshots: []
+'52':
+  uniqueId: bca5f599-bd40-4b25-876c-5d6a2d0d725f
+  world: grifer
+  x: 652
+  y: 72
+  z: 415
+  yaw: 180.52724
+  type: admin
+  name: Hello niga
+  object:
+    type: villager
+    baby: false
+    profession: FLETCHER
+    villagerType: DESERT
+    villagerLevel: 1
+  recipes: {}
+  snapshots: []
+'55':
+  uniqueId: 6d73fdcc-93e7-41f2-9b95-0f48698254f1
+  world: grifer
+  x: 652
+  y: 146
+  z: 451
+  yaw: 45.0
+  type: admin
+  name: petux
+  object:
+    type: chicken
+    baby: false
+  recipes: {}
+  snapshots: []
+'73':
+  uniqueId: 45a38b2a-dc25-42c3-b4d7-d96b1c498e8a
+  world: grifer
+  x: 581
+  y: 71
+  z: 411
+  yaw: 83.419235
+  type: admin
+  name: Hello
+  object:
+    type: spider
+  recipes: {}
+  snapshots: []
+'80':
+  uniqueId: 49277bc0-3b16-40f0-8de1-554d3cd0b573
+  world: grifer
+  x: 83
+  y: 68
+  z: -2611
+  yaw: 276.53912
+  type: admin
+  name: Продавец шерсти
+  object:
+    type: villager
+    baby: false
+    profession: SHEPHERD
+    villagerType: TAIGA
+    villagerLevel: 3
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: WHITE_WOOL
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: ORANGE_WOOL
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: MAGENTA_WOOL
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: LIGHT_BLUE_WOOL
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: YELLOW_WOOL
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: LIME_WOOL
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PINK_WOOL
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+    '8':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GRAY_WOOL
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+    '9':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: LIGHT_GRAY_WOOL
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+    '10':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CYAN_WOOL
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+    '11':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PURPLE_WOOL
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+    '12':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BLUE_WOOL
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+    '13':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BROWN_WOOL
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+    '14':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GREEN_WOOL
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+    '15':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RED_WOOL
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+    '16':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BLACK_WOOL
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+  snapshots: []
+'81':
+  uniqueId: 205b9ad4-5281-4c32-a242-557b841aa58d
+  world: grifer
+  x: 80
+  y: 68
+  z: -2612
+  yaw: 74.15554
+  type: admin
+  name: Инструментальщик
+  object:
+    type: villager
+    baby: false
+    profession: TOOLSMITH
+    villagerType: PLAINS
+    villagerLevel: 5
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: IRON_HOE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            MENDING: 1
+          repair-cost: 1
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 3
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: IRON_SHOVEL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 2
+          repair-cost: 1
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 4
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: IRON_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 2
+          repair-cost: 1
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 5
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: IRON_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 2
+          repair-cost: 1
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 6
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GOLDEN_SHOVEL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 3
+            MENDING: 1
+            SILK_TOUCH: 1
+            DURABILITY: 3
+          repair-cost: 15
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 20
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_GOLD
+        amount: 3
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND_AXE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 40
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: EMERALD
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHERITE_PICKAXE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_BLOCK
+        amount: 32
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_GOLD
+        amount: 32
+  snapshots: []
+'82':
+  uniqueId: abbb0e8d-accf-4a94-93fe-334d0633f09f
+  world: grifer
+  x: 83
+  y: 68
+  z: -2607
+  yaw: 297.50073
+  type: admin
+  name: Продавец овощей
+  object:
+    type: villager
+    baby: false
+    profession: FARMER
+    villagerType: PLAINS
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BONE_MEAL
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CARROT
+        amount: 10
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 2
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: POTATO
+        amount: 10
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 2
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: BEETROOT
+        amount: 5
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 2
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PUMPKIN
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 2
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DRIED_KELP_BLOCK
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 2
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: MELON
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 2
+  snapshots: []
+'83':
+  uniqueId: 712e58f3-d9c3-4f02-9321-7687742dd014
+  world: grifer
+  x: 88
+  y: 68
+  z: -2615
+  yaw: 55.1928
+  type: admin
+  name: Продавец узоров
+  object:
+    type: villager
+    baby: false
+    profession: SHEPHERD
+    villagerType: PLAINS
+    villagerLevel: 5
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: FLOWER_BANNER_PATTERN
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GLOBE_BANNER_PATTERN
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CREEPER_BANNER_PATTERN
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 3
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: SKULL_BANNER_PATTERN
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 3
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PIGLIN_BANNER_PATTERN
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 3
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: MOJANG_BANNER_PATTERN
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 10
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COBWEB
+        amount: 32
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 16
+  snapshots: []
+'87':
+  uniqueId: ae84f6dd-f940-4f61-9e60-fa7635fed988
+  world: grifer
+  x: 91
+  y: 68
+  z: -2612
+  yaw: 148.45445
+  type: admin
+  name: Оружейник-мастер
+  object:
+    type: villager
+    baby: false
+    profession: WEAPONSMITH
+    villagerType: PLAINS
+    villagerLevel: 5
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: IRON_SWORD
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 10
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GOLDEN_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 5
+            SWEEPING_EDGE: 3
+            DURABILITY: 3
+          repair-cost: 7
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 30
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: IRON_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ARTHROPODS: 5
+            DURABILITY: 3
+          repair-cost: 3
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 50
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: TRIDENT
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 45
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_GOLD
+        amount: 5
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND_SWORD
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 30
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_GOLD
+        amount: 16
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            KNOCKBACK: 1
+            LOOT_BONUS_MOBS: 3
+            DURABILITY: 2
+          repair-cost: 7
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 64
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_GOLD
+        amount: 22
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: SHIELD
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          enchants:
+            KNOCKBACK: 2
+            THORNS: 3
+            DURABILITY: 3
+          repair-cost: 7
+          internal: H4sIAAAAAAAA/43MsQ6CMBRG4T+tROgAPo8jxp3BF7jWYhrKbdJeB96eDg5lYzz5kmMAg34M0S5PFi/bi74al5GyAzB0aCcScYmzKd20uP4beg5Ro3nEEFMhhcrUmioyR7Ln6DDUeflVNhRT/oPb6tnZRLPc38Tsiu10EbMl0QAAAA==
+          blockMaterial: SHIELD
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_BLOCK
+        amount: 16
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_GOLD
+        amount: 44
+  snapshots: []
+'88':
+  uniqueId: 5d047775-d121-4372-95b8-fcb2567dd27e
+  world: grifer
+  x: 83
+  y: 68
+  z: -2615
+  yaw: 245.43716
+  type: admin
+  name: Кожевник-мастер
+  object:
+    type: villager
+    baby: false
+    profession: LEATHERWORKER
+    villagerType: PLAINS
+    villagerLevel: 3
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: LEATHER
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 10
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: LEATHER_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          enchants:
+            PROTECTION_PROJECTILE: 4
+            THORNS: 2
+            DURABILITY: 3
+          repair-cost: 7
+          color:
+            ==: Color
+            RED: 29
+            BLUE: 33
+            GREEN: 29
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 12
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          enchants:
+            PROTECTION_PROJECTILE: 4
+            THORNS: 2
+            DURABILITY: 3
+          repair-cost: 7
+          color:
+            ==: Color
+            RED: 29
+            BLUE: 33
+            GREEN: 29
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 12
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: LEATHER_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          enchants:
+            PROTECTION_PROJECTILE: 4
+            THORNS: 2
+            DURABILITY: 3
+          repair-cost: 7
+          color:
+            ==: Color
+            RED: 29
+            BLUE: 33
+            GREEN: 29
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 12
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: LEATHER_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          enchants:
+            PROTECTION_PROJECTILE: 4
+            THORNS: 2
+            DURABILITY: 3
+          repair-cost: 7
+          color:
+            ==: Color
+            RED: 29
+            BLUE: 33
+            GREEN: 29
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 12
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: LEAD
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 16
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: LEATHER_HORSE_ARMOR
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          enchants:
+            PROTECTION_EXPLOSIONS: 4
+            THORNS: 3
+          repair-cost: 3
+          color:
+            ==: Color
+            RED: 29
+            BLUE: 33
+            GREEN: 29
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 40
+  snapshots: []
+'89':
+  uniqueId: 80b5c427-4190-4c19-a97a-e5341364cd4f
+  world: grifer
+  x: 88
+  y: 68
+  z: -2607
+  yaw: 65.82331
+  type: admin
+  name: Бронник
+  object:
+    type: villager
+    baby: false
+    profession: NITWIT
+    villagerType: TAIGA
+    villagerLevel: 3
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CHAINMAIL_HELMET
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 15
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CHAINMAIL_CHESTPLATE
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 15
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CHAINMAIL_LEGGINGS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 15
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: CHAINMAIL_BOOTS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 15
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: GOLDEN_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            MENDING: 1
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+          repair-cost: 7
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 25
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_GOLD
+        amount: 5
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: TURTLE_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            WATER_WORKER: 1
+          repair-cost: 1
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 40
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_GOLD
+        amount: 20
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: NETHERITE_HELMET
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_BLOCK
+        amount: 40
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_IRON
+        amount: 40
+  snapshots: []
+'90':
+  uniqueId: 3f14a714-a997-4bb3-92b0-1c0f4433268c
+  world: grifer
+  x: 327
+  y: 74
+  z: -2707
+  yaw: 15.831219
+  type: admin
+  name: Продавец
+  object:
+    type: villager
+    baby: false
+    profession: NONE
+    villagerType: TAIGA
+    villagerLevel: 2
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: FLOWER_POT
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: HONEYCOMB_BLOCK
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 10
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"extra":[{"text":"Цветок кактуса"}],"text":""}'
+          skull-owner:
+            ==: PlayerProfile
+            uniqueId: 29e88651-1357-42e0-8b06-cbb08bfdcd5b
+            properties:
+            - name: textures
+              value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTA0ZjFhNTU5NDNjNTk0ZTcxMTllODg0YzVkYTJhMmJjYThlN2U2NTE2YTA2NDlhYTdlNTU2NThlMGU5In19fQ==
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 16
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_GOLD
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"extra":[{"text":"Лимон"}],"text":""}'
+          skull-owner:
+            ==: PlayerProfile
+            uniqueId: 09d10b7a-f525-412c-bedf-b2fe7c8bfc70
+            properties:
+            - name: textures
+              value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTU3ZmQ1NmNhMTU5Nzg3NzkzMjRkZjUxOTM1NGI2NjM5YThkOWJjMTE5MmM3YzNkZTkyNWEzMjliYWVmNmMifX19
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 16
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_GOLD
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"extra":[{"text":"Яблоко"}],"text":""}'
+          skull-owner:
+            ==: PlayerProfile
+            uniqueId: 0d5fd9c3-d044-478f-b774-d37b5f86fa2a
+            properties:
+            - name: textures
+              value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTJiMzViZGE1ZWJkZjEzNWY0ZTcxY2U0OTcyNmZiZWM1NzM5ZjBhZGVkZjAxYzUxOWUyYWVhN2Y1MTk1MWVhMiJ9fX0=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 16
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_GOLD
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: PLAYER_HEAD
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"extra":[{"text":"Виноград"}],"text":""}'
+          skull-owner:
+            ==: PlayerProfile
+            uniqueId: 6f59d5f7-b258-4099-b164-317ced35395c
+            properties:
+            - name: textures
+              value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWM0NWY0NjhjZjlmMDdiN2YxOTk4N2RhNDk0YzQ5MGRkODdkNGQzODYyODQ5MWM4NGY0OTVmNDVhZTdmYjY0In19fQ==
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 16
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: RAW_GOLD
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: WITHER_ROSE
+        amount: 10
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: COPPER_INGOT
+        amount: 16
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3120
+        type: EMERALD
+        amount: 5
+  snapshots: []

@@ -1,0 +1,129 @@
+name: §bShiva's Guard
+lore: []
+material: LEATHER_CHESTPLATE
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: true
+usage: 300
+usageLimit: -1
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+recognitions: []
+armorColor: 13356746
+config_5: true
+config_update: false
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDye: true
+enchantments:
+  enchantment0:
+    enchantment: protection
+    level: 4
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-stone-cutter: true
+  cancel-merchant: true
+  cancel-enchant-anvil: true
+  cancel-cartography: true
+  cancel-horse: true
+  cancel-rename-anvil: true
+  cancel-beacon: true
+  cancel-composter: true
+  cancel-smithing-table: true
+  cancel-lectern: true
+  cancel-item-craft-no-custom: true
+  cancel-consumption: true
+  cancel-item-craft: true
+  cancel-loom: true
+  cancel-dropper: true
+  cancel-enchant: true
+  cancel-deposit-in-furnace: true
+  cancel-hopper: true
+  cancel-anvil: true
+  cancel-brewing: true
+  cancel-dispenser: true
+  cancel-grind-stone: true
+variables: {}
+activators:
+  activator0:
+    name: '&eActivator'
+    option: PLAYER_LEFT_CLICK
+    typeTarget: ONLY_BLOCK
+    usageModification: -1
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    cooldownOptions:
+      cooldown: 25
+      isCooldownInTicks: false
+      cooldownMsg: §dИдёт перезарядка §f❆Shiva's Guard❆§d! §b%time_S%
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    detailedSlots:
+    - 38
+    commands:
+    - SUDOOP score particles shape:circularBeam color:WHITE maxRadius:7 rate:100 radiusRate:100
+      extend:1 time:50
+    - SETMATERIALCOOLDOWN leather_chestplate 25
+    - SENDMESSAGE &f❆Вы использовали заряд Shiva's Guard❆
+    - AROUND 12 false effect give %around_target% mining_fatigue 10 1
+    - MOB_AROUND 12 true effect give %around_target_uuid% weakness 20 1
+    - DELAY 1
+    - AROUND 12 false effect give %around_target% slowness 10 3
+    - DELAY 1
+    - AROUND 12 false effect give %around_target% glowing 10 0
+    - AROUND 12 false effect give %around_target% weakness 10 0
+    - MOB_AROUND 12 true effect give %around_target_uuid% glowing 20 1
+    - AROUND 12 false effect give %around_target% instant_damage 2 0
+    - MOB_AROUND 12 true BLACKLIST(ALLAY,FOX,PARROT,ARMOR_STAND,VILLAGER,WOLF,CAT,OCELOT,IRON_GOLEM,HORSE,AXOLOTL,BEE,LLAMA,MULE,DONKEY,WANDERING_TRADER,TRADER_LLAMA)
+      effect give %around_target_uuid% instant_damage 4 0
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    detailedBlocks:
+      blocks: []
+      cancelEventIfNotValid: false
+      messageIfNotValid: '&4&l[Error] &cthe block is not correct !'
+    blockCommands: []
+    blockConditions: {}
+    variablesModification: {}
+attributes:
+  attribute1:
+    attribute: GENERIC_ARMOR
+    operation: ADD_NUMBER
+    amount: 7.0
+    slot: CHEST
+    uuid: 6046fce7-e47f-44c9-977a-db95dc5eb0cd

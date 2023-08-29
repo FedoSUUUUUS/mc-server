@@ -6,9 +6,7 @@ header-footer:
   header:
     - "&3&lStoneAge"
     - "&7&l>> %animation:Welcome%&3 &l%player%&7&l! &7&l<<"
-    - "&7Online players: &f%online%"
-    - "&6Online staff: &e%staffonline%"
-    - ""
+    - "&6Online players: &6%online%"
     - "%animation:MyAnimation1%"
   footer:
     - "%animation:MyAnimation1%"
@@ -17,6 +15,7 @@ header-footer:
     - "&7&l Used memory: %memory-used% MB / %memory-max% MB"
     - ""
     - "&bhttps://vk.com/minecraftstoneage"
+    - "&4https://www.mc-stoneage.ru"
   per-world:
     world1:
       header:
@@ -45,7 +44,7 @@ scoreboard-teams:
   anti-override: true
   # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Sorting-players-in-tablist
   sorting-types:
-    - "GROUPS:owner,admin,mod,helper,builder,vip,default"
+    - "GROUPS:owner,admin,admin1,mod,helper,phantom,vip,default"
     - "PLACEHOLDER_A_TO_Z:%player%"
   case-sensitive-sorting: true
   can-see-friendly-invisibles: false
