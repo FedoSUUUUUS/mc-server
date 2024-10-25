@@ -222,9 +222,10 @@ quests:
     name: "&aФермер"
     menu_item: IRON_HOE
     description:
-      - "&6Собери взошедшую морковку 20шт"
+      - "&6Возьми в инвентарь 20 морковки"
+      - "&cПодтверди квест нажав на его иконку"
       - "&eПолучишь 300 единиц опыта и 20 меди"
-    quest_type: FARMING
+    quest_type: GET
     required_item: CARROT
     required_amount: 20
     reward:
@@ -237,9 +238,10 @@ quests:
     name: "&aФермер"
     menu_item: IRON_HOE
     description:
-      - "&6Собери взошедшую картошку 20шт"
+      - "&6Возьми в инвентарь 20 картошки"
+      - "&cПодтверди квест нажав на его иконку"
       - "&eПолучишь 300 единиц опыта и 20 меди"
-    quest_type: FARMING
+    quest_type: GET
     required_item: POTATO
     required_amount: 20
     reward:
@@ -252,9 +254,10 @@ quests:
     name: "&aФермер"
     menu_item: IRON_HOE
     description:
-      - "&6Собери взошедшую свеклу 20шт"
+      - "&6Возьми в инвентарь 20 свеклы"
+      - "&cПодтверди квест нажав на его иконку"
       - "&eПолучишь 300 единиц опыта и 20 меди"
-    quest_type: FARMING
+    quest_type: GET
     required_item: BEETROOT
     required_amount: 20
     reward:
@@ -267,9 +270,10 @@ quests:
     name: "&aФермер"
     menu_item: IRON_HOE
     description:
-      - "&6Собери взошедшую пшеницу 20шт"
+      - "&6Возьми в инвентарь 20 пшеницы"
+      - "&cПодтверди квест нажав на его иконку"
       - "&eПолучишь 300 единиц опыта и 20 меди"
-    quest_type: FARMING
+    quest_type: GET
     required_item: WHEAT
     required_amount: 20
     reward:
@@ -531,11 +535,11 @@ quests:
     name: "&eЖаркое из кролика"
     menu_item: COOKED_RABBIT
     description:
-      - "&6Приготовь в печи 20 лосося"
+      - "&6Приготовь в печи 15 кролика"
       - "&bПолучишь 300 опыта"
     quest_type: COOK
     required_item: COOKED_RABBIT
-    required_amount: 20
+    required_amount: 15
     reward:
       reward_type: COMMAND
       commands:
@@ -684,10 +688,10 @@ quests:
         - "exp give %player% 300"
         - "give %player% emerald 3"
   44:
-    name: "&bШкура и мех"
+    name: "&fШкура и мех"
     menu_item: CROSSBOW
     description:
-      - "&cУбей &63 &cмедведя"
+      - "&cУбей &63 &cбелых медведя"
       - "&aПолучишь 300 единиц опыта!"
     quest_type: KILL
     required_entity: POLAR_BEAR
@@ -695,7 +699,7 @@ quests:
     reward:
       reward_type: COMMAND
       commands:
-        - "say &6%player% &fЗавершил квест &и[Шкура и мех] &f!"
+        - "say &6%player% &fЗавершил квест &f[Шкура и мех] &f!"
         - "exp give %player% 300"
   45:
     name: "&3Каракатицы"
@@ -739,3 +743,31 @@ quests:
       commands:
         - "say &6%player% &fЗавершил квест &3[На жарёху] &f!"
         - "exp give %player% 300"
+  48:
+    name: "&bНатёк, да не утёк"
+    menu_item: DRIPSTONE_BLOCK
+    description:
+      - "&6Сделай 20 натёчных камней"
+      - "&bПолучишь 10 изумрудов"
+    quest_type: CRAFT
+    required_item: DRIPSTONE_BLOCK
+    required_amount: 20
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &b[Натёк, да не утёк] &f!"
+        - "give %player% emerald 10"
+  49:
+    name: "&3Вяжем поводки"
+    menu_item: LEAD
+    description:
+      - "&6Сделай 2 поводка"
+      - "&bПолучишь 8 меди"
+    quest_type: CRAFT
+    required_item: LEAD
+    required_amount: 2
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &3[Вяжем поводки] &f!"
+        - "give %player% raw_copper 8"

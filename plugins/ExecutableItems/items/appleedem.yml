@@ -1,0 +1,117 @@
+name: §cApple of Eden
+lore:
+- Яблоко Эдема, дающее небывалую мощь!
+material: APPLE
+glow: true
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: false
+usage: 1
+usageLimit: -1
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: false
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: true
+  hideDye: false
+enchantments: {}
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant: true
+  cancel-item-craft-no-custom: true
+  cancel-beacon: true
+  cancel-rename-anvil: true
+  cancel-composter: true
+  cancel-dropper: true
+  cancel-lectern: true
+  cancel-smithing-table: true
+  cancel-brewing: true
+  cancel-deposit-in-furnace: true
+  cancel-cartography: true
+  cancel-item-frame: true
+  cancel-enchant-anvil: true
+  cancel-hopper: true
+  cancel-stone-cutter: true
+  cancel-item-craft: true
+  cancel-tool-interactions: true
+  cancel-dispenser: true
+  cancel-anvil: true
+  cancel-grind-stone: true
+  cancel-item-place: true
+  cancel-loom: true
+variables: {}
+activators:
+  activator0:
+    name: '&eActivator'
+    option: PLAYER_RIGHT_CLICK
+    typeTarget: NO_TYPE_TARGET
+    usageModification: -1
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    cooldownOptions:
+      cooldown: 600
+      isCooldownInTicks: false
+      cooldownMsg: §cБольше яблок съесть нельзя, опасно для жизни! §7(§e%time_M%§6Мин
+        §e%time_S%§6Сек§7)
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    detailedSlots:
+    - -1
+    - 40
+    commands:
+    - playsound minecraft:entity.warden.dig ambient @a 0 0 0 7000 1
+    - DELAY 1
+    - SUDOOP score particles shape:meguminExplosion color:RED size:5
+    - SUDOOP effect give @p speed 600 2
+    - SUDOOP effect give @p strength 600 2
+    - SUDOOP effect give @p regeneration 600
+    - SUDOOP effect give @p resistance 600
+    - SUDOOP effect give @p absorption 600 4
+    - SUDOOP effect give @p saturation 10
+    - SUDOOP effect give @p conduit_power 600
+    - SUDOOP effect give @p dolphins_grace 600
+    - SUDOOP effect give @p health_boost 600 4
+    - SUDOOP effect give @p haste 600 1
+    - SETMATERIALCOOLDOWN apple 600
+    - SUDOOP say &4%player% &5Вкусил запретный &cплод Эдема&5, теперь его мощи позавидуют
+      даже Боги!
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    variablesModification: {}
+attributes: {}

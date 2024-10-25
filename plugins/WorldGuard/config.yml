@@ -96,7 +96,7 @@ mobs:
     block-plugin-spawning: true
     block-above-ground-slimes: false
     block-other-explosions: false
-    block-zombie-door-destruction: false
+    block-zombie-door-destruction: true
     block-vehicle-entry: false
     block-creature-spawn: []
 player-damage:

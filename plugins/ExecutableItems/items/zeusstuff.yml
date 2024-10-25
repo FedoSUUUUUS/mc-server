@@ -1,0 +1,114 @@
+name: §bLightning thrower Zeus
+lore:
+- §3Посох Зевса, стреляющий молниями
+material: TRIDENT
+glow: true
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: true
+usage: 800
+usageLimit: -1
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+recognitions: []
+config_5: true
+config_update: false
+dropOptions:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+  hideDye: false
+enchantments:
+  enchantment0:
+    enchantment: channeling
+    level: 1
+  enchantment1:
+    enchantment: loyalty
+    level: 10
+giveFirstJoin:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-enchant: true
+  cancel-item-craft-no-custom: true
+  cancel-beacon: true
+  cancel-rename-anvil: true
+  cancel-composter: true
+  cancel-dropper: true
+  cancel-lectern: true
+  cancel-smithing-table: true
+  cancel-brewing: true
+  cancel-deposit-in-furnace: true
+  cancel-cartography: true
+  cancel-consumption: true
+  cancel-enchant-anvil: true
+  cancel-hopper: true
+  cancel-stone-cutter: true
+  cancel-item-craft: true
+  cancel-tool-interactions: true
+  cancel-dispenser: true
+  cancel-anvil: true
+  cancel-grind-stone: true
+  cancel-item-place: true
+  cancel-loom: true
+variables: {}
+attributes: {}
+activators:
+  activator0:
+    name: '&eActivator'
+    option: PLAYER_LEFT_CLICK
+    typeTarget: NO_TYPE_TARGET
+    usageModification: -1
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    cooldownOptions:
+      cooldown: 1
+      isCooldownInTicks: false
+      cooldownMsg: §9Нет маны!
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    globalCooldownOptions:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    detailedSlots:
+    - -1
+    commands:
+    - LAUNCH tridentCustom1
+    - playsound minecraft:entity.lightning_bolt.impact ambient %player% %player_x%
+      %player_y% %player_z% 1 1
+    - AROUND 16 false playsound minecraft:entity.lightning_bolt.impact ambient %around_target%
+      %player_x% %player_y% %player_z% 1 1
+    - AROUND 32 false playsound minecraft:entity.lightning_bolt.impact ambient %around_target%
+      %player_x% %player_y% %player_z% 1 1 0.6 1
+    - AROUND 48 false playsound minecraft:entity.lightning_bolt.impact ambient %around_target%
+      %player_x% %player_y% %player_z% 1 1 0.3 1
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    variablesModification: {}

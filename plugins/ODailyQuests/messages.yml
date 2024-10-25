@@ -37,7 +37,7 @@ all_quests_achieved: '&aВы завершили все ежедневные кв
 easy_reward: '&aВы завершили все лёгкие квесты, поздравляем!'
 medium_reward: '&aВы завершили все квесты средней сложности, отлично!'
 hard_reward: '&aВы завершили все сложные квесты, вот это уровень мастера!'
-not_enough_items: '&cYou don''t have the required amount to complete this quest.'
+not_enough_items: '&cНет нужного колличества, чтобы закончить квест.'
 total_amount_reset: '&eВаши квесты были сброшены администратором.'
 total_amount_reset_admin: '&e%target% Обновил ежедневные квесты.'
 reward_command: '&aВы получили награду!!!'

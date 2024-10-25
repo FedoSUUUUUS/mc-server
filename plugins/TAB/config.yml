@@ -4,9 +4,9 @@ header-footer:
   disable-in-worlds:
     - disabledworld
   header:
-    - "&3&lStoneAge"
+    - "&3&lＳＴＯＮＥＡＧＥ"
     - "&7&l>> %animation:Welcome%&3 &l%player%&7&l! &7&l<<"
-    - "&6Online players: &6%online%"
+    - "&6Игроков онлайн: &6%online%"
     - "%animation:MyAnimation1%"
   footer:
     - "%animation:MyAnimation1%"
@@ -14,8 +14,7 @@ header-footer:
     - "%animation:ping-tps%"
     - "&7&l Used memory: %memory-used% MB / %memory-max% MB"
     - ""
-    - "&bhttps://vk.com/minecraftstoneage"
-    - "&4https://www.mc-stoneage.ru"
+    - "&4https://vk.com/minecraftstoneage"
   per-world:
     world1:
       header:
@@ -171,7 +170,7 @@ fix-pet-names:
 
 placeholders:
   date-format: "dd.MM.yyyy"
-  time-format: "[HH:mm:ss / h:mm a]"
+  time-format: "[HH:mm:ss]"
   time-offset: 0
   register-tab-expansion: false
 

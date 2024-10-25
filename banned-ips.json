@@ -1,1 +1,65 @@
-[]
+[
+  {
+    "ip": "103.146.184.19",
+    "created": "2023-10-23 21:07:01 +0300",
+    "source": "Fedos",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  },
+  {
+    "ip": "174.64.199.79",
+    "created": "2023-10-23 21:03:04 +0300",
+    "source": "Fedos",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  },
+  {
+    "ip": "151.0.50.246",
+    "created": "2023-11-03 22:42:49 +0300",
+    "source": "cruel",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  },
+  {
+    "ip": "68.71.249.153",
+    "created": "2023-10-23 20:47:53 +0300",
+    "source": "Fedos",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  },
+  {
+    "ip": "94.181.152.95",
+    "created": "2023-10-23 20:52:55 +0300",
+    "source": "Fedos",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  },
+  {
+    "ip": "192.252.209.155",
+    "created": "2023-10-23 21:07:12 +0300",
+    "source": "Fedos",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  },
+  {
+    "ip": "94.181.152.55",
+    "created": "2023-10-23 20:48:40 +0300",
+    "source": "Fedos",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  },
+  {
+    "ip": "72.49.49.11",
+    "created": "2023-10-23 21:07:04 +0300",
+    "source": "Fedos",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  },
+  {
+    "ip": "67.201.33.10",
+    "created": "2023-10-23 21:07:14 +0300",
+    "source": "Fedos",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  }
+]

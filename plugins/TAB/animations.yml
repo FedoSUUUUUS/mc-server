@@ -99,14 +99,14 @@ Welcome:
 time:
   change-interval: 900
   texts:
-  - '&7Time &b%time%'
-  - '&7> Time &b%time% &7<'
-  - '&7>> Time &b%time% &7<<'
-  - '&7>>> Time &b%time% &7<<<'
-  - '&7Date &b%date%'
-  - '&7> Date &b%date% &7<'
-  - '&7>> Date &b%date% &7<<'
-  - '&7>>> Date &b%date% &7<<<'
+  - '&7Время (МСК) &b%time%'
+  - '&7> Время (МСК) &b%time% &7<'
+  - '&7>> Время (МСК) &b%time% &7<<'
+  - '&7>>> Время (МСК) &b%time% &7<<<'
+  - '&7Дата &b%date%'
+  - '&7> Дата &b%date% &7<'
+  - '&7>> Дата &b%date% &7<<'
+  - '&7>>> Дата &b%date% &7<<<'
 ping-tps:
   change-interval: 2000
   texts:

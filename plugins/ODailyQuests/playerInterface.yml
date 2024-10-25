@@ -121,9 +121,14 @@ player_interface:
         material: GRAY_STAINED_GLASS_PANE
         slot: 22
     19:
-      type: FILL
+      type: PLAYER_COMMAND
       item:
-        material: GRAY_STAINED_GLASS_PANE
+        material: "customhead:2266492ff09624fe7dc080b4aa5f4b6087a7563fa0207df877ce50d259a77374"
+        name: "&fПриз за все пройденные квесты!"
+        lore:
+          - "&f+ &61000 опыта &f+ &b4 алмаза &f+ &710 Визер-бомб"
+          - "&c"
+          - "&cПри полном инвентаре, призы будут выпадать из игрока!"
         slot: 23
     20:
       type: FILL

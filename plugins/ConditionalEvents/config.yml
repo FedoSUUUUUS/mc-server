@@ -1,5 +1,5 @@
 Config:
-  update_notification: true
+  update_notification: false
   data_save_time: 5
   register_commands:
   - hello

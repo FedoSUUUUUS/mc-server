@@ -25,9 +25,10 @@ quests:
     name: "&4Комбайн"
     menu_item: NETHERITE_HOE
     description:
-      - "&6Собери урожай из 1000 пшеницы"
-      - "&bПолучишь +15 уровней опыта и 3 обломка незера"
-    quest_type: FARMING
+      - "&6Возьми в инвентарь 1000 пшеницы"
+      - "&cПодтверди квест нажав на его иконку"
+      - "&bПолучишь +15 уровней опыта и 3 незеритовых лома"
+    quest_type: GET
     required_item: WHEAT
     required_amount: 1000
     reward:
@@ -36,25 +37,25 @@ quests:
         - "say &6%player% &fЗавершил квест &4[Комбайн] &f!"
         - "exp give %player% 15l"
         - "effect give %player% minecraft:mining_fatigue 1800"
-        - "effect give %player% raw_copper 3"
+        - "give %player% netherite_scrap 3"
   2:
     name: "&8Phantom Assassin"
     menu_item: IRON_SWORD
     description:
-      - "&cУбей 50 Фантомов"
+      - "&cУбей &630 &cфантомов"
       - "&aПолучишь +15 уровней и эффект ночного зрения на 30 минут"
       - "&aПолучишь 15 золота и 50 меди"
     quest_type: KILL
     required_entity: PHANTOM
-    required_amount: 50
+    required_amount: 30
     reward:
       reward_type: COMMAND
       commands:
         - "say &6%player% &fЗавершил квест &8[Phantom Assassin] &f!"
         - "exp give %player% 8l"
         - "effect give %player% minecraft:night_vision 1800"
-        - "effect give %player% raw_gold 15"
-        - "effect give %player% raw_copper 50"
+        - "give %player% raw_gold 15"
+        - "give %player% raw_copper 50"
   3:
     name: "&1МЕГАЛОДОН"
     menu_item: PUFFERFISH
@@ -76,7 +77,7 @@ quests:
     name: "&4У грибов есть глаза"
     menu_item: CRIMSON_FUNGUS
     description:
-      - "&cУбей 15 муухоморов"
+      - "&cУбей &615 &cмуухоморов"
       - "&aПолучишь +8 уровней и эффект ночного зрения на 30 минут"
     quest_type: KILL
     required_entity: MUSHROOM_COW
@@ -88,22 +89,22 @@ quests:
         - "exp give %player% 8l"
         - "effect give %player% minecraft:night_vision 1800"
   5:
-    name: "&4200 тысяч тонн тротила"
+    name: "&4250 тысяч тонн тротила"
     menu_item: TNT
     description:
-      - "&6Создай 200 динамита"
+      - "&6Создай 250 динамита"
       - "&aПолучишь +20 уровней и эффект поглощения на 30 минут"
-      - "&aПолучишь зачарованное яблоко"
+      - "&aПолучишь  2 зачарованных яблока"
     quest_type: CRAFT
     required_item: TNT
-    required_amount: 200
+    required_amount: 250
     reward:
       reward_type: COMMAND
       commands:
-        - "say &6%player% &fЗавершил квест &4[200 тысяч тонн тротила] &f!"
+        - "say &6%player% &fЗавершил квест &4[250 тысяч тонн тротила] &f!"
         - "exp give %player% 20l"
         - "effect give %player% minecraft:absorption 1800"
-        - "give %player% enchanted_golden_apple 1"
+        - "give %player% enchanted_golden_apple 2"
   6:
     name: "&9Снасти Здрасьте"
     menu_item: FISHING_ROD
@@ -124,7 +125,7 @@ quests:
     name: "&4Эта работа для Ведьмака"
     menu_item: DIAMOND_SWORD
     description:
-      - "&cУбей 50 утопцев"
+      - "&cУбей &650 &cутопцев"
       - "&aПолучишь +10 уровней и эффект героя деревни на 15 минут"
       - "&aПолучишь 3 алмаза и 8 изумрудов"
     quest_type: KILL
@@ -181,7 +182,7 @@ quests:
     name: "&9Anti-Mage"
     menu_item: TOTEM_OF_UNDYING
     description:
-      - "&cУбей 1 заклинателя"
+      - "&cУбей заклинателя"
       - "&aПолучишь +15 уровней и эффект силы 4 на 5 мин"
       - "&aПолучишь 3 алмаза и 8 изумрудов"
     quest_type: KILL
@@ -197,9 +198,9 @@ quests:
         - "effect give %player% minecraft:strength 300 3"
   11:
     name: "&5Холера"
-    menu_item: LILY_PAD
+    menu_item: 'customhead:20e13d18474fc94ed55aeb7069566e4687d773dac16f4c3f8722fc95bf9f2dfa'
     description:
-      - "&cУбей 10 ведьм"
+      - "&cУбей &610 &cведьм"
       - "&aПолучишь +15 уровней и эффект поглощения 10 на 10 мин"
       - "&aПолучишь 3 алмаза и 30 меди"
     quest_type: KILL
@@ -234,9 +235,9 @@ quests:
     name: "&8Крысолов"
     menu_item: CROSSBOW
     description:
-      - "&cУбей 5 чешуйниц"
+      - "&cУбей &65 &cчешуйниц"
       - "&aПолучишь +10 уровней"
-      - "&aПолучишь 3 алмаза и 12 золота и незеритовый слиток"
+      - "&aПолучишь 3 алмаза, 12 золота и незеритовый слиток"
     quest_type: KILL
     required_entity: SILVERFISH
     required_amount: 5
@@ -254,7 +255,7 @@ quests:
     description:
       - "&6Сломай 200 угольной руды"
       - "&aПолучишь +15 уровней опыта и 4 алмаза"
-      - "&aПолучишь +8 уровней и эффект ночного зрения на 30 минут"
+      - "&aПолучишь эффект ночного зрения на 30 минут"
     quest_type: BREAK
     required_item: COAL_ORE
     required_amount: 200
@@ -271,6 +272,7 @@ quests:
     description:
       - "&6Сломай 32 золотой руды"
       - "&bПолучишь +20 уровней опыта"
+      - "&bПолучишь зачарованное яблоко"
     quest_type: BREAK
     required_item: GOLD_ORE
     required_amount: 32
@@ -279,6 +281,7 @@ quests:
       commands:
         - "say &6%player% &fЗавершил квест &6[Золотая лихорадка] &f!"
         - "exp give %player% 20l"
+        - "give %player% enchanted_golden_apple 1"
   16:
     name: "&1Колдун е***ий"
     menu_item: ENCHANTING_TABLE
@@ -302,7 +305,7 @@ quests:
       - "&aПолучишь эффект героя деревни на 15 минут"
     quest_type: BREAK
     required_item: EMERALD_ORE
-    required_amount: 200
+    required_amount: 3
     reward:
       reward_type: COMMAND
       commands:
@@ -314,7 +317,7 @@ quests:
     name: "&4Мясник из Блавикена"
     menu_item: IRON_SWORD
     description:
-      - "&cУбей 40 разбойников"
+      - "&cУбей &640 &cразбойников"
       - "&aПолучишь +15 уровней"
       - "&aПолучишь 20 золота и 60 меди"
     quest_type: KILL
@@ -331,7 +334,7 @@ quests:
     name: "&4И кто теперь тут дровосек?"
     menu_item: IRON_AXE
     description:
-      - "&cУбей 15 поборников"
+      - "&cУбей &615 &cпоборников"
       - "&aПолучишь +15 уровней"
       - "&aПолучишь 15 железа и 60 меди"
     quest_type: KILL
@@ -348,9 +351,9 @@ quests:
     name: "&0Хранитель тишины"
     menu_item: 'customhead:3959ae02e35cbc4743e6e702fda6980bad2e98049403c16996286eb412f94689'
     description:
-      - "&cУбей 1 Хранителя"
+      - "&cУбей Хранителя"
       - "&aПолучишь +20 уровней"
-      - "&aПолучишь зачарованное яблоко"
+      - "&aПолучишь &cApple of Eden"
     quest_type: KILL
     required_entity: WARDEN
     required_amount: 1
@@ -359,12 +362,12 @@ quests:
       commands:
         - "say &6%player% &fЗавершил квест &0[Хранитель тишины] &f!"
         - "exp give %player% 20l"
-        - "give %player% enchanted_golden_apple 1"
+        - "ei give %player% appleedem"
   21:
     name: "&eД&8е&eз&8и&eн&8ф&eе&8к&eт&8о&eр"
     menu_item: BEE_NEST
     description:
-      - "&cУбей 20 пчёл"
+      - "&cУбей &620 &cпчёл"
       - "&aПолучишь +15 уровней"
       - "&aПолучишь 3 алмаза и 55 меди"
     quest_type: KILL
@@ -377,3 +380,187 @@ quests:
         - "exp give %player% 15l"
         - "give %player% diamond 3"
         - "give %player% raw_copper 55"
+  22:
+    name: "&5Морской дьявол"
+    menu_item: TRIDENT
+    description:
+      - "&cУбей &612 &cдельфинов"
+      - "&aПолучишь +15 уровней"
+      - "&aПолучишь 20 золота и 5 алмазов"
+    quest_type: KILL
+    required_entity: DOLPHIN
+    required_amount: 12
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &5[Морской дьявол] &f!"
+        - "exp give %player% 15l"
+        - "give %player% raw_gold 20"
+        - "give %player% diamond 5"
+  23:
+    name: "&8Крик незера"
+    menu_item: 'customhead:de8a38e9afbd3da10d19b577c55c7bfd6b4f2e407e44d4017b23be9167abff02'
+    description:
+      - "&cУбей &610 &cгастов"
+      - "&aПолучишь +10 уровней"
+      - "&aПолучишь &7Meteor Hammer"
+    quest_type: KILL
+    required_entity: GHAST
+    required_amount: 10
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &8[Крик незера] &f!"
+        - "exp give %player% 10l"
+        - "ei give %player% Meteor_Hammer"
+  24:
+    name: "&8Из адских недр"
+    menu_item: 'customhead:c0278348e657b9d7a14c8249fcef1b4b9bd4e48a6598dc5644a701bd48b42711'
+    description:
+      - "&cУбей &640 &cмагмовых кубов"
+      - "&aПолучишь +10 уровней"
+      - "&aПолучишь &2Helm of the Dominator"
+    quest_type: KILL
+    required_entity: MAGMA_CUBE
+    required_amount: 40
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &8[Из адских недр] &f!"
+        - "exp give %player% 10l"
+        - "ei give %player% dominator"
+  25:
+    name: "&6Из грязи в князи"
+    menu_item: PACKED_MUD
+    description:
+      - "&6Создай 150 плотной грязи"
+      - "&aПолучишь +15 уровней"
+      - "&aПолучишь зачарованное яблоко и 3 незер лома"
+    quest_type: CRAFT
+    required_item: PACKED_MUD
+    required_amount: 150
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &6[Из грязи в князи] &f!"
+        - "exp give %player% 15l"
+        - "give %player% enchanted_golden_apple 1"
+        - "give %player% netherite_scrap 3"
+  26:
+    name: "&4Бекон по незерски"
+    menu_item: COOKED_PORKCHOP
+    description:
+      - "&cУбей &620 &cхоглинов"
+      - "&aПолучишь +10 уровней"
+      - "&aПолучишь зачарованное яблоко и 40 меди"
+    quest_type: KILL
+    required_entity: HOGLIN
+    required_amount: 20
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &4[Бекон по незерски] &f!"
+        - "exp give %player% 10l"
+        - "give %player% enchanted_golden_apple 1"
+        - "give %player% raw_copper 40"
+  27:
+    name: "&6Шеф Повар"
+    menu_item: RABBIT_STEW
+    description:
+      - "&bСделай 64 рагу из кролика"
+      - "&aПолучишь +10 уровней и 2 алмаза"
+      - "&aПолучишь зачарованное яблоко"
+    quest_type: CRAFT
+    required_item: RABBIT_STEW
+    required_amount: 64
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &6[Шеф Повар] &f!"
+        - "exp give %player% 10l"
+        - "give %player% diamond 2"
+        - "give %player% enchanted_golden_apple 1"
+  28:
+    name: "&5Время исповедаться"
+    menu_item: CANDLE
+    description:
+      - "&bВозьми 100 свеч"
+      - "&aПолучишь +10 уровней"
+      - "&aПолучишь зачарованное яблоко"
+    quest_type: GET
+    required_item: CANDLE
+    required_amount: 100
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &5[Время исповедаться] &f!"
+        - "exp give %player% 10l"
+        - "give %player% enchanted_golden_apple 1"
+  29:
+    name: "&4Козявки-бородавки"
+    menu_item: NETHER_WART
+    description:
+      - "&6Собери 1000 адских наростов в инвентарь"
+      - "&cПодтверди квест нажав на его иконку"
+      - "&bПолучишь +15 уровней опыта и 2 незеритовых лома"
+    quest_type: GET
+    required_item: NETHER_WART
+    required_amount: 1000
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &4[Козявки-бородавки] &f!"
+        - "exp give %player% 15l"
+        - "effect give %player% minecraft:mining_fatigue 1800"
+        - "effect give %player% netherite_scrap 2"
+  30:
+    name: "&8Пожиратель душ"
+    menu_item: 'customhead:3f86b3affbf65a91faf084a0cd70e40455130ea99b2b3844d2510e1c8b3a5746'
+    description:
+      - "&cУбей Иссушителя"
+      - "&aПолучишь +10 уровней"
+      - "&aПолучишь &cApple of Eden"
+    quest_type: KILL
+    required_entity: WITHER
+    required_amount: 1
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &8[Пожиратель душ] &f!"
+        - "exp give %player% 10l"
+        - "ei give %player% appleedem"
+  31:
+    name: "&8Рыцари тьмы"
+    menu_item: WITHER_SKELETON_SKULL
+    description:
+      - "&cУбей &630 &c визер скелетов"
+      - "&aПолучишь +10 уровней"
+      - "&aПолучишь зачарованное яблоко"
+      - "&aПолучишь 5 визер бомб"
+    quest_type: KILL
+    required_entity: WITHER_SKELETON
+    required_amount: 30
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &8[Рыцари тьмы] &f!"
+        - "exp give %player% 10l"
+        - "give %player% enchanted_golden_apple 1"
+        - "ei give %player% bomb 5"
+  32:
+    name: "&7Песнь &bЛьда &7и &eПламени"
+    menu_item: OBSIDIAN
+    description:
+      - "&6Сломай 300 обсидиана"
+      - "&aПолучишь +15 уровней опыта и 1 незеритовый слиток"
+      - "&aПолучишь эффект спешки 2 на 30 минут"
+    quest_type: BREAK
+    required_item: OBSIDIAN
+    required_amount: 300
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &7[Песнь &bЛьда &7и &eПламени] &f!"
+        - "exp give %player% 15l"
+        - "give %player% netherite_ingot 1"
+        - "effect give %player% minecraft:haste 1800 1"

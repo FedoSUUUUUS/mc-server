@@ -84,7 +84,7 @@ force-safe-teleport-location: false
 teleport-passenger-dismount: true
 
 # The delay, in seconds, required between /home, /tp, etc.
-teleport-cooldown: 500
+teleport-cooldown: 300
 
 # The delay, in seconds, before a user actually teleports. If the user moves or gets attacked in this timeframe, the teleport is cancelled.
 teleport-delay: 3
@@ -131,11 +131,11 @@ spawnmob-limit: 10
 warn-on-smite: true
 
 # Shall we drop items instead of adding to inventory if the target inventory is full?
-drop-items-if-full: false
+drop-items-if-full: true
 
 # Essentials Mail Notification
 # Should we notify players if they have no new mail?
-notify-no-new-mail: true
+notify-no-new-mail: false
 
 # Specifies the duration (in seconds) between each time a player is notified of mail they have.
 # Useful for servers with a lot of mail traffic.
@@ -546,7 +546,7 @@ unsafe-enchantments: false
 register-back-in-listener: false
 
 # Delay to wait before people can cause attack damage after logging in.
-login-attack-delay: 5
+login-attack-delay: 0
 
 # Set the max fly speed, values range from 0.1 to 1.0
 max-fly-speed: 0.8

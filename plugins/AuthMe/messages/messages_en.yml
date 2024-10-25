@@ -59,14 +59,14 @@ misc:
   accounts_owned_other: 'The player %name has %count accounts:'
   account_not_activated: '&cYour account isn''t activated yet, please check your emails!'
   password_changed: '&2Password changed successfully!'
-  logout: '&2Logged out successfully!'
+  logout: '&2Выход выполнен успешно!'
   reload: '&2Configuration and database have been reloaded correctly!'
   usage_change_password: '&cUsage: /changepassword <oldPassword> <newPassword>'
 
 # Session messages
 session:
-  invalid_session: '&cYour IP has been changed and your session data has expired!'
-  valid_session: '&2Logged-in due to Session Reconnection.'
+  invalid_session: '&cВаш IP-адрес был изменен, и срок действия данных вашей сессии истек!'
+  valid_session: '&2Вы вошли в систему из-за переподключения сеанса.'
 
 # Error messages when joining
 on_join_validation:

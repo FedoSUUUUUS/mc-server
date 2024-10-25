@@ -1,7 +1,7 @@
 # This is the server motd.
 Server-MOTD:
-  Line-1: '&r&6&l-----------[ &bStoneAge &r&6&l]-----------'
-  Line-2: '&2Строй и зарабатывай &e1.19.2 &2Без вайпов'
+  Line-1: '&r&6&l---------- ❖ &b&lＳＴＯＮＥＡＧＥ &r&6&l❖ ----------'
+  Line-2: '&3           Выживай, строй и зарабатывай     &e1.19.2'
 
 # The motd of the player when they join in.
 JoinGame-MOTD:

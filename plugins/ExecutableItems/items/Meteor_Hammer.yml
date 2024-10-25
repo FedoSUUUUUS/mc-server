@@ -33,29 +33,30 @@ giveFirstJoin:
   giveFirstJoinAmount: 1
   giveFirstJoinSlot: 0
 restrictions:
-  cancel-enchant-anvil: true
   cancel-enchant: true
-  cancel-hopper: true
-  cancel-deposit-in-furnace: true
-  cancel-brewing: true
-  cancel-rename-anvil: true
-  cancel-stone-cutter: true
-  cancel-dropper: true
-  cancel-dispenser: true
-  cancel-cartography: true
-  cancel-beacon: true
   cancel-merchant: true
+  cancel-deposit-in-furnace: true
   cancel-lectern: true
+  cancel-anvil: true
   cancel-grind-stone: true
-  cancel-loom: true
+  cancel-consumption: true
+  cancel-dispenser: true
+  cancel-composter: true
+  cancel-cartography: true
+  cancel-rename-anvil: true
+  cancel-hopper: true
+  cancel-beacon: true
+  cancel-dropper: true
+  cancel-item-craft: true
+  cancel-stone-cutter: true
+  cancel-enchant-anvil: true
   cancel-smithing-table: true
   cancel-item-craft-no-custom: true
-  cancel-anvil: true
   cancel-horse: true
-  cancel-consumption: true
-  cancel-item-craft: true
-  cancel-composter: true
+  cancel-loom: true
+  cancel-brewing: true
 variables: {}
+attributes: {}
 activators:
   activator0:
     name: '&eActivator'
@@ -93,9 +94,9 @@ activators:
     - SUDOOP effect give @p slowness 3 5
     - DELAY 1
     - SETPITCH 0
-    - LOCATED_LAUNCH fireball1 0 20 60 1 60 300
+    - LOCATED_LAUNCH fireball1 0 20 60 1 55 300
     - SETPITCH -15
-    - LOCATED_LAUNCH fireball1 0 30 60 1 80 320
+    - LOCATED_LAUNCH fireball1 0 30 65 1 105 320
     - SETMATERIALCOOLDOWN STONE_AXE 15
     - PARTICLE soul_fire_flame 150 3 0.05
     playerConditions:
@@ -114,4 +115,3 @@ activators:
     customConditions: {}
     placeholdersConditions: {}
     variablesModification: {}
-attributes: {}

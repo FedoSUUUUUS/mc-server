@@ -28,7 +28,7 @@ quests:
       - "&cУбей &650 &cскелетов"
       - "&aПолучишь 1000 единиц опыта!"
     quest_type: KILL
-    required_entity: ZOMBIE
+    required_entity: SKELETON
     required_amount: 50
     reward:
       reward_type: COMMAND
@@ -79,8 +79,8 @@ quests:
         - "exp give %player% 5l"
         - "give %player% diamond 1"
   5:
-    name: "&dСтолярная работа"
-    menu_item: CRAFTING_TABLE
+    name: "&dФазенда"
+    menu_item: STONE_AXE
     description:
       - "&6Сделай 8 сундуков"
       - "&bПолучишь +5 уровней и 1 алмаз"
@@ -90,12 +90,12 @@ quests:
     reward:
       reward_type: COMMAND
       commands:
-        - "say &6%player% &fЗавершил квест &d[Столярная работа] &f!"
+        - "say &6%player% &fЗавершил квест &d[Фазенда] &f!"
         - "exp give %player% 5l"
         - "give %player% diamond 1"
   6:
-    name: "&dСтолярная работа"
-    menu_item: CRAFTING_TABLE
+    name: "&dФазенда"
+    menu_item: STONE_AXE
     description:
       - "&6Сделай 8 бочек"
       - "&bПолучишь +5 уровней и 1 алмаз"
@@ -105,12 +105,12 @@ quests:
     reward:
       reward_type: COMMAND
       commands:
-        - "say &6%player% &fЗавершил квест &d[Столярная работа] &f!"
+        - "say &6%player% &fЗавершил квест &d[Фазенда] &f!"
         - "exp give %player% 5l"
         - "give %player% diamond 1"
   7:
-    name: "&dСтолярная работа"
-    menu_item: CRAFTING_TABLE
+    name: "&dФазенда"
+    menu_item: STONE_AXE
     description:
       - "&6Сделай 8 компостниц"
       - "&bПолучишь +5 уровней и 1 алмаз"
@@ -120,12 +120,12 @@ quests:
     reward:
       reward_type: COMMAND
       commands:
-        - "say &6%player% &fЗавершил квест &d[Столярная работа] &f!"
+        - "say &6%player% &fЗавершил квест &d[Фазенда] &f!"
         - "exp give %player% 5l"
         - "give %player% diamond 1"
   8:
-    name: "&dСтолярная работа"
-    menu_item: CRAFTING_TABLE
+    name: "&dФазенда"
+    menu_item: STONE_AXE
     description:
       - "&6Сделай 4 книжных полки"
       - "&bПолучишь +5 уровней и 1 алмаз"
@@ -135,7 +135,7 @@ quests:
     reward:
       reward_type: COMMAND
       commands:
-        - "say &6%player% &fЗавершил квест &d[Столярная работа] &f!"
+        - "say &6%player% &fЗавершил квест &d[Фазенда] &f!"
         - "exp give %player% 5l"
         - "give %player% diamond 1"
   9:
@@ -184,8 +184,8 @@ quests:
         - "exp give %player% 5l"
         - "give %player% diamond 1"
   12:
-    name: "&dСтолярная работа"
-    menu_item: CRAFTING_TABLE
+    name: "&dФазенда"
+    menu_item: STONE_AXE
     description:
       - "&6Сделай 4 cтойки для брони"
       - "&bПолучишь +5 уровней и 1 алмаз"
@@ -195,7 +195,7 @@ quests:
     reward:
       reward_type: COMMAND
       commands:
-        - "say &6%player% &fЗавершил квест &d[Столярная работа] &f!"
+        - "say &6%player% &fЗавершил квест &d[Фазенда] &f!"
         - "exp give %player% 5l"
         - "give %player% diamond 1"
   13:
@@ -526,7 +526,7 @@ quests:
     reward:
       reward_type: COMMAND
       commands:
-        - "say &6%player% &fЗавершил квест &f[Охота на лису] &f!"
+        - "say &6%player% &fЗавершил квест &c[Охота на лису] &f!"
         - "exp give %player% 1000"
   35:
     name: "&7Каменщик"
@@ -677,7 +677,7 @@ quests:
         - "exp give %player% 1000"
   45:
     name: "&bМуха-Повторюха:>"
-    menu_item: ELYTRA
+    menu_item: 'customhead:a3c34722ac64496c9b84d0c54019daae6185d6094990133ad6810eea3d24067a'
     description:
       - "&6Приручи попугая"
       - "&aПолучишь флай"
@@ -689,3 +689,76 @@ quests:
       commands:
         - "say &6%player% &fЗавершил квест &b[Муха-Повторюха:>] !"
         - "fly %player%"
+  46:
+    name: "&5Joker"
+    menu_item: 'customhead:189cc8735086cafb6134ebc39b864b38ad576f5fb4bab2f8f2c35f8e8b58c28'
+    description:
+      - "&cУбей &610 &cлетучих мышей"
+      - "&aПолучишь 1000 единиц опыта!"
+    quest_type: KILL
+    required_entity: BAT
+    required_amount: 10
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &5[Joker] &f!"
+        - "exp give %player% 1000"
+  47:
+    name: "&2Топиарщик"
+    menu_item: AZALEA_LEAVES
+    description:
+      - "&bСломай 20 листьев азалии"
+      - "&bПолучишь +5 уровней опыта и 1 алмаз"
+    quest_type: BREAK
+    required_item: AZALEA_LEAVES
+    required_amount: 20
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &2[Топиарщик] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  48:
+    name: "&aЛипкое дело"
+    menu_item: 'customhead:2f343d69bc34045edc87f8db5d54eefdb243f0740cadf037ef08833f04ad8a3d'
+    description:
+      - "&cУбей &620 &cслаймов"
+      - "&aПолучишь 1000 единиц опыта!"
+    quest_type: KILL
+    required_entity: SLIME
+    required_amount: 20
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &a[Липкое дело] &f!"
+        - "exp give %player% 1000"
+  49:
+    name: "&3Целлюлозно-бумажное производство"
+    menu_item: PAPER
+    description:
+      - "&6Сделай 300 бумаги"
+      - "&bПолучишь +5 уровней и 1 алмаз"
+    quest_type: CRAFT
+    required_item: PAPER
+    required_amount: 300
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &3[Целлюлозно-бумажное производство] &f!"
+        - "exp give %player% 5l"
+        - "give %player% diamond 1"
+  50:
+    name: "&7Лопату в руки и вперёд"
+    menu_item: GRAVEL
+    description:
+      - "&6Сломай 200 гравия"
+      - "&bПолучишь +5 уровней опыта и 7 золота"
+    quest_type: BREAK
+    required_item: GRAVEL
+    required_amount: 200
+    reward:
+      reward_type: COMMAND
+      commands:
+        - "say &6%player% &fЗавершил квест &7[Лопату в руки и вперёд] &f!"
+        - "exp give %player% 5l"
+        - "give %player% raw_gold 7"

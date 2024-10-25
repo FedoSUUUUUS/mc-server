@@ -172,24 +172,25 @@ items:
     hide_enchantments: true
     hide_effects: true
     hide_attributes: true
-    slot: 21
+    slot: 20
     display_name: "&eFire staff"
     lore:
      - 'Посох, стреляющий огненными зарядами'
      - 'Активная, 100 использований, кд 2 сек'
      - '20 ед.урона'
      - '&6&l400₽ '
-  'ob':
+  'OverwhelmingBlink':
     material: wooden_sword
     enchantments: 
     - 'SWEEPING_EDGE;3'
     hide_enchantments: true
     hide_effects: true
     hide_attributes: true
-    slot: 20
+    slot: 21
     display_name: "&4Overwhelming Blink"
     lore:
-     - 'Не ломающийся меч, телепортирует в выбранное место (дальность 16 блоков), нанося урон в 5 ед. в радиусе 5 блоков и замедляет игроков на 6 сек.'
+     - 'Не ломающийся меч, телепортирует в выбранное место (дальность 16 блоков),'
+     - 'нанося урон в 5 ед. в радиусе 5 блоков и замедляет игроков на 6 сек.'
      - 'Мобов замедляет на 15 секунд в радиусе 12 блоков'
      - 'Активная, 400 использований, кд 8 сек'
      - '8 ед.урона'
@@ -201,7 +202,7 @@ items:
     hide_enchantments: true
     hide_effects: true
     hide_attributes: true
-    slot: 49
+    slot: 48
     display_name: " "
     lore:
      - '&f&lПОЛЁТ+ПРЕФИКС'
@@ -244,7 +245,8 @@ items:
     slot: 24
     display_name: "&fShiva's Guard"
     lore:
-     - 'Выпускает морозную волну с уроном в 2 ед. на 12 блоков, замедлив, подсветив и ослабляя врагов на 10 сек(мобов на 20)'
+     - 'Выпускает морозную волну с уроном в 2 ед. на 12 блоков, замедлив,'
+     - 'подсветив и ослабив врагов на 10 сек(мобов на 20)'
      - 'Активная, 300 использований, кд 25 сек'
      - '7 ед. брони + защита 4, неразрушимая'
      - '&6&l400₽ '
@@ -320,7 +322,76 @@ items:
     lore:
      - 'Запускает бомбу в направлении взгляда'
      - 'накладывает эффект иссушения'
-     - 'кд 5 сек'
+     - 'кд 10 сек'
+     - '&6&l100₽ '
+  'appleedem':
+    material: apple
+    enchantments: 
+    - 'SWEEPING_EDGE;3'
+    hide_enchantments: true
+    hide_effects: true
+    hide_attributes: true
+    slot: 30
+    amount: 1
+    display_name: "&cApple of Eden"
+    lore:
+     - 'Яблоко Эдема, дающее небывалую мощь!'
+     - 'Длительность 10 минут'
+     - '&6&l100₽ '
+  'zeusstuff':
+    material: trident
+    enchantments: 
+    - 'CHANNELING;1'
+    - 'LOYALTY;10'
+    hide_enchantments: false
+    hide_effects: true
+    hide_attributes: true
+    slot: 31
+    amount: 1
+    display_name: "&bLightning thtower Zeus"
+    lore:
+     - 'Неразрушаемый Посох Зевса, стреляющий молниями'
+     - '800 Зарядов, 14 ед.урона'
+     - '&6&l500₽ '
+  'velcro':
+    material: slime_ball
+    enchantments: 
+    - 'CHANNELING;1'
+    - 'LOYALTY;10'
+    hide_enchantments: true
+    hide_effects: true
+    hide_attributes: true
+    slot: 32
+    amount: 1
+    display_name: "&aVelcro"
+    lore:
+     - 'Липучка, блокирующая врагу элитры и эндерпёрл'
+     - '40 Зарядов, 15 сек длительность, 10 сек перезарядка'
+     - '&6&l400₽ '
+  'smoker':
+    material: smoker
+    hide_enchantments: false
+    hide_effects: false
+    hide_attributes: false
+    slot: 33
+    amount: 1
+    display_name: "&2Коптильня с едой"
+    lore:
+     - 'Коптильня, дающая насыщение в 18 ед.голода'
+     - '400 Использований, 10 минут перезарядка'
+     - '&6&l400₽ '
+  'beer_box':
+    material: chest
+    hide_enchantments: false
+    hide_effects: false
+    hide_attributes: false
+    slot: 34
+    amount: 1
+    display_name: "&7Ящик пива"
+    lore:
+     - '10 бутылок'
+     - '&cРаспитие спиртных напитков в общественном месте-строго запрещено'
+     - '&cЧрезмерное употребление алкоголя, вредит вашему здоровью'
      - '&6&l100₽ '
   'npc':
     material: player_head
@@ -337,13 +408,30 @@ items:
   'gm':
     material: reinforced_deepslate
     hide_enchantments: true
+    enchantments: 
+    - 'SWEEPING_EDGE;3'
+    hide_effects: true
+    hide_attributes: true
+    slot: 49
+    display_name: " "
+    lore:
+     - '&f&lКРЕАТИВ+ПРЕФИКС'
+     - '&6&l2000₽ '
+  'adminka':
+    material: bedrock
+    hide_enchantments: true
+    enchantments: 
+    - 'SWEEPING_EDGE;3'
     hide_effects: true
     hide_attributes: true
     slot: 50
     display_name: " "
     lore:
-     - '&f&lКРЕАТИВ+ПРЕФИКС'
-     - '&6&l2000₽ '
+     - '&1&lАДМИНКА'
+     - '&6&l10000₽ '
+     - '&5Зарабатывай, продавая привилегии'
+     - '&450% x 50% (50% себе, 50% серверу)'
+     - '&4Администратор должен помнить, что правила едины для всех'
   'num':
     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTk4ZGY0MmY0NzdmMjEzZmY1ZTlkN2ZhNWE0Y2M0YTY5ZjIwZDljZWYyYjkwYzRhZTRmMjliZDE3Mjg3YjUifX19
     hide_enchantments: true
@@ -354,7 +442,7 @@ items:
     lore:
      - '&4&lОПЛАТА'
      - '&fПеревод на карту через номер телефона'
-     - '&b&l89000422304 (Фёдор Михайлович Р)(сбер)(Qiwi)'
+     - '&b&l89000422304 (Фёдор Михайлович Р)(сбер)'
      - '&fУкажи ник и привилегию'
     
 

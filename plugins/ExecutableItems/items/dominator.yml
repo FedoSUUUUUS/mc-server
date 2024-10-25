@@ -40,29 +40,30 @@ giveFirstJoin:
   giveFirstJoinAmount: 1
   giveFirstJoinSlot: 0
 restrictions:
-  cancel-stone-cutter: true
-  cancel-merchant: true
-  cancel-enchant-anvil: true
-  cancel-cartography: true
-  cancel-horse: true
-  cancel-rename-anvil: true
-  cancel-beacon: true
-  cancel-composter: true
-  cancel-smithing-table: true
-  cancel-lectern: true
-  cancel-item-craft-no-custom: true
-  cancel-consumption: true
-  cancel-item-craft: true
-  cancel-loom: true
   cancel-dropper: true
-  cancel-tool-interactions: true
-  cancel-enchant: true
   cancel-deposit-in-furnace: true
   cancel-hopper: true
-  cancel-anvil: true
+  cancel-item-place: true
   cancel-brewing: true
-  cancel-dispenser: true
+  cancel-cartography: true
+  cancel-horse: true
+  cancel-loom: true
+  cancel-enchant-anvil: true
+  cancel-merchant: true
   cancel-grind-stone: true
+  cancel-composter: true
+  cancel-anvil: true
+  cancel-stone-cutter: true
+  cancel-item-craft-no-custom: true
+  cancel-enchant: true
+  cancel-rename-anvil: true
+  cancel-item-craft: true
+  cancel-tool-interactions: true
+  cancel-lectern: true
+  cancel-beacon: true
+  cancel-dispenser: true
+  cancel-smithing-table: true
+  cancel-consumption: true
 variables: {}
 activators:
   activator0:

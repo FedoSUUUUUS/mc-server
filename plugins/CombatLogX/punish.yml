@@ -36,8 +36,8 @@ kill-time: QUIT
 # If you don't want any custom messages, set this to an empty list
 # custom-death-message-list: []
 custom-death-message-list:
-  - "{combatlogx_player} was killed for logging out during combat."
-  - "{combatlogx_player} instantly died due to logging out during combat."
+  - "{combatlogx_player} был убит за выход из системы во время боя."
+  - "{combatlogx_player} мгновенно умер из-за выхода из системы во время боя."
 
 # Should CombatLogX keep track of the amount of times each player was punished?
 # Default: true
